@@ -68,12 +68,12 @@
             this.cmbMozo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbMozo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMozo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbMozo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbMozo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMozo.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbMozo.FormattingEnabled = true;
             this.cmbMozo.Location = new System.Drawing.Point(73, 75);
             this.cmbMozo.Name = "cmbMozo";
-            this.cmbMozo.Size = new System.Drawing.Size(409, 26);
+            this.cmbMozo.Size = new System.Drawing.Size(409, 28);
             this.cmbMozo.TabIndex = 52;
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbMozo, "Mozo que se le asignara a la reserva");
             // 
@@ -84,7 +84,7 @@
             this.btnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(322, 152);
             this.btnAceptar.Name = "btnAceptar";
@@ -101,12 +101,12 @@
             this.cmbChef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbChef.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbChef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbChef.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbChef.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbChef.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbChef.FormattingEnabled = true;
             this.cmbChef.Location = new System.Drawing.Point(73, 111);
             this.cmbChef.Name = "cmbChef";
-            this.cmbChef.Size = new System.Drawing.Size(409, 26);
+            this.cmbChef.Size = new System.Drawing.Size(409, 28);
             this.cmbChef.TabIndex = 50;
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbChef, "Chef que se le asignara a la reserva");
             // 
@@ -116,11 +116,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblApellido.Location = new System.Drawing.Point(19, 114);
+            this.lblApellido.Location = new System.Drawing.Point(11, 114);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(48, 18);
+            this.lblApellido.Size = new System.Drawing.Size(42, 20);
             this.lblApellido.TabIndex = 46;
             this.lblApellido.Text = "Chef:";
             // 
@@ -130,11 +130,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblNombre.Location = new System.Drawing.Point(11, 78);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(56, 18);
+            this.lblNombre.Size = new System.Drawing.Size(50, 20);
             this.lblNombre.TabIndex = 43;
             this.lblNombre.Text = "Mozo:";
             // 
@@ -144,11 +144,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblInformacion.AutoSize = true;
-            this.lblInformacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInformacion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInformacion.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblInformacion.Location = new System.Drawing.Point(11, 42);
             this.lblInformacion.Name = "lblInformacion";
-            this.lblInformacion.Size = new System.Drawing.Size(471, 18);
+            this.lblInformacion.Size = new System.Drawing.Size(426, 20);
             this.lblInformacion.TabIndex = 40;
             this.lblInformacion.Text = "Seleccione el mozo y el chef que se encargaran de la reserva";
             // 
@@ -168,7 +168,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);

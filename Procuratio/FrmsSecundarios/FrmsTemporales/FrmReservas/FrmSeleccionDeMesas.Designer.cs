@@ -85,11 +85,11 @@
             this.lblResultadoCapacidadTotal.AutoSize = true;
             this.lblResultadoCapacidadTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.lblResultadoCapacidadTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultadoCapacidadTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoCapacidadTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoCapacidadTotal.ForeColor = System.Drawing.Color.Gray;
-            this.lblResultadoCapacidadTotal.Location = new System.Drawing.Point(458, 267);
+            this.lblResultadoCapacidadTotal.Location = new System.Drawing.Point(437, 268);
             this.lblResultadoCapacidadTotal.Name = "lblResultadoCapacidadTotal";
-            this.lblResultadoCapacidadTotal.Size = new System.Drawing.Size(21, 22);
+            this.lblResultadoCapacidadTotal.Size = new System.Drawing.Size(19, 22);
             this.lblResultadoCapacidadTotal.TabIndex = 53;
             this.lblResultadoCapacidadTotal.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblResultadoCapacidadTotal, "Total acumulado segun la/s mesa/s seleccionadas");
@@ -98,11 +98,11 @@
             // 
             this.lblCantidadPersonas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblCantidadPersonas.AutoSize = true;
-            this.lblCantidadPersonas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidadPersonas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidadPersonas.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCantidadPersonas.Location = new System.Drawing.Point(307, 235);
             this.lblCantidadPersonas.Name = "lblCantidadPersonas";
-            this.lblCantidadPersonas.Size = new System.Drawing.Size(151, 18);
+            this.lblCantidadPersonas.Size = new System.Drawing.Size(129, 20);
             this.lblCantidadPersonas.TabIndex = 52;
             this.lblCantidadPersonas.Text = "Cant. de personas:";
             // 
@@ -112,11 +112,11 @@
             this.lblResultadoCantidadPersonas.AutoSize = true;
             this.lblResultadoCantidadPersonas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.lblResultadoCantidadPersonas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultadoCantidadPersonas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoCantidadPersonas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoCantidadPersonas.ForeColor = System.Drawing.Color.Gray;
-            this.lblResultadoCantidadPersonas.Location = new System.Drawing.Point(458, 234);
+            this.lblResultadoCantidadPersonas.Location = new System.Drawing.Point(437, 235);
             this.lblResultadoCantidadPersonas.Name = "lblResultadoCantidadPersonas";
-            this.lblResultadoCantidadPersonas.Size = new System.Drawing.Size(21, 22);
+            this.lblResultadoCantidadPersonas.Size = new System.Drawing.Size(19, 22);
             this.lblResultadoCantidadPersonas.TabIndex = 51;
             this.lblResultadoCantidadPersonas.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblResultadoCantidadPersonas, "Cantidad de personas que asistiran a la reserva");
@@ -125,11 +125,11 @@
             // 
             this.lblCapacidadTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblCapacidadTotal.AutoSize = true;
-            this.lblCapacidadTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCapacidadTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCapacidadTotal.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCapacidadTotal.Location = new System.Drawing.Point(327, 269);
+            this.lblCapacidadTotal.Location = new System.Drawing.Point(307, 269);
             this.lblCapacidadTotal.Name = "lblCapacidadTotal";
-            this.lblCapacidadTotal.Size = new System.Drawing.Size(130, 18);
+            this.lblCapacidadTotal.Size = new System.Drawing.Size(118, 20);
             this.lblCapacidadTotal.TabIndex = 50;
             this.lblCapacidadTotal.Text = "Capacidad total:";
             // 
@@ -146,7 +146,7 @@
             this.dgvSeleccionarMesaReserva.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -166,7 +166,7 @@
             this.dgvSeleccionarMesaReserva.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -174,7 +174,7 @@
             this.dgvSeleccionarMesaReserva.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvSeleccionarMesaReserva.RowHeadersVisible = false;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvSeleccionarMesaReserva.RowsDefaultCellStyle = dataGridViewCellStyle3;
@@ -204,7 +204,7 @@
             this.colCapacidad.HeaderText = "Capacidad";
             this.colCapacidad.Name = "colCapacidad";
             this.colCapacidad.ReadOnly = true;
-            this.colCapacidad.Width = 98;
+            this.colCapacidad.Width = 93;
             // 
             // colSeleccionDeFilas
             // 
@@ -216,9 +216,9 @@
             // 
             this.gpbPlantas.Controls.Add(this.rbnPlantaAlta);
             this.gpbPlantas.Controls.Add(this.rbnPlantaBaja);
-            this.gpbPlantas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.gpbPlantas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpbPlantas.ForeColor = System.Drawing.Color.Gray;
-            this.gpbPlantas.Location = new System.Drawing.Point(333, 302);
+            this.gpbPlantas.Location = new System.Drawing.Point(307, 302);
             this.gpbPlantas.Name = "gpbPlantas";
             this.gpbPlantas.Size = new System.Drawing.Size(160, 83);
             this.gpbPlantas.TabIndex = 33;
@@ -228,11 +228,11 @@
             // rbnPlantaAlta
             // 
             this.rbnPlantaAlta.AutoSize = true;
-            this.rbnPlantaAlta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaAlta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaAlta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaAlta.Location = new System.Drawing.Point(6, 54);
             this.rbnPlantaAlta.Name = "rbnPlantaAlta";
-            this.rbnPlantaAlta.Size = new System.Drawing.Size(105, 22);
+            this.rbnPlantaAlta.Size = new System.Drawing.Size(97, 24);
             this.rbnPlantaAlta.TabIndex = 33;
             this.rbnPlantaAlta.Text = "Planta alta";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnPlantaAlta, "Ver las mesas de la planta alta");
@@ -243,11 +243,11 @@
             // 
             this.rbnPlantaBaja.AutoSize = true;
             this.rbnPlantaBaja.Checked = true;
-            this.rbnPlantaBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaBaja.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaBaja.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaBaja.Location = new System.Drawing.Point(6, 26);
             this.rbnPlantaBaja.Name = "rbnPlantaBaja";
-            this.rbnPlantaBaja.Size = new System.Drawing.Size(109, 22);
+            this.rbnPlantaBaja.Size = new System.Drawing.Size(101, 24);
             this.rbnPlantaBaja.TabIndex = 32;
             this.rbnPlantaBaja.TabStop = true;
             this.rbnPlantaBaja.Text = "Planta baja";
@@ -263,9 +263,9 @@
             this.btnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
-            this.btnAceptar.Location = new System.Drawing.Point(333, 391);
+            this.btnAceptar.Location = new System.Drawing.Point(307, 391);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(160, 50);
             this.btnAceptar.TabIndex = 32;
@@ -292,12 +292,12 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
             this.lblTituloFrm.TabIndex = 11;
-            this.lblTituloFrm.Text = "Seleccion de mesas para la reserva";
+            this.lblTituloFrm.Text = "Selección de mesas para la reserva";
             this.lblTituloFrm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblTituloFrm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
             // 

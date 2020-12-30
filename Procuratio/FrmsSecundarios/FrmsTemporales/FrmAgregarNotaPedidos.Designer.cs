@@ -65,11 +65,11 @@
             this.lblTiempo.AutoSize = true;
             this.lblTiempo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.lblTiempo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblTiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempo.ForeColor = System.Drawing.Color.Gray;
-            this.lblTiempo.Location = new System.Drawing.Point(354, 213);
+            this.lblTiempo.Location = new System.Drawing.Point(324, 213);
             this.lblTiempo.Name = "lblTiempo";
-            this.lblTiempo.Size = new System.Drawing.Size(31, 22);
+            this.lblTiempo.Size = new System.Drawing.Size(30, 23);
             this.lblTiempo.TabIndex = 44;
             this.lblTiempo.Text = "60";
             // 
@@ -79,11 +79,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTextoAviso.AutoSize = true;
-            this.lblTextoAviso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTextoAviso.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextoAviso.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblTextoAviso.Location = new System.Drawing.Point(3, 214);
             this.lblTextoAviso.Name = "lblTextoAviso";
-            this.lblTextoAviso.Size = new System.Drawing.Size(349, 18);
+            this.lblTextoAviso.Size = new System.Drawing.Size(323, 20);
             this.lblTextoAviso.TabIndex = 43;
             this.lblTextoAviso.Text = "Esta ventana se cerrara automaticamente en:";
             this.lblTextoAviso.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -94,15 +94,15 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNotaPedido.AutoSize = true;
-            this.lblNotaPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNotaPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNotaPedido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNotaPedido.Location = new System.Drawing.Point(3, 42);
+            this.lblNotaPedido.Location = new System.Drawing.Point(3, 39);
             this.lblNotaPedido.Name = "lblNotaPedido";
-            this.lblNotaPedido.Size = new System.Drawing.Size(535, 36);
+            this.lblNotaPedido.Size = new System.Drawing.Size(499, 60);
             this.lblNotaPedido.TabIndex = 42;
-            this.lblNotaPedido.Text = "Opcional: especifica en este campo los articulos en los que el cliente \r\npidio un" +
-    "a elaboracion diferente (como una hamburguesa sin aderezo)";
-            this.lblNotaPedido.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblNotaPedido.Text = "Opcional: Especificá en este campo los articulos en los que el cliente \r\npidió un" +
+    "a elaboracion diferente (como una hamburguesa sin aderezo) \r\npor ejemplo.";
+            this.lblNotaPedido.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // btnAceptar
             // 
@@ -111,7 +111,7 @@
             this.btnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(3, 242);
             this.btnAceptar.Name = "btnAceptar";
@@ -129,11 +129,11 @@
             this.txtNotaPedido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtNotaPedido.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNotaPedido.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtNotaPedido.Location = new System.Drawing.Point(3, 88);
+            this.txtNotaPedido.Location = new System.Drawing.Point(3, 107);
             this.txtNotaPedido.MaxLength = 120;
             this.txtNotaPedido.Multiline = true;
             this.txtNotaPedido.Name = "txtNotaPedido";
-            this.txtNotaPedido.Size = new System.Drawing.Size(540, 116);
+            this.txtNotaPedido.Size = new System.Drawing.Size(540, 98);
             this.txtNotaPedido.TabIndex = 40;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtNotaPedido, "Mensaje que sera enviado a cocina sobre el pedido");
             this.txtNotaPedido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNotaPedido_KeyPress);
@@ -153,12 +153,12 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
             this.lblTituloFrm.TabIndex = 11;
-            this.lblTituloFrm.Text = "Nota que recibira cocina";
+            this.lblTituloFrm.Text = "Nota que recibirá cocina";
             this.lblTituloFrm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblTituloFrm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
             // 

@@ -27,7 +27,7 @@ namespace Procuratio
         private bool SeCierraLaAplicacion = false;
         private bool TiempoDeSesionExedido = false;
 
-        private readonly string TEXTO_VISUAL_USUARIO = "NOMBRE", TEXTO_VISUAL_CONTRASEÑA = "CONTRASEÑA";
+        private readonly string TEXTO_VISUAL_USUARIO = "NICK", TEXTO_VISUAL_CONTRASEÑA = "CONTRASEÑA";
         #endregion
 
         #region Codigo para agregarle la propiedad de mover a la barra personalizada

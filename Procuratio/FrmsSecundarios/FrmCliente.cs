@@ -141,7 +141,7 @@ namespace Procuratio
         private FrmAdministrarReserva FormAdministrarReservas = null;
         private FrmCrearEditarDelivery FormCrearEditarDelivery = null;
         private FrmCrearMesa FormCrearMesa = null;
-        private readonly string TEXTO_VISUAL_BUSCAR = "Buscar por nombre de cliente...", TEXTO_VISUAL_APELLIDO = "Buscar por apellido de cliente...", TEXTO_VISUAL_TELEFONO = "Buscar por telefono de cliente...";
+        private readonly string TEXTO_VISUAL_BUSCAR = "Buscar por nombre...", TEXTO_VISUAL_APELLIDO = "Buscar por apellido...", TEXTO_VISUAL_TELEFONO = "Buscar por telefono...";
         private List<int> ClientesDelPedido = new List<int>();
         private int ID_Pedido = -1;
         private bool FormularioCargado = false;
@@ -702,6 +702,11 @@ namespace Procuratio
         }
 
         private void PicBTNCerrar_Click(object sender, EventArgs e) => Close();
+
+        private void txtBuscarPorNombre_Click(object sender, EventArgs e)
+        {
+            txtBuscarPorNombre.Clear();
+        }
 
         #region Propiedades
         /// <summary>

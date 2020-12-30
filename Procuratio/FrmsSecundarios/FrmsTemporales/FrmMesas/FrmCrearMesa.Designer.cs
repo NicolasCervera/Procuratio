@@ -40,10 +40,6 @@
             this.lblCapacidadTotal = new System.Windows.Forms.Label();
             this.cmbNombreMozo = new System.Windows.Forms.ComboBox();
             this.dgvCrearMesa = new System.Windows.Forms.DataGridView();
-            this.colID_NumeroMesa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colNumeroMesa = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCapacidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSeleccionDeFilas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.grbPlantas = new System.Windows.Forms.GroupBox();
             this.rbnPlantaAlta = new System.Windows.Forms.RadioButton();
             this.rbnPlantaBaja = new System.Windows.Forms.RadioButton();
@@ -54,6 +50,10 @@
             this.picBTNCerrar = new System.Windows.Forms.PictureBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.ttpMensajesDeAyuda = new System.Windows.Forms.ToolTip(this.components);
+            this.colID_NumeroMesa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNumeroMesa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCapacidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSeleccionDeFilas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.pnlContenedorFrm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCrearMesa)).BeginInit();
             this.grbPlantas.SuspendLayout();
@@ -93,11 +93,11 @@
             this.btnCargarClientes.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCargarClientes.FlatAppearance.BorderSize = 2;
             this.btnCargarClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargarClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargarClientes.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargarClientes.ForeColor = System.Drawing.Color.White;
-            this.btnCargarClientes.Location = new System.Drawing.Point(320, 453);
+            this.btnCargarClientes.Location = new System.Drawing.Point(320, 445);
             this.btnCargarClientes.Name = "btnCargarClientes";
-            this.btnCargarClientes.Size = new System.Drawing.Size(160, 50);
+            this.btnCargarClientes.Size = new System.Drawing.Size(160, 58);
             this.btnCargarClientes.TabIndex = 59;
             this.btnCargarClientes.Text = "Cargar clientes del pedido (opcional)";
             this.btnCargarClientes.UseVisualStyleBackColor = false;
@@ -110,12 +110,12 @@
             this.cmbNombreChef.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbNombreChef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbNombreChef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbNombreChef.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbNombreChef.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbNombreChef.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbNombreChef.FormattingEnabled = true;
-            this.cmbNombreChef.Location = new System.Drawing.Point(320, 420);
+            this.cmbNombreChef.Location = new System.Drawing.Point(320, 410);
             this.cmbNombreChef.Name = "cmbNombreChef";
-            this.cmbNombreChef.Size = new System.Drawing.Size(160, 26);
+            this.cmbNombreChef.Size = new System.Drawing.Size(160, 28);
             this.cmbNombreChef.TabIndex = 58;
             this.cmbNombreChef.Text = "Nombre del chef";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbNombreChef, "Asginar el chef que se hara cargo de la/s mesa/s");
@@ -126,11 +126,11 @@
             this.lblResultadoCapacidadTotal.AutoSize = true;
             this.lblResultadoCapacidadTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.lblResultadoCapacidadTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultadoCapacidadTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoCapacidadTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoCapacidadTotal.ForeColor = System.Drawing.Color.Gray;
-            this.lblResultadoCapacidadTotal.Location = new System.Drawing.Point(448, 268);
+            this.lblResultadoCapacidadTotal.Location = new System.Drawing.Point(437, 258);
             this.lblResultadoCapacidadTotal.Name = "lblResultadoCapacidadTotal";
-            this.lblResultadoCapacidadTotal.Size = new System.Drawing.Size(21, 22);
+            this.lblResultadoCapacidadTotal.Size = new System.Drawing.Size(19, 22);
             this.lblResultadoCapacidadTotal.TabIndex = 57;
             this.lblResultadoCapacidadTotal.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblResultadoCapacidadTotal, "Capacidad total que es calculada en base a las mesas seleccionadas");
@@ -139,11 +139,11 @@
             // 
             this.lblCapacidadTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCapacidadTotal.AutoSize = true;
-            this.lblCapacidadTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCapacidadTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCapacidadTotal.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCapacidadTotal.Location = new System.Drawing.Point(320, 269);
+            this.lblCapacidadTotal.Location = new System.Drawing.Point(320, 259);
             this.lblCapacidadTotal.Name = "lblCapacidadTotal";
-            this.lblCapacidadTotal.Size = new System.Drawing.Size(130, 18);
+            this.lblCapacidadTotal.Size = new System.Drawing.Size(118, 20);
             this.lblCapacidadTotal.TabIndex = 56;
             this.lblCapacidadTotal.Text = "Capacidad total:";
             // 
@@ -152,12 +152,12 @@
             this.cmbNombreMozo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbNombreMozo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbNombreMozo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbNombreMozo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbNombreMozo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbNombreMozo.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbNombreMozo.FormattingEnabled = true;
-            this.cmbNombreMozo.Location = new System.Drawing.Point(320, 388);
+            this.cmbNombreMozo.Location = new System.Drawing.Point(320, 378);
             this.cmbNombreMozo.Name = "cmbNombreMozo";
-            this.cmbNombreMozo.Size = new System.Drawing.Size(161, 26);
+            this.cmbNombreMozo.Size = new System.Drawing.Size(161, 28);
             this.cmbNombreMozo.TabIndex = 33;
             this.cmbNombreMozo.Text = "Nombre del mozo";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbNombreMozo, "Asignar el mozo que se hara cargo de la/s mesa/s");
@@ -174,7 +174,7 @@
             this.dgvCrearMesa.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -194,7 +194,7 @@
             this.dgvCrearMesa.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -202,7 +202,7 @@
             this.dgvCrearMesa.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvCrearMesa.RowHeadersVisible = false;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvCrearMesa.RowsDefaultCellStyle = dataGridViewCellStyle3;
@@ -211,44 +211,14 @@
             this.dgvCrearMesa.TabIndex = 32;
             this.dgvCrearMesa.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvCrearMesa_CellContentClick);
             // 
-            // colID_NumeroMesa
-            // 
-            this.colID_NumeroMesa.HeaderText = "ID_NumeroMesa";
-            this.colID_NumeroMesa.Name = "colID_NumeroMesa";
-            this.colID_NumeroMesa.ReadOnly = true;
-            this.colID_NumeroMesa.Visible = false;
-            this.colID_NumeroMesa.Width = 140;
-            // 
-            // colNumeroMesa
-            // 
-            this.colNumeroMesa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colNumeroMesa.HeaderText = "Numero de Mesa";
-            this.colNumeroMesa.Name = "colNumeroMesa";
-            this.colNumeroMesa.ReadOnly = true;
-            // 
-            // colCapacidad
-            // 
-            this.colCapacidad.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colCapacidad.HeaderText = "Capacidad";
-            this.colCapacidad.Name = "colCapacidad";
-            this.colCapacidad.ReadOnly = true;
-            this.colCapacidad.Width = 104;
-            // 
-            // colSeleccionDeFilas
-            // 
-            this.colSeleccionDeFilas.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.colSeleccionDeFilas.HeaderText = "Seleccionar";
-            this.colSeleccionDeFilas.Name = "colSeleccionDeFilas";
-            this.colSeleccionDeFilas.Width = 104;
-            // 
             // grbPlantas
             // 
             this.grbPlantas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.grbPlantas.Controls.Add(this.rbnPlantaAlta);
             this.grbPlantas.Controls.Add(this.rbnPlantaBaja);
-            this.grbPlantas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.grbPlantas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbPlantas.ForeColor = System.Drawing.Color.Gray;
-            this.grbPlantas.Location = new System.Drawing.Point(320, 299);
+            this.grbPlantas.Location = new System.Drawing.Point(320, 289);
             this.grbPlantas.Name = "grbPlantas";
             this.grbPlantas.Size = new System.Drawing.Size(161, 83);
             this.grbPlantas.TabIndex = 31;
@@ -259,11 +229,11 @@
             // 
             this.rbnPlantaAlta.AutoSize = true;
             this.rbnPlantaAlta.Enabled = false;
-            this.rbnPlantaAlta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaAlta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaAlta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaAlta.Location = new System.Drawing.Point(6, 54);
             this.rbnPlantaAlta.Name = "rbnPlantaAlta";
-            this.rbnPlantaAlta.Size = new System.Drawing.Size(105, 22);
+            this.rbnPlantaAlta.Size = new System.Drawing.Size(97, 24);
             this.rbnPlantaAlta.TabIndex = 33;
             this.rbnPlantaAlta.Text = "Planta alta";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnPlantaAlta, "Ver las mesas disponibles en la planta alta");
@@ -274,11 +244,11 @@
             // 
             this.rbnPlantaBaja.AutoSize = true;
             this.rbnPlantaBaja.Checked = true;
-            this.rbnPlantaBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaBaja.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaBaja.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaBaja.Location = new System.Drawing.Point(6, 26);
             this.rbnPlantaBaja.Name = "rbnPlantaBaja";
-            this.rbnPlantaBaja.Size = new System.Drawing.Size(109, 22);
+            this.rbnPlantaBaja.Size = new System.Drawing.Size(101, 24);
             this.rbnPlantaBaja.TabIndex = 32;
             this.rbnPlantaBaja.TabStop = true;
             this.rbnPlantaBaja.Text = "Planta baja";
@@ -293,7 +263,7 @@
             this.btnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(320, 509);
             this.btnAceptar.Name = "btnAceptar";
@@ -322,7 +292,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
@@ -369,6 +339,36 @@
             this.picLogo.TabStop = false;
             this.picLogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
             // 
+            // colID_NumeroMesa
+            // 
+            this.colID_NumeroMesa.HeaderText = "ID_NumeroMesa";
+            this.colID_NumeroMesa.Name = "colID_NumeroMesa";
+            this.colID_NumeroMesa.ReadOnly = true;
+            this.colID_NumeroMesa.Visible = false;
+            this.colID_NumeroMesa.Width = 128;
+            // 
+            // colNumeroMesa
+            // 
+            this.colNumeroMesa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colNumeroMesa.HeaderText = "Número Mesa";
+            this.colNumeroMesa.Name = "colNumeroMesa";
+            this.colNumeroMesa.ReadOnly = true;
+            // 
+            // colCapacidad
+            // 
+            this.colCapacidad.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colCapacidad.HeaderText = "Capacidad";
+            this.colCapacidad.Name = "colCapacidad";
+            this.colCapacidad.ReadOnly = true;
+            this.colCapacidad.Width = 104;
+            // 
+            // colSeleccionDeFilas
+            // 
+            this.colSeleccionDeFilas.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.colSeleccionDeFilas.HeaderText = "Seleccionar";
+            this.colSeleccionDeFilas.Name = "colSeleccionDeFilas";
+            this.colSeleccionDeFilas.Width = 104;
+            // 
             // FrmCrearMesa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -411,12 +411,12 @@
         private System.Windows.Forms.Label lblResultadoCapacidadTotal;
         private System.Windows.Forms.Label lblCapacidadTotal;
         private System.Windows.Forms.ComboBox cmbNombreChef;
+        private System.Windows.Forms.ToolTip ttpMensajesDeAyuda;
+        private System.Windows.Forms.Label lblTituloFrm;
+        private System.Windows.Forms.Button btnCargarClientes;
         private System.Windows.Forms.DataGridViewTextBoxColumn colID_NumeroMesa;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNumeroMesa;
         private System.Windows.Forms.DataGridViewTextBoxColumn colCapacidad;
         private System.Windows.Forms.DataGridViewCheckBoxColumn colSeleccionDeFilas;
-        private System.Windows.Forms.ToolTip ttpMensajesDeAyuda;
-        private System.Windows.Forms.Label lblTituloFrm;
-        private System.Windows.Forms.Button btnCargarClientes;
     }
 }

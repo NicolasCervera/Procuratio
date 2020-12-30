@@ -61,7 +61,7 @@
             // 
             this.TxtContTexto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.TxtContTexto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtContTexto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtContTexto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtContTexto.ForeColor = System.Drawing.Color.DarkGray;
             this.TxtContTexto.Location = new System.Drawing.Point(338, 44);
             this.TxtContTexto.MaxLength = 120;
@@ -95,7 +95,7 @@
             this.BtnFebrero2020.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnFebrero2020.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.BtnFebrero2020.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnFebrero2020.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.BtnFebrero2020.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnFebrero2020.ForeColor = System.Drawing.Color.White;
             this.BtnFebrero2020.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnFebrero2020.Location = new System.Drawing.Point(20, 3);
@@ -117,7 +117,7 @@
             this.Marzo2020.Dock = System.Windows.Forms.DockStyle.Top;
             this.Marzo2020.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.Marzo2020.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Marzo2020.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.Marzo2020.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Marzo2020.ForeColor = System.Drawing.Color.White;
             this.Marzo2020.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Marzo2020.Location = new System.Drawing.Point(20, 59);
@@ -139,7 +139,7 @@
             this.BtnAbril2020.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnAbril2020.FlatAppearance.BorderColor = System.Drawing.Color.Gray;
             this.BtnAbril2020.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnAbril2020.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
+            this.BtnAbril2020.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAbril2020.ForeColor = System.Drawing.Color.White;
             this.BtnAbril2020.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnAbril2020.Location = new System.Drawing.Point(20, 115);
@@ -170,7 +170,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(174, 30);

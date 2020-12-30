@@ -81,11 +81,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAyuda.AutoSize = true;
-            this.lblAyuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAyuda.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAyuda.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblAyuda.Location = new System.Drawing.Point(22, 37);
+            this.lblAyuda.Location = new System.Drawing.Point(31, 39);
             this.lblAyuda.Name = "lblAyuda";
-            this.lblAyuda.Size = new System.Drawing.Size(416, 18);
+            this.lblAyuda.Size = new System.Drawing.Size(393, 20);
             this.lblAyuda.TabIndex = 71;
             this.lblAyuda.Text = "Debe cargar obligatoriamente un nombre o un apellido";
             // 
@@ -95,13 +95,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtApellidoCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtApellidoCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtApellidoCliente.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidoCliente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtApellidoCliente.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtApellidoCliente.Location = new System.Drawing.Point(164, 102);
+            this.txtApellidoCliente.Location = new System.Drawing.Point(152, 105);
             this.txtApellidoCliente.MaxLength = 20;
             this.txtApellidoCliente.Name = "txtApellidoCliente";
             this.txtApellidoCliente.ShortcutsEnabled = false;
-            this.txtApellidoCliente.Size = new System.Drawing.Size(284, 19);
+            this.txtApellidoCliente.Size = new System.Drawing.Size(284, 20);
             this.txtApellidoCliente.TabIndex = 68;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtApellidoCliente, "Apellido del cliente");
             this.txtApellidoCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtApellidoCliente_KeyPress);
@@ -112,11 +112,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNombre.Location = new System.Drawing.Point(89, 67);
+            this.lblNombre.Location = new System.Drawing.Point(5, 70);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(73, 18);
+            this.lblNombre.Size = new System.Drawing.Size(67, 20);
             this.lblNombre.TabIndex = 64;
             this.lblNombre.Text = "Nombre:";
             // 
@@ -125,7 +125,7 @@
             this.pnlDecorativo6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlDecorativo6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo6.Location = new System.Drawing.Point(164, 121);
+            this.pnlDecorativo6.Location = new System.Drawing.Point(152, 124);
             this.pnlDecorativo6.Name = "pnlDecorativo6";
             this.pnlDecorativo6.Size = new System.Drawing.Size(284, 2);
             this.pnlDecorativo6.TabIndex = 67;
@@ -136,11 +136,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefono.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTelefono.Location = new System.Drawing.Point(1, 133);
+            this.lblTelefono.Location = new System.Drawing.Point(5, 136);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(160, 18);
+            this.lblTelefono.Size = new System.Drawing.Size(142, 20);
             this.lblTelefono.TabIndex = 65;
             this.lblTelefono.Text = "Telefono (opcional):";
             // 
@@ -150,11 +150,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblApellido.Location = new System.Drawing.Point(89, 101);
+            this.lblApellido.Location = new System.Drawing.Point(5, 104);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(72, 18);
+            this.lblApellido.Size = new System.Drawing.Size(69, 20);
             this.lblApellido.TabIndex = 69;
             this.lblApellido.Text = "Apellido:";
             // 
@@ -164,13 +164,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNombreCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtNombreCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombreCliente.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreCliente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombreCliente.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtNombreCliente.Location = new System.Drawing.Point(164, 68);
+            this.txtNombreCliente.Location = new System.Drawing.Point(152, 71);
             this.txtNombreCliente.MaxLength = 20;
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.ShortcutsEnabled = false;
-            this.txtNombreCliente.Size = new System.Drawing.Size(284, 19);
+            this.txtNombreCliente.Size = new System.Drawing.Size(284, 20);
             this.txtNombreCliente.TabIndex = 63;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtNombreCliente, "Nombre del cliente");
             this.txtNombreCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNombreCliente_KeyPress);
@@ -181,13 +181,13 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTelefonoCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtTelefonoCliente.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTelefonoCliente.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefonoCliente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefonoCliente.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtTelefonoCliente.Location = new System.Drawing.Point(162, 134);
+            this.txtTelefonoCliente.Location = new System.Drawing.Point(152, 137);
             this.txtTelefonoCliente.MaxLength = 14;
             this.txtTelefonoCliente.Name = "txtTelefonoCliente";
             this.txtTelefonoCliente.ShortcutsEnabled = false;
-            this.txtTelefonoCliente.Size = new System.Drawing.Size(286, 19);
+            this.txtTelefonoCliente.Size = new System.Drawing.Size(286, 20);
             this.txtTelefonoCliente.TabIndex = 66;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtTelefonoCliente, "Telefono del cliente");
             this.txtTelefonoCliente.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTelefonoCliente_KeyPress);
@@ -197,7 +197,7 @@
             this.pnlDecorativo1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlDecorativo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo1.Location = new System.Drawing.Point(164, 87);
+            this.pnlDecorativo1.Location = new System.Drawing.Point(152, 90);
             this.pnlDecorativo1.Name = "pnlDecorativo1";
             this.pnlDecorativo1.Size = new System.Drawing.Size(284, 2);
             this.pnlDecorativo1.TabIndex = 61;
@@ -207,7 +207,7 @@
             this.pnlDecorativo2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlDecorativo2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo2.Location = new System.Drawing.Point(162, 153);
+            this.pnlDecorativo2.Location = new System.Drawing.Point(152, 156);
             this.pnlDecorativo2.Name = "pnlDecorativo2";
             this.pnlDecorativo2.Size = new System.Drawing.Size(286, 2);
             this.pnlDecorativo2.TabIndex = 62;
@@ -219,9 +219,9 @@
             this.btnCrearCliente.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCrearCliente.FlatAppearance.BorderSize = 2;
             this.btnCrearCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearCliente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearCliente.ForeColor = System.Drawing.Color.White;
-            this.btnCrearCliente.Location = new System.Drawing.Point(288, 171);
+            this.btnCrearCliente.Location = new System.Drawing.Point(278, 170);
             this.btnCrearCliente.Name = "btnCrearCliente";
             this.btnCrearCliente.Size = new System.Drawing.Size(160, 50);
             this.btnCrearCliente.TabIndex = 51;
@@ -247,7 +247,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(287, 30);
@@ -289,9 +289,9 @@
             this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnGuardarCambios.FlatAppearance.BorderSize = 2;
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardarCambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCambios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCambios.Location = new System.Drawing.Point(288, 171);
+            this.btnGuardarCambios.Location = new System.Drawing.Point(278, 170);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
             this.btnGuardarCambios.Size = new System.Drawing.Size(160, 50);
             this.btnGuardarCambios.TabIndex = 70;

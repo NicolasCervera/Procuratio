@@ -213,6 +213,7 @@
             this.pnlConteContrAjustes.Controls.Add(this.pnlDecorativo1);
             this.pnlConteContrAjustes.Controls.Add(this.ckbSegundaPlanta);
             this.pnlConteContrAjustes.Controls.Add(this.lblCantidadMesasPBTexto);
+            this.pnlConteContrAjustes.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlConteContrAjustes.Location = new System.Drawing.Point(10, 38);
             this.pnlConteContrAjustes.Name = "pnlConteContrAjustes";
             this.pnlConteContrAjustes.Size = new System.Drawing.Size(747, 519);

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvCaja = new System.Windows.Forms.DataGridView();
             this.ColID_Caja = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colID_Pedido = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -86,14 +86,14 @@
             this.dgvCaja.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvCaja.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.dgvCaja.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCaja.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCaja.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvCaja.ColumnHeadersHeight = 45;
             this.dgvCaja.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvCaja.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -111,20 +111,20 @@
             this.dgvCaja.Location = new System.Drawing.Point(7, 102);
             this.dgvCaja.Name = "dgvCaja";
             this.dgvCaja.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCaja.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Brown;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCaja.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvCaja.RowHeadersVisible = false;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
-            this.dgvCaja.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Brown;
+            this.dgvCaja.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvCaja.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvCaja.Size = new System.Drawing.Size(747, 412);
             this.dgvCaja.TabIndex = 4;
@@ -211,11 +211,11 @@
             this.lblRegistroDeCaja.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblRegistroDeCaja.AutoSize = true;
             this.lblRegistroDeCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.lblRegistroDeCaja.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegistroDeCaja.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistroDeCaja.ForeColor = System.Drawing.Color.Gray;
-            this.lblRegistroDeCaja.Location = new System.Drawing.Point(336, 10);
+            this.lblRegistroDeCaja.Location = new System.Drawing.Point(327, 4);
             this.lblRegistroDeCaja.Name = "lblRegistroDeCaja";
-            this.lblRegistroDeCaja.Size = new System.Drawing.Size(223, 19);
+            this.lblRegistroDeCaja.Size = new System.Drawing.Size(237, 21);
             this.lblRegistroDeCaja.TabIndex = 29;
             this.lblRegistroDeCaja.Text = "REGISTROS DE MOVIMIENTOS";
             // 
@@ -226,13 +226,13 @@
             this.btnAgregarRegistro.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAgregarRegistro.FlatAppearance.BorderSize = 2;
             this.btnAgregarRegistro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarRegistro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarRegistro.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarRegistro.ForeColor = System.Drawing.Color.White;
             this.btnAgregarRegistro.Location = new System.Drawing.Point(766, 214);
             this.btnAgregarRegistro.Name = "btnAgregarRegistro";
             this.btnAgregarRegistro.Size = new System.Drawing.Size(160, 50);
             this.btnAgregarRegistro.TabIndex = 30;
-            this.btnAgregarRegistro.Text = "Agregar nuevo registro";
+            this.btnAgregarRegistro.Text = "Nuevo registro";
             this.btnAgregarRegistro.UseVisualStyleBackColor = false;
             this.btnAgregarRegistro.Click += new System.EventHandler(this.BtnAgregarRegistro_Click);
             this.btnAgregarRegistro.MouseLeave += new System.EventHandler(this.btnEstiloBotones_Leave);
@@ -261,11 +261,11 @@
             this.lblResultadoDiferencia.AutoSize = true;
             this.lblResultadoDiferencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblResultadoDiferencia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultadoDiferencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoDiferencia.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoDiferencia.ForeColor = System.Drawing.Color.Gray;
-            this.lblResultadoDiferencia.Location = new System.Drawing.Point(597, 7);
+            this.lblResultadoDiferencia.Location = new System.Drawing.Point(587, 7);
             this.lblResultadoDiferencia.Name = "lblResultadoDiferencia";
-            this.lblResultadoDiferencia.Size = new System.Drawing.Size(21, 22);
+            this.lblResultadoDiferencia.Size = new System.Drawing.Size(21, 23);
             this.lblResultadoDiferencia.TabIndex = 53;
             this.lblResultadoDiferencia.Text = "0";
             // 
@@ -273,11 +273,11 @@
             // 
             this.lblDiferencia.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblDiferencia.AutoSize = true;
-            this.lblDiferencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDiferencia.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDiferencia.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblDiferencia.Location = new System.Drawing.Point(502, 9);
             this.lblDiferencia.Name = "lblDiferencia";
-            this.lblDiferencia.Size = new System.Drawing.Size(89, 18);
+            this.lblDiferencia.Size = new System.Drawing.Size(84, 20);
             this.lblDiferencia.TabIndex = 52;
             this.lblDiferencia.Text = "Diferencia:";
             // 
@@ -287,11 +287,11 @@
             this.lblResultadoEgresos.AutoSize = true;
             this.lblResultadoEgresos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblResultadoEgresos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultadoEgresos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoEgresos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoEgresos.ForeColor = System.Drawing.Color.Gray;
-            this.lblResultadoEgresos.Location = new System.Drawing.Point(321, 7);
+            this.lblResultadoEgresos.Location = new System.Drawing.Point(307, 7);
             this.lblResultadoEgresos.Name = "lblResultadoEgresos";
-            this.lblResultadoEgresos.Size = new System.Drawing.Size(21, 22);
+            this.lblResultadoEgresos.Size = new System.Drawing.Size(21, 23);
             this.lblResultadoEgresos.TabIndex = 51;
             this.lblResultadoEgresos.Text = "0";
             // 
@@ -299,11 +299,11 @@
             // 
             this.lblEgreso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblEgreso.AutoSize = true;
-            this.lblEgreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEgreso.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEgreso.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblEgreso.Location = new System.Drawing.Point(239, 9);
             this.lblEgreso.Name = "lblEgreso";
-            this.lblEgreso.Size = new System.Drawing.Size(76, 18);
+            this.lblEgreso.Size = new System.Drawing.Size(67, 20);
             this.lblEgreso.TabIndex = 50;
             this.lblEgreso.Text = "Egresos:";
             // 
@@ -313,11 +313,11 @@
             this.lblResultadoIngresos.AutoSize = true;
             this.lblResultadoIngresos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblResultadoIngresos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultadoIngresos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoIngresos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoIngresos.ForeColor = System.Drawing.Color.Gray;
-            this.lblResultadoIngresos.Location = new System.Drawing.Point(86, 7);
+            this.lblResultadoIngresos.Location = new System.Drawing.Point(79, 7);
             this.lblResultadoIngresos.Name = "lblResultadoIngresos";
-            this.lblResultadoIngresos.Size = new System.Drawing.Size(21, 22);
+            this.lblResultadoIngresos.Size = new System.Drawing.Size(21, 23);
             this.lblResultadoIngresos.TabIndex = 49;
             this.lblResultadoIngresos.Text = "0";
             // 
@@ -325,22 +325,22 @@
             // 
             this.lblIngreso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblIngreso.AutoSize = true;
-            this.lblIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngreso.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblIngreso.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblIngreso.Location = new System.Drawing.Point(4, 9);
             this.lblIngreso.Name = "lblIngreso";
-            this.lblIngreso.Size = new System.Drawing.Size(78, 18);
+            this.lblIngreso.Size = new System.Drawing.Size(73, 20);
             this.lblIngreso.TabIndex = 48;
             this.lblIngreso.Text = "Ingresos:";
             // 
             // lblNombreUsuario
             // 
             this.lblNombreUsuario.AutoSize = true;
-            this.lblNombreUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreUsuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombreUsuario.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNombreUsuario.Location = new System.Drawing.Point(27, 74);
+            this.lblNombreUsuario.Location = new System.Drawing.Point(10, 74);
             this.lblNombreUsuario.Name = "lblNombreUsuario";
-            this.lblNombreUsuario.Size = new System.Drawing.Size(72, 18);
+            this.lblNombreUsuario.Size = new System.Drawing.Size(62, 20);
             this.lblNombreUsuario.TabIndex = 59;
             this.lblNombreUsuario.Text = "Usuario:";
             // 
@@ -350,12 +350,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbUsuarios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbUsuarios.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbUsuarios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbUsuarios.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbUsuarios.FormattingEnabled = true;
             this.cmbUsuarios.Location = new System.Drawing.Point(104, 71);
             this.cmbUsuarios.Name = "cmbUsuarios";
-            this.cmbUsuarios.Size = new System.Drawing.Size(169, 26);
+            this.cmbUsuarios.Size = new System.Drawing.Size(169, 28);
             this.cmbUsuarios.TabIndex = 58;
             this.cmbUsuarios.Text = "Nombre usuario";
             // 
@@ -365,11 +365,11 @@
             this.ckbIncluirFechaDesde.AutoSize = true;
             this.ckbIncluirFechaDesde.Checked = true;
             this.ckbIncluirFechaDesde.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbIncluirFechaDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbIncluirFechaDesde.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbIncluirFechaDesde.ForeColor = System.Drawing.Color.White;
-            this.ckbIncluirFechaDesde.Location = new System.Drawing.Point(691, 40);
+            this.ckbIncluirFechaDesde.Location = new System.Drawing.Point(695, 40);
             this.ckbIncluirFechaDesde.Name = "ckbIncluirFechaDesde";
-            this.ckbIncluirFechaDesde.Size = new System.Drawing.Size(72, 22);
+            this.ckbIncluirFechaDesde.Size = new System.Drawing.Size(68, 24);
             this.ckbIncluirFechaDesde.TabIndex = 69;
             this.ckbIncluirFechaDesde.Text = "Incluir";
             this.ckbIncluirFechaDesde.UseVisualStyleBackColor = true;
@@ -381,11 +381,11 @@
             this.ckbIncluirFechaHasta.AutoSize = true;
             this.ckbIncluirFechaHasta.Checked = true;
             this.ckbIncluirFechaHasta.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbIncluirFechaHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbIncluirFechaHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbIncluirFechaHasta.ForeColor = System.Drawing.Color.White;
-            this.ckbIncluirFechaHasta.Location = new System.Drawing.Point(691, 73);
+            this.ckbIncluirFechaHasta.Location = new System.Drawing.Point(695, 73);
             this.ckbIncluirFechaHasta.Name = "ckbIncluirFechaHasta";
-            this.ckbIncluirFechaHasta.Size = new System.Drawing.Size(72, 22);
+            this.ckbIncluirFechaHasta.Size = new System.Drawing.Size(68, 24);
             this.ckbIncluirFechaHasta.TabIndex = 68;
             this.ckbIncluirFechaHasta.Text = "Incluir";
             this.ckbIncluirFechaHasta.UseVisualStyleBackColor = true;
@@ -395,11 +395,11 @@
             // 
             this.lblReservasHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblReservasHasta.AutoSize = true;
-            this.lblReservasHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReservasHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReservasHasta.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblReservasHasta.Location = new System.Drawing.Point(281, 75);
+            this.lblReservasHasta.Location = new System.Drawing.Point(284, 75);
             this.lblReservasHasta.Name = "lblReservasHasta";
-            this.lblReservasHasta.Size = new System.Drawing.Size(57, 18);
+            this.lblReservasHasta.Size = new System.Drawing.Size(50, 20);
             this.lblReservasHasta.TabIndex = 67;
             this.lblReservasHasta.Text = "Hasta:";
             // 
@@ -407,11 +407,11 @@
             // 
             this.lblFechaDesde.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFechaDesde.AutoSize = true;
-            this.lblFechaDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaDesde.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaDesde.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblFechaDesde.Location = new System.Drawing.Point(277, 40);
+            this.lblFechaDesde.Location = new System.Drawing.Point(284, 40);
             this.lblFechaDesde.Name = "lblFechaDesde";
-            this.lblFechaDesde.Size = new System.Drawing.Size(61, 18);
+            this.lblFechaDesde.Size = new System.Drawing.Size(54, 20);
             this.lblFechaDesde.TabIndex = 66;
             this.lblFechaDesde.Text = "Desde:";
             // 
@@ -442,13 +442,13 @@
             this.btnVerRegistrosDeHoy.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerRegistrosDeHoy.FlatAppearance.BorderSize = 2;
             this.btnVerRegistrosDeHoy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerRegistrosDeHoy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerRegistrosDeHoy.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerRegistrosDeHoy.ForeColor = System.Drawing.Color.White;
             this.btnVerRegistrosDeHoy.Location = new System.Drawing.Point(766, 158);
             this.btnVerRegistrosDeHoy.Name = "btnVerRegistrosDeHoy";
             this.btnVerRegistrosDeHoy.Size = new System.Drawing.Size(160, 50);
             this.btnVerRegistrosDeHoy.TabIndex = 70;
-            this.btnVerRegistrosDeHoy.Text = "Ver los registros de hoy";
+            this.btnVerRegistrosDeHoy.Text = "Ver datos de hoy";
             this.btnVerRegistrosDeHoy.UseVisualStyleBackColor = false;
             this.btnVerRegistrosDeHoy.Click += new System.EventHandler(this.BtnVerRegistrosDeHoy_Click);
             this.btnVerRegistrosDeHoy.MouseLeave += new System.EventHandler(this.btnEstiloBotones_Leave);
@@ -461,7 +461,7 @@
             this.btnImprimir.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnImprimir.FlatAppearance.BorderSize = 2;
             this.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimir.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimir.ForeColor = System.Drawing.Color.White;
             this.btnImprimir.Location = new System.Drawing.Point(766, 270);
             this.btnImprimir.Name = "btnImprimir";
@@ -477,11 +477,11 @@
             // lblBuscarPorTipoDeCuenta
             // 
             this.lblBuscarPorTipoDeCuenta.AutoSize = true;
-            this.lblBuscarPorTipoDeCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBuscarPorTipoDeCuenta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBuscarPorTipoDeCuenta.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblBuscarPorTipoDeCuenta.Location = new System.Drawing.Point(0, 40);
+            this.lblBuscarPorTipoDeCuenta.Location = new System.Drawing.Point(10, 40);
             this.lblBuscarPorTipoDeCuenta.Name = "lblBuscarPorTipoDeCuenta";
-            this.lblBuscarPorTipoDeCuenta.Size = new System.Drawing.Size(100, 18);
+            this.lblBuscarPorTipoDeCuenta.Size = new System.Drawing.Size(92, 20);
             this.lblBuscarPorTipoDeCuenta.TabIndex = 75;
             this.lblBuscarPorTipoDeCuenta.Text = "Movimiento:";
             // 
@@ -491,12 +491,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbTipoDeMonto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbTipoDeMonto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbTipoDeMonto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbTipoDeMonto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTipoDeMonto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbTipoDeMonto.FormattingEnabled = true;
             this.cmbTipoDeMonto.Location = new System.Drawing.Point(104, 39);
             this.cmbTipoDeMonto.Name = "cmbTipoDeMonto";
-            this.cmbTipoDeMonto.Size = new System.Drawing.Size(169, 26);
+            this.cmbTipoDeMonto.Size = new System.Drawing.Size(169, 28);
             this.cmbTipoDeMonto.TabIndex = 74;
             this.cmbTipoDeMonto.Text = "Nombre de la cuenta";
             // 
@@ -541,7 +541,7 @@
             this.btnAplicarFiltro.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAplicarFiltro.FlatAppearance.BorderSize = 2;
             this.btnAplicarFiltro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAplicarFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAplicarFiltro.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplicarFiltro.ForeColor = System.Drawing.Color.White;
             this.btnAplicarFiltro.Location = new System.Drawing.Point(766, 102);
             this.btnAplicarFiltro.Name = "btnAplicarFiltro";
@@ -557,11 +557,11 @@
             // 
             this.lblHoraInicio.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHoraInicio.AutoSize = true;
-            this.lblHoraInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoraInicio.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHoraInicio.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblHoraInicio.Location = new System.Drawing.Point(544, 42);
+            this.lblHoraInicio.Location = new System.Drawing.Point(558, 42);
             this.lblHoraInicio.Name = "lblHoraInicio";
-            this.lblHoraInicio.Size = new System.Drawing.Size(95, 18);
+            this.lblHoraInicio.Size = new System.Drawing.Size(85, 20);
             this.lblHoraInicio.TabIndex = 79;
             this.lblHoraInicio.Text = "Hora inicio:";
             // 
@@ -578,11 +578,11 @@
             // 
             this.lblHoraFin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblHoraFin.AutoSize = true;
-            this.lblHoraFin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHoraFin.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHoraFin.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblHoraFin.Location = new System.Drawing.Point(566, 74);
+            this.lblHoraFin.Location = new System.Drawing.Point(558, 74);
             this.lblHoraFin.Name = "lblHoraFin";
-            this.lblHoraFin.Size = new System.Drawing.Size(73, 18);
+            this.lblHoraFin.Size = new System.Drawing.Size(66, 20);
             this.lblHoraFin.TabIndex = 82;
             this.lblHoraFin.Text = "Hora fin:";
             // 

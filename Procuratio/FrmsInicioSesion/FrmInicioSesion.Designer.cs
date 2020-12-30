@@ -114,7 +114,7 @@
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(285, 22);
             this.txtUsuario.TabIndex = 1;
-            this.txtUsuario.Text = "Nick";
+            this.txtUsuario.Text = "NICK";
             this.txtUsuario.TextChanged += new System.EventHandler(this.LimpiarlblMensajeDeError);
             this.txtUsuario.Enter += new System.EventHandler(this.BorraTextoTXT_Enter);
             this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PresionaEnter);
@@ -131,7 +131,7 @@
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.Size = new System.Drawing.Size(285, 22);
             this.txtContraseña.TabIndex = 6;
-            this.txtContraseña.Text = "Contraseña";
+            this.txtContraseña.Text = "CONTRASEÑA";
             this.txtContraseña.TextChanged += new System.EventHandler(this.LimpiarlblMensajeDeError);
             this.txtContraseña.Enter += new System.EventHandler(this.BorraTextoTXT_Enter);
             this.txtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PresionaEnter);
@@ -140,11 +140,11 @@
             // lblInicioDeSesion
             // 
             this.lblInicioDeSesion.AutoSize = true;
-            this.lblInicioDeSesion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInicioDeSesion.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInicioDeSesion.ForeColor = System.Drawing.Color.Gray;
-            this.lblInicioDeSesion.Location = new System.Drawing.Point(280, 31);
+            this.lblInicioDeSesion.Location = new System.Drawing.Point(276, 31);
             this.lblInicioDeSesion.Name = "lblInicioDeSesion";
-            this.lblInicioDeSesion.Size = new System.Drawing.Size(146, 21);
+            this.lblInicioDeSesion.Size = new System.Drawing.Size(172, 25);
             this.lblInicioDeSesion.TabIndex = 5;
             this.lblInicioDeSesion.Text = "INICIO DE SESIÓN";
             this.lblInicioDeSesion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
