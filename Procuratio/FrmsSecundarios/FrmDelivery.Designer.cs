@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblDelivery = new System.Windows.Forms.Label();
             this.dgvDelivery = new System.Windows.Forms.DataGridView();
             this.colID_Delivery = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -73,11 +73,11 @@
             this.lblDelivery.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblDelivery.AutoSize = true;
             this.lblDelivery.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.lblDelivery.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDelivery.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDelivery.ForeColor = System.Drawing.Color.Gray;
-            this.lblDelivery.Location = new System.Drawing.Point(458, 11);
+            this.lblDelivery.Location = new System.Drawing.Point(454, 3);
             this.lblDelivery.Name = "lblDelivery";
-            this.lblDelivery.Size = new System.Drawing.Size(77, 19);
+            this.lblDelivery.Size = new System.Drawing.Size(84, 21);
             this.lblDelivery.TabIndex = 32;
             this.lblDelivery.Text = "DELIVERY";
             // 
@@ -91,14 +91,14 @@
             this.dgvDelivery.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvDelivery.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.dgvDelivery.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDelivery.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDelivery.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvDelivery.ColumnHeadersHeight = 45;
             this.dgvDelivery.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvDelivery.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -119,20 +119,20 @@
             this.dgvDelivery.Location = new System.Drawing.Point(10, 100);
             this.dgvDelivery.Name = "dgvDelivery";
             this.dgvDelivery.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Brown;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDelivery.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDelivery.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvDelivery.RowHeadersVisible = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Brown;
-            this.dgvDelivery.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
+            this.dgvDelivery.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDelivery.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvDelivery.Size = new System.Drawing.Size(750, 464);
             this.dgvDelivery.TabIndex = 33;
@@ -235,7 +235,7 @@
             this.btnAplicarFiltro.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAplicarFiltro.FlatAppearance.BorderSize = 2;
             this.btnAplicarFiltro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAplicarFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAplicarFiltro.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplicarFiltro.ForeColor = System.Drawing.Color.White;
             this.btnAplicarFiltro.Location = new System.Drawing.Point(766, 100);
             this.btnAplicarFiltro.Name = "btnAplicarFiltro";
@@ -253,11 +253,11 @@
             this.ckbIncluirFechaDesde.AutoSize = true;
             this.ckbIncluirFechaDesde.Checked = true;
             this.ckbIncluirFechaDesde.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbIncluirFechaDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbIncluirFechaDesde.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbIncluirFechaDesde.ForeColor = System.Drawing.Color.White;
-            this.ckbIncluirFechaDesde.Location = new System.Drawing.Point(688, 38);
+            this.ckbIncluirFechaDesde.Location = new System.Drawing.Point(692, 33);
             this.ckbIncluirFechaDesde.Name = "ckbIncluirFechaDesde";
-            this.ckbIncluirFechaDesde.Size = new System.Drawing.Size(72, 22);
+            this.ckbIncluirFechaDesde.Size = new System.Drawing.Size(68, 24);
             this.ckbIncluirFechaDesde.TabIndex = 76;
             this.ckbIncluirFechaDesde.Text = "Incluir";
             this.ttpMensajesDeAyuda.SetToolTip(this.ckbIncluirFechaDesde, "Si marca esta opcion, se tomara la fecha seleccionada como inicio para el filtro," +
@@ -272,11 +272,11 @@
             this.ckbIncluirFechaHasta.AutoSize = true;
             this.ckbIncluirFechaHasta.Checked = true;
             this.ckbIncluirFechaHasta.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbIncluirFechaHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbIncluirFechaHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbIncluirFechaHasta.ForeColor = System.Drawing.Color.White;
-            this.ckbIncluirFechaHasta.Location = new System.Drawing.Point(688, 71);
+            this.ckbIncluirFechaHasta.Location = new System.Drawing.Point(692, 66);
             this.ckbIncluirFechaHasta.Name = "ckbIncluirFechaHasta";
-            this.ckbIncluirFechaHasta.Size = new System.Drawing.Size(72, 22);
+            this.ckbIncluirFechaHasta.Size = new System.Drawing.Size(68, 24);
             this.ckbIncluirFechaHasta.TabIndex = 75;
             this.ckbIncluirFechaHasta.Text = "Incluir";
             this.ttpMensajesDeAyuda.SetToolTip(this.ckbIncluirFechaHasta, "Si marca esta opcion, se tomara la fecha seleccionada como fin para el filtro, en" +
@@ -289,11 +289,11 @@
             // 
             this.lblFechaHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFechaHasta.AutoSize = true;
-            this.lblFechaHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaHasta.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblFechaHasta.Location = new System.Drawing.Point(390, 73);
+            this.lblFechaHasta.Location = new System.Drawing.Point(390, 68);
             this.lblFechaHasta.Name = "lblFechaHasta";
-            this.lblFechaHasta.Size = new System.Drawing.Size(57, 18);
+            this.lblFechaHasta.Size = new System.Drawing.Size(50, 20);
             this.lblFechaHasta.TabIndex = 74;
             this.lblFechaHasta.Text = "Hasta:";
             // 
@@ -301,31 +301,32 @@
             // 
             this.lblFechaDesde.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFechaDesde.AutoSize = true;
-            this.lblFechaDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaDesde.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaDesde.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblFechaDesde.Location = new System.Drawing.Point(386, 38);
+            this.lblFechaDesde.Location = new System.Drawing.Point(386, 33);
             this.lblFechaDesde.Name = "lblFechaDesde";
-            this.lblFechaDesde.Size = new System.Drawing.Size(61, 18);
+            this.lblFechaDesde.Size = new System.Drawing.Size(54, 20);
             this.lblFechaDesde.TabIndex = 73;
             this.lblFechaDesde.Text = "Desde:";
             // 
             // lblEstadoDelivery
             // 
             this.lblEstadoDelivery.AutoSize = true;
-            this.lblEstadoDelivery.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstadoDelivery.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadoDelivery.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblEstadoDelivery.Location = new System.Drawing.Point(6, 72);
+            this.lblEstadoDelivery.Location = new System.Drawing.Point(6, 67);
             this.lblEstadoDelivery.Name = "lblEstadoDelivery";
-            this.lblEstadoDelivery.Size = new System.Drawing.Size(138, 18);
+            this.lblEstadoDelivery.Size = new System.Drawing.Size(122, 20);
             this.lblEstadoDelivery.TabIndex = 72;
             this.lblEstadoDelivery.Text = "Estado del envio:";
             // 
             // dtpDechaHasta
             // 
             this.dtpDechaHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpDechaHasta.Location = new System.Drawing.Point(453, 72);
+            this.dtpDechaHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpDechaHasta.Location = new System.Drawing.Point(453, 67);
             this.dtpDechaHasta.Name = "dtpDechaHasta";
-            this.dtpDechaHasta.Size = new System.Drawing.Size(231, 20);
+            this.dtpDechaHasta.Size = new System.Drawing.Size(231, 27);
             this.dtpDechaHasta.TabIndex = 71;
             this.ttpMensajesDeAyuda.SetToolTip(this.dtpDechaHasta, "Filtrar indicando una fecha de fin");
             this.dtpDechaHasta.ValueChanged += new System.EventHandler(this.DtpDechaHasta_ValueChanged);
@@ -333,9 +334,10 @@
             // dtpFechaDesde
             // 
             this.dtpFechaDesde.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpFechaDesde.Location = new System.Drawing.Point(453, 38);
+            this.dtpFechaDesde.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpFechaDesde.Location = new System.Drawing.Point(453, 33);
             this.dtpFechaDesde.Name = "dtpFechaDesde";
-            this.dtpFechaDesde.Size = new System.Drawing.Size(231, 20);
+            this.dtpFechaDesde.Size = new System.Drawing.Size(231, 27);
             this.dtpFechaDesde.TabIndex = 70;
             this.ttpMensajesDeAyuda.SetToolTip(this.dtpFechaDesde, "Filtrar indicando una fecha de inicio");
             this.dtpFechaDesde.ValueChanged += new System.EventHandler(this.DtpFechaDesde_ValueChanged);
@@ -346,12 +348,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbEstadoEnvio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbEstadoEnvio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbEstadoEnvio.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbEstadoEnvio.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbEstadoEnvio.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbEstadoEnvio.FormattingEnabled = true;
-            this.cmbEstadoEnvio.Location = new System.Drawing.Point(150, 68);
+            this.cmbEstadoEnvio.Location = new System.Drawing.Point(150, 63);
             this.cmbEstadoEnvio.Name = "cmbEstadoEnvio";
-            this.cmbEstadoEnvio.Size = new System.Drawing.Size(226, 26);
+            this.cmbEstadoEnvio.Size = new System.Drawing.Size(226, 28);
             this.cmbEstadoEnvio.TabIndex = 69;
             this.cmbEstadoEnvio.Text = "Estado";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbEstadoEnvio, "Filtra por un estado en particular (o todos los estado si se lo indica)");
@@ -362,12 +364,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBuscarPorNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtBuscarPorNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscarPorNombre.ForeColor = System.Drawing.Color.DimGray;
-            this.txtBuscarPorNombre.Location = new System.Drawing.Point(37, 36);
+            this.txtBuscarPorNombre.Location = new System.Drawing.Point(37, 31);
             this.txtBuscarPorNombre.MaxLength = 100;
             this.txtBuscarPorNombre.Name = "txtBuscarPorNombre";
-            this.txtBuscarPorNombre.Size = new System.Drawing.Size(339, 26);
+            this.txtBuscarPorNombre.Size = new System.Drawing.Size(339, 27);
             this.txtBuscarPorNombre.TabIndex = 68;
             this.txtBuscarPorNombre.Text = "Buscar por nombre de cliente...";
             this.ttpMensajesDeAyuda.SetToolTip(this.txtBuscarPorNombre, "Filtra por el nombre de un cliente");
@@ -379,9 +381,9 @@
             this.picLupa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.picLupa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picLupa.Image = global::Procuratio.Properties.Resources.Lupa;
-            this.picLupa.Location = new System.Drawing.Point(9, 36);
+            this.picLupa.Location = new System.Drawing.Point(9, 31);
             this.picLupa.Name = "picLupa";
-            this.picLupa.Size = new System.Drawing.Size(29, 26);
+            this.picLupa.Size = new System.Drawing.Size(29, 27);
             this.picLupa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLupa.TabIndex = 77;
             this.picLupa.TabStop = false;
@@ -393,11 +395,11 @@
             this.btnVerDeliveriesNoEntregados.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerDeliveriesNoEntregados.FlatAppearance.BorderSize = 2;
             this.btnVerDeliveriesNoEntregados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerDeliveriesNoEntregados.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerDeliveriesNoEntregados.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerDeliveriesNoEntregados.ForeColor = System.Drawing.Color.White;
             this.btnVerDeliveriesNoEntregados.Location = new System.Drawing.Point(766, 156);
             this.btnVerDeliveriesNoEntregados.Name = "btnVerDeliveriesNoEntregados";
-            this.btnVerDeliveriesNoEntregados.Size = new System.Drawing.Size(160, 51);
+            this.btnVerDeliveriesNoEntregados.Size = new System.Drawing.Size(160, 91);
             this.btnVerDeliveriesNoEntregados.TabIndex = 78;
             this.btnVerDeliveriesNoEntregados.Text = "Ver deliveries no entregados de ayer en adelante";
             this.btnVerDeliveriesNoEntregados.UseVisualStyleBackColor = false;
@@ -412,9 +414,9 @@
             this.btnCrearDelivery.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCrearDelivery.FlatAppearance.BorderSize = 2;
             this.btnCrearDelivery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearDelivery.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearDelivery.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearDelivery.ForeColor = System.Drawing.Color.White;
-            this.btnCrearDelivery.Location = new System.Drawing.Point(766, 212);
+            this.btnCrearDelivery.Location = new System.Drawing.Point(766, 253);
             this.btnCrearDelivery.Name = "btnCrearDelivery";
             this.btnCrearDelivery.Size = new System.Drawing.Size(160, 50);
             this.btnCrearDelivery.TabIndex = 79;
@@ -431,11 +433,11 @@
             this.btnDeliveryNoRecibido.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDeliveryNoRecibido.FlatAppearance.BorderSize = 2;
             this.btnDeliveryNoRecibido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeliveryNoRecibido.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeliveryNoRecibido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeliveryNoRecibido.ForeColor = System.Drawing.Color.White;
-            this.btnDeliveryNoRecibido.Location = new System.Drawing.Point(766, 498);
+            this.btnDeliveryNoRecibido.Location = new System.Drawing.Point(766, 452);
             this.btnDeliveryNoRecibido.Name = "btnDeliveryNoRecibido";
-            this.btnDeliveryNoRecibido.Size = new System.Drawing.Size(160, 30);
+            this.btnDeliveryNoRecibido.Size = new System.Drawing.Size(160, 53);
             this.btnDeliveryNoRecibido.TabIndex = 82;
             this.btnDeliveryNoRecibido.Text = "Delivery no entregado";
             this.btnDeliveryNoRecibido.UseVisualStyleBackColor = false;
@@ -450,11 +452,11 @@
             this.btnDeliveryEntregado.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDeliveryEntregado.FlatAppearance.BorderSize = 2;
             this.btnDeliveryEntregado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDeliveryEntregado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeliveryEntregado.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeliveryEntregado.ForeColor = System.Drawing.Color.White;
-            this.btnDeliveryEntregado.Location = new System.Drawing.Point(766, 462);
+            this.btnDeliveryEntregado.Location = new System.Drawing.Point(766, 393);
             this.btnDeliveryEntregado.Name = "btnDeliveryEntregado";
-            this.btnDeliveryEntregado.Size = new System.Drawing.Size(160, 30);
+            this.btnDeliveryEntregado.Size = new System.Drawing.Size(160, 53);
             this.btnDeliveryEntregado.TabIndex = 81;
             this.btnDeliveryEntregado.Text = "Delivery entregado";
             this.btnDeliveryEntregado.UseVisualStyleBackColor = false;
@@ -469,11 +471,11 @@
             this.btnEliminarElementos.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminarElementos.FlatAppearance.BorderSize = 2;
             this.btnEliminarElementos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarElementos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarElementos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarElementos.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarElementos.Location = new System.Drawing.Point(766, 534);
+            this.btnEliminarElementos.Location = new System.Drawing.Point(766, 511);
             this.btnEliminarElementos.Name = "btnEliminarElementos";
-            this.btnEliminarElementos.Size = new System.Drawing.Size(160, 30);
+            this.btnEliminarElementos.Size = new System.Drawing.Size(160, 53);
             this.btnEliminarElementos.TabIndex = 80;
             this.btnEliminarElementos.Text = "Eliminar Delivery";
             this.btnEliminarElementos.UseVisualStyleBackColor = false;

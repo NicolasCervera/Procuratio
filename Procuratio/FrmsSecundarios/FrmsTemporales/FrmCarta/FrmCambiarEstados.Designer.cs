@@ -97,7 +97,7 @@
             this.grbUsuarios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.grbUsuarios.Controls.Add(this.rbnelementosInactivos);
             this.grbUsuarios.Controls.Add(this.rbnElementosActivos);
-            this.grbUsuarios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.grbUsuarios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbUsuarios.ForeColor = System.Drawing.Color.Gray;
             this.grbUsuarios.Location = new System.Drawing.Point(1082, 505);
             this.grbUsuarios.Name = "grbUsuarios";
@@ -109,11 +109,11 @@
             // rbnelementosInactivos
             // 
             this.rbnelementosInactivos.AutoSize = true;
-            this.rbnelementosInactivos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnelementosInactivos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnelementosInactivos.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.rbnelementosInactivos.Location = new System.Drawing.Point(6, 54);
+            this.rbnelementosInactivos.Location = new System.Drawing.Point(6, 51);
             this.rbnelementosInactivos.Name = "rbnelementosInactivos";
-            this.rbnelementosInactivos.Size = new System.Drawing.Size(93, 22);
+            this.rbnelementosInactivos.Size = new System.Drawing.Size(85, 24);
             this.rbnelementosInactivos.TabIndex = 33;
             this.rbnelementosInactivos.Text = "Inactivos";
             this.rbnelementosInactivos.UseVisualStyleBackColor = true;
@@ -123,11 +123,11 @@
             // 
             this.rbnElementosActivos.AutoSize = true;
             this.rbnElementosActivos.Checked = true;
-            this.rbnElementosActivos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnElementosActivos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnElementosActivos.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.rbnElementosActivos.Location = new System.Drawing.Point(6, 26);
+            this.rbnElementosActivos.Location = new System.Drawing.Point(6, 23);
             this.rbnElementosActivos.Name = "rbnElementosActivos";
-            this.rbnElementosActivos.Size = new System.Drawing.Size(81, 22);
+            this.rbnElementosActivos.Size = new System.Drawing.Size(75, 24);
             this.rbnElementosActivos.TabIndex = 32;
             this.rbnElementosActivos.TabStop = true;
             this.rbnElementosActivos.Text = "Activos";
@@ -141,11 +141,11 @@
             this.btnEliminarElementos.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminarElementos.FlatAppearance.BorderSize = 2;
             this.btnEliminarElementos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarElementos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarElementos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarElementos.ForeColor = System.Drawing.Color.White;
             this.btnEliminarElementos.Location = new System.Drawing.Point(1082, 69);
             this.btnEliminarElementos.Name = "btnEliminarElementos";
-            this.btnEliminarElementos.Size = new System.Drawing.Size(160, 50);
+            this.btnEliminarElementos.Size = new System.Drawing.Size(160, 61);
             this.btnEliminarElementos.TabIndex = 77;
             this.btnEliminarElementos.Text = "Eliminar elementos seleccionados";
             this.btnEliminarElementos.UseVisualStyleBackColor = false;
@@ -177,11 +177,11 @@
             // 
             this.lblCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoria.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategoria.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCategoria.Location = new System.Drawing.Point(392, 41);
+            this.lblCategoria.Location = new System.Drawing.Point(411, 41);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(162, 18);
+            this.lblCategoria.Size = new System.Drawing.Size(144, 20);
             this.lblCategoria.TabIndex = 76;
             this.lblCategoria.Text = "Filtrar por categoria:";
             // 
@@ -190,14 +190,14 @@
             this.cmbCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbCategoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbCategoria.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategoria.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbCategoria.FormattingEnabled = true;
             this.cmbCategoria.Items.AddRange(new object[] {
             "Todas las categorias"});
             this.cmbCategoria.Location = new System.Drawing.Point(558, 37);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(250, 26);
+            this.cmbCategoria.Size = new System.Drawing.Size(250, 28);
             this.cmbCategoria.TabIndex = 75;
             this.cmbCategoria.Text = "Todas las categorias";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbCategoria, "Filtrar por categoria");
@@ -210,7 +210,7 @@
             this.picLupa.Image = global::Procuratio.Properties.Resources.Lupa;
             this.picLupa.Location = new System.Drawing.Point(11, 37);
             this.picLupa.Name = "picLupa";
-            this.picLupa.Size = new System.Drawing.Size(30, 26);
+            this.picLupa.Size = new System.Drawing.Size(30, 27);
             this.picLupa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLupa.TabIndex = 74;
             this.picLupa.TabStop = false;
@@ -221,12 +221,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBuscarPorNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtBuscarPorNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscarPorNombre.ForeColor = System.Drawing.Color.DimGray;
             this.txtBuscarPorNombre.Location = new System.Drawing.Point(40, 37);
             this.txtBuscarPorNombre.MaxLength = 100;
             this.txtBuscarPorNombre.Name = "txtBuscarPorNombre";
-            this.txtBuscarPorNombre.Size = new System.Drawing.Size(346, 26);
+            this.txtBuscarPorNombre.Size = new System.Drawing.Size(346, 27);
             this.txtBuscarPorNombre.TabIndex = 73;
             this.txtBuscarPorNombre.Text = "Buscar por nombre de articulo...";
             this.ttpMensajesDeAyuda.SetToolTip(this.txtBuscarPorNombre, "Filtrar por nombre de articulo");
@@ -247,7 +247,7 @@
             this.dgvEstadoCategoria.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -267,7 +267,7 @@
             this.dgvEstadoCategoria.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -275,7 +275,7 @@
             this.dgvEstadoCategoria.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvEstadoCategoria.RowHeadersVisible = false;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvEstadoCategoria.RowsDefaultCellStyle = dataGridViewCellStyle3;
@@ -330,7 +330,7 @@
             this.dgvEstadoArticulo.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -353,7 +353,7 @@
             this.dgvEstadoArticulo.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -361,7 +361,7 @@
             this.dgvEstadoArticulo.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvEstadoArticulo.RowHeadersVisible = false;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvEstadoArticulo.RowsDefaultCellStyle = dataGridViewCellStyle6;
@@ -434,7 +434,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(275, 30);

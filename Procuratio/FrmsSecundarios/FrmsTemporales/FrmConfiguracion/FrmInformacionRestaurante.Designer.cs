@@ -88,7 +88,8 @@
             // PnlDecorativo5
             // 
             this.PnlDecorativo5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlDecorativo5.Location = new System.Drawing.Point(161, 192);
+            this.PnlDecorativo5.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PnlDecorativo5.Location = new System.Drawing.Point(148, 192);
             this.PnlDecorativo5.Name = "PnlDecorativo5";
             this.PnlDecorativo5.Size = new System.Drawing.Size(318, 2);
             this.PnlDecorativo5.TabIndex = 59;
@@ -97,13 +98,13 @@
             // 
             this.TxtTelefonoDos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.TxtTelefonoDos.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtTelefonoDos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtTelefonoDos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtTelefonoDos.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtTelefonoDos.Location = new System.Drawing.Point(161, 173);
+            this.TxtTelefonoDos.Location = new System.Drawing.Point(148, 173);
             this.TxtTelefonoDos.MaxLength = 11;
             this.TxtTelefonoDos.Name = "TxtTelefonoDos";
             this.TxtTelefonoDos.ShortcutsEnabled = false;
-            this.TxtTelefonoDos.Size = new System.Drawing.Size(318, 19);
+            this.TxtTelefonoDos.Size = new System.Drawing.Size(318, 20);
             this.TxtTelefonoDos.TabIndex = 58;
             this.TxtTelefonoDos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTelefonoDos_KeyPress);
             // 
@@ -113,18 +114,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTelefonoDos.AutoSize = true;
-            this.lblTelefonoDos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefonoDos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefonoDos.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblTelefonoDos.Location = new System.Drawing.Point(4, 173);
             this.lblTelefonoDos.Name = "lblTelefonoDos";
-            this.lblTelefonoDos.Size = new System.Drawing.Size(155, 18);
+            this.lblTelefonoDos.Size = new System.Drawing.Size(134, 20);
             this.lblTelefonoDos.TabIndex = 57;
             this.lblTelefonoDos.Text = "Tel. dos (opcional):";
             // 
             // PnlDecorativo4
             // 
             this.PnlDecorativo4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlDecorativo4.Location = new System.Drawing.Point(161, 161);
+            this.PnlDecorativo4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PnlDecorativo4.Location = new System.Drawing.Point(148, 161);
             this.PnlDecorativo4.Name = "PnlDecorativo4";
             this.PnlDecorativo4.Size = new System.Drawing.Size(318, 2);
             this.PnlDecorativo4.TabIndex = 56;
@@ -133,13 +135,13 @@
             // 
             this.TxtTelefonoUno.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.TxtTelefonoUno.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtTelefonoUno.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtTelefonoUno.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtTelefonoUno.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtTelefonoUno.Location = new System.Drawing.Point(161, 142);
+            this.TxtTelefonoUno.Location = new System.Drawing.Point(148, 142);
             this.TxtTelefonoUno.MaxLength = 11;
             this.TxtTelefonoUno.Name = "TxtTelefonoUno";
             this.TxtTelefonoUno.ShortcutsEnabled = false;
-            this.TxtTelefonoUno.Size = new System.Drawing.Size(318, 19);
+            this.TxtTelefonoUno.Size = new System.Drawing.Size(318, 20);
             this.TxtTelefonoUno.TabIndex = 55;
             this.TxtTelefonoUno.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTelefonoUno_KeyPress);
             // 
@@ -149,18 +151,19 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTelefonoUno.AutoSize = true;
-            this.lblTelefonoUno.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefonoUno.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefonoUno.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTelefonoUno.Location = new System.Drawing.Point(85, 142);
+            this.lblTelefonoUno.Location = new System.Drawing.Point(4, 142);
             this.lblTelefonoUno.Name = "lblTelefonoUno";
-            this.lblTelefonoUno.Size = new System.Drawing.Size(74, 18);
+            this.lblTelefonoUno.Size = new System.Drawing.Size(63, 20);
             this.lblTelefonoUno.TabIndex = 54;
             this.lblTelefonoUno.Text = "Tel. uno:";
             // 
             // PnlDecorativo3
             // 
             this.PnlDecorativo3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlDecorativo3.Location = new System.Drawing.Point(161, 130);
+            this.PnlDecorativo3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PnlDecorativo3.Location = new System.Drawing.Point(148, 130);
             this.PnlDecorativo3.Name = "PnlDecorativo3";
             this.PnlDecorativo3.Size = new System.Drawing.Size(318, 2);
             this.PnlDecorativo3.TabIndex = 51;
@@ -169,19 +172,20 @@
             // 
             this.TxtEslogan.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.TxtEslogan.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtEslogan.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtEslogan.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtEslogan.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtEslogan.Location = new System.Drawing.Point(161, 111);
+            this.TxtEslogan.Location = new System.Drawing.Point(148, 111);
             this.TxtEslogan.MaxLength = 24;
             this.TxtEslogan.Name = "TxtEslogan";
             this.TxtEslogan.ShortcutsEnabled = false;
-            this.TxtEslogan.Size = new System.Drawing.Size(318, 19);
+            this.TxtEslogan.Size = new System.Drawing.Size(318, 20);
             this.TxtEslogan.TabIndex = 50;
             // 
             // PnlDecorativo1
             // 
             this.PnlDecorativo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.PnlDecorativo1.Location = new System.Drawing.Point(161, 100);
+            this.PnlDecorativo1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PnlDecorativo1.Location = new System.Drawing.Point(148, 100);
             this.PnlDecorativo1.Name = "PnlDecorativo1";
             this.PnlDecorativo1.Size = new System.Drawing.Size(318, 2);
             this.PnlDecorativo1.TabIndex = 48;
@@ -192,11 +196,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEslogan.AutoSize = true;
-            this.lblEslogan.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEslogan.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEslogan.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblEslogan.Location = new System.Drawing.Point(3, 112);
+            this.lblEslogan.Location = new System.Drawing.Point(4, 112);
             this.lblEslogan.Name = "lblEslogan";
-            this.lblEslogan.Size = new System.Drawing.Size(155, 18);
+            this.lblEslogan.Size = new System.Drawing.Size(136, 20);
             this.lblEslogan.TabIndex = 49;
             this.lblEslogan.Text = "Eslogan (opcional):";
             // 
@@ -204,19 +208,20 @@
             // 
             this.TxtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.TxtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.TxtDireccion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtDireccion.ForeColor = System.Drawing.Color.DarkGray;
-            this.TxtDireccion.Location = new System.Drawing.Point(161, 81);
+            this.TxtDireccion.Location = new System.Drawing.Point(148, 81);
             this.TxtDireccion.MaxLength = 35;
             this.TxtDireccion.Name = "TxtDireccion";
             this.TxtDireccion.ShortcutsEnabled = false;
-            this.TxtDireccion.Size = new System.Drawing.Size(318, 19);
+            this.TxtDireccion.Size = new System.Drawing.Size(318, 20);
             this.TxtDireccion.TabIndex = 47;
             // 
             // pnlDecorativo2
             // 
             this.pnlDecorativo2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo2.Location = new System.Drawing.Point(161, 70);
+            this.pnlDecorativo2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlDecorativo2.Location = new System.Drawing.Point(148, 70);
             this.pnlDecorativo2.Name = "pnlDecorativo2";
             this.pnlDecorativo2.Size = new System.Drawing.Size(318, 2);
             this.pnlDecorativo2.TabIndex = 45;
@@ -227,11 +232,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDireccion.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblDireccion.Location = new System.Drawing.Point(74, 81);
+            this.lblDireccion.Location = new System.Drawing.Point(4, 81);
             this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(85, 18);
+            this.lblDireccion.Size = new System.Drawing.Size(75, 20);
             this.lblDireccion.TabIndex = 46;
             this.lblDireccion.Text = "Direccion:";
             // 
@@ -240,14 +245,14 @@
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNombre.Enabled = false;
-            this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtNombre.Location = new System.Drawing.Point(161, 51);
+            this.txtNombre.Location = new System.Drawing.Point(148, 51);
             this.txtNombre.MaxLength = 25;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.ReadOnly = true;
             this.txtNombre.ShortcutsEnabled = false;
-            this.txtNombre.Size = new System.Drawing.Size(318, 19);
+            this.txtNombre.Size = new System.Drawing.Size(318, 20);
             this.txtNombre.TabIndex = 39;
             // 
             // lblNombre
@@ -256,11 +261,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNombre.Location = new System.Drawing.Point(86, 51);
+            this.lblNombre.Location = new System.Drawing.Point(4, 51);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(73, 18);
+            this.lblNombre.Size = new System.Drawing.Size(67, 20);
             this.lblNombre.TabIndex = 34;
             this.lblNombre.Text = "Nombre:";
             // 
@@ -293,7 +298,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
@@ -335,9 +340,9 @@
             this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnGuardarCambios.FlatAppearance.BorderSize = 2;
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardarCambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCambios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCambios.Location = new System.Drawing.Point(319, 209);
+            this.btnGuardarCambios.Location = new System.Drawing.Point(306, 213);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
             this.btnGuardarCambios.Size = new System.Drawing.Size(160, 50);
             this.btnGuardarCambios.TabIndex = 53;

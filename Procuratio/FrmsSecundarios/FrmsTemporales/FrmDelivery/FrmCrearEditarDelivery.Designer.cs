@@ -89,11 +89,11 @@
             this.btnCrearDelivery.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCrearDelivery.FlatAppearance.BorderSize = 2;
             this.btnCrearDelivery.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearDelivery.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearDelivery.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearDelivery.ForeColor = System.Drawing.Color.White;
-            this.btnCrearDelivery.Location = new System.Drawing.Point(855, 260);
+            this.btnCrearDelivery.Location = new System.Drawing.Point(855, 251);
             this.btnCrearDelivery.Name = "btnCrearDelivery";
-            this.btnCrearDelivery.Size = new System.Drawing.Size(160, 50);
+            this.btnCrearDelivery.Size = new System.Drawing.Size(160, 58);
             this.btnCrearDelivery.TabIndex = 69;
             this.btnCrearDelivery.Text = "Crear delivery";
             this.btnCrearDelivery.UseVisualStyleBackColor = false;
@@ -125,11 +125,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMostrarTelefono.AutoSize = true;
-            this.lblMostrarTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarTelefono.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblMostrarTelefono.Location = new System.Drawing.Point(82, 108);
+            this.lblMostrarTelefono.Location = new System.Drawing.Point(76, 108);
             this.lblMostrarTelefono.Name = "lblMostrarTelefono";
-            this.lblMostrarTelefono.Size = new System.Drawing.Size(74, 18);
+            this.lblMostrarTelefono.Size = new System.Drawing.Size(67, 20);
             this.lblMostrarTelefono.TabIndex = 75;
             this.lblMostrarTelefono.Text = "Telefono";
             this.lblMostrarTelefono.Visible = false;
@@ -140,11 +140,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMostrarApellido.AutoSize = true;
-            this.lblMostrarApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarApellido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblMostrarApellido.Location = new System.Drawing.Point(82, 78);
+            this.lblMostrarApellido.Location = new System.Drawing.Point(76, 78);
             this.lblMostrarApellido.Name = "lblMostrarApellido";
-            this.lblMostrarApellido.Size = new System.Drawing.Size(67, 18);
+            this.lblMostrarApellido.Size = new System.Drawing.Size(66, 20);
             this.lblMostrarApellido.TabIndex = 74;
             this.lblMostrarApellido.Text = "Apellido";
             this.lblMostrarApellido.Visible = false;
@@ -155,11 +155,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblMostrarNombre.AutoSize = true;
-            this.lblMostrarNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblMostrarNombre.Location = new System.Drawing.Point(81, 47);
+            this.lblMostrarNombre.Location = new System.Drawing.Point(76, 47);
             this.lblMostrarNombre.Name = "lblMostrarNombre";
-            this.lblMostrarNombre.Size = new System.Drawing.Size(68, 18);
+            this.lblMostrarNombre.Size = new System.Drawing.Size(64, 20);
             this.lblMostrarNombre.TabIndex = 73;
             this.lblMostrarNombre.Text = "Nombre";
             this.lblMostrarNombre.Visible = false;
@@ -168,11 +168,11 @@
             // 
             this.lblDatosDelCliente.AutoSize = true;
             this.lblDatosDelCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.lblDatosDelCliente.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDatosDelCliente.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDatosDelCliente.ForeColor = System.Drawing.Color.Gray;
             this.lblDatosDelCliente.Location = new System.Drawing.Point(67, 8);
             this.lblDatosDelCliente.Name = "lblDatosDelCliente";
-            this.lblDatosDelCliente.Size = new System.Drawing.Size(152, 19);
+            this.lblDatosDelCliente.Size = new System.Drawing.Size(161, 21);
             this.lblDatosDelCliente.TabIndex = 63;
             this.lblDatosDelCliente.Text = "DATOS DEL CLIENTE";
             // 
@@ -182,11 +182,11 @@
             this.btnCargarCliente.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCargarCliente.FlatAppearance.BorderSize = 2;
             this.btnCargarCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCargarCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCargarCliente.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCargarCliente.ForeColor = System.Drawing.Color.White;
-            this.btnCargarCliente.Location = new System.Drawing.Point(63, 207);
+            this.btnCargarCliente.Location = new System.Drawing.Point(63, 193);
             this.btnCargarCliente.Name = "btnCargarCliente";
-            this.btnCargarCliente.Size = new System.Drawing.Size(160, 50);
+            this.btnCargarCliente.Size = new System.Drawing.Size(160, 64);
             this.btnCargarCliente.TabIndex = 62;
             this.btnCargarCliente.Text = "Buscar y cargar cliente";
             this.btnCargarCliente.UseVisualStyleBackColor = false;
@@ -200,11 +200,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNombre.Location = new System.Drawing.Point(12, 47);
+            this.lblNombre.Location = new System.Drawing.Point(5, 47);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(73, 18);
+            this.lblNombre.Size = new System.Drawing.Size(67, 20);
             this.lblNombre.TabIndex = 45;
             this.lblNombre.Text = "Nombre:";
             // 
@@ -214,11 +214,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefono.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblTelefono.Location = new System.Drawing.Point(5, 108);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(79, 18);
+            this.lblTelefono.Size = new System.Drawing.Size(70, 20);
             this.lblTelefono.TabIndex = 47;
             this.lblTelefono.Text = "Telefono:";
             // 
@@ -228,11 +228,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblApellido.Location = new System.Drawing.Point(11, 78);
+            this.lblApellido.Location = new System.Drawing.Point(5, 78);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(72, 18);
+            this.lblApellido.Size = new System.Drawing.Size(69, 20);
             this.lblApellido.TabIndex = 53;
             this.lblApellido.Text = "Apellido:";
             // 
@@ -264,11 +264,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblChef.AutoSize = true;
-            this.lblChef.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChef.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChef.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblChef.Location = new System.Drawing.Point(214, 142);
+            this.lblChef.Location = new System.Drawing.Point(42, 142);
             this.lblChef.Name = "lblChef";
-            this.lblChef.Size = new System.Drawing.Size(48, 18);
+            this.lblChef.Size = new System.Drawing.Size(42, 20);
             this.lblChef.TabIndex = 77;
             this.lblChef.Text = "Chef:";
             // 
@@ -277,7 +277,7 @@
             this.txtDireccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtDireccion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDireccion.Enabled = false;
-            this.txtDireccion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDireccion.ForeColor = System.Drawing.Color.DarkGray;
             this.txtDireccion.Location = new System.Drawing.Point(266, 65);
             this.txtDireccion.MaxLength = 30;
@@ -293,12 +293,12 @@
             this.cmbNombreChef.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbNombreChef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbNombreChef.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbNombreChef.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbNombreChef.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbNombreChef.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbNombreChef.FormattingEnabled = true;
             this.cmbNombreChef.Location = new System.Drawing.Point(266, 139);
             this.cmbNombreChef.Name = "cmbNombreChef";
-            this.cmbNombreChef.Size = new System.Drawing.Size(270, 26);
+            this.cmbNombreChef.Size = new System.Drawing.Size(270, 28);
             this.cmbNombreChef.TabIndex = 76;
             this.cmbNombreChef.Text = "Nombre del chef";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbNombreChef, "Chef que preparara el pedido");
@@ -310,11 +310,11 @@
             this.ckbRetiraEnElLocal.AutoSize = true;
             this.ckbRetiraEnElLocal.Checked = true;
             this.ckbRetiraEnElLocal.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbRetiraEnElLocal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbRetiraEnElLocal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbRetiraEnElLocal.ForeColor = System.Drawing.Color.White;
             this.ckbRetiraEnElLocal.Location = new System.Drawing.Point(266, 37);
             this.ckbRetiraEnElLocal.Name = "ckbRetiraEnElLocal";
-            this.ckbRetiraEnElLocal.Size = new System.Drawing.Size(227, 22);
+            this.ckbRetiraEnElLocal.Size = new System.Drawing.Size(207, 24);
             this.ckbRetiraEnElLocal.TabIndex = 75;
             this.ckbRetiraEnElLocal.Text = "Retira el pedido en el local";
             this.ttpMensajesDeAyuda.SetToolTip(this.ckbRetiraEnElLocal, "Si marca esta opcion, no debera especificar la direccion de envio ya que se retir" +
@@ -326,12 +326,12 @@
             // 
             this.txtTelefonoCadete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtTelefonoCadete.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTelefonoCadete.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTelefonoCadete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTelefonoCadete.ForeColor = System.Drawing.Color.DarkGray;
             this.txtTelefonoCadete.Location = new System.Drawing.Point(266, 174);
             this.txtTelefonoCadete.MaxLength = 20;
             this.txtTelefonoCadete.Name = "txtTelefonoCadete";
-            this.txtTelefonoCadete.Size = new System.Drawing.Size(270, 19);
+            this.txtTelefonoCadete.Size = new System.Drawing.Size(270, 20);
             this.txtTelefonoCadete.TabIndex = 74;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtTelefonoCadete, "Telefono del cadete opcional para una rapida llamada si ocurre un problema con el" +
         " envio");
@@ -351,11 +351,11 @@
             this.btnVerEditarPedido.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerEditarPedido.FlatAppearance.BorderSize = 2;
             this.btnVerEditarPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerEditarPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerEditarPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerEditarPedido.ForeColor = System.Drawing.Color.White;
             this.btnVerEditarPedido.Location = new System.Drawing.Point(264, 206);
             this.btnVerEditarPedido.Name = "btnVerEditarPedido";
-            this.btnVerEditarPedido.Size = new System.Drawing.Size(160, 50);
+            this.btnVerEditarPedido.Size = new System.Drawing.Size(189, 50);
             this.btnVerEditarPedido.TabIndex = 68;
             this.btnVerEditarPedido.Text = "Ver y/o editar el pedido";
             this.btnVerEditarPedido.UseVisualStyleBackColor = false;
@@ -369,11 +369,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPedido.AutoSize = true;
-            this.lblPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPedido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPedido.Location = new System.Drawing.Point(198, 221);
+            this.lblPedido.Location = new System.Drawing.Point(42, 221);
             this.lblPedido.Name = "lblPedido";
-            this.lblPedido.Size = new System.Drawing.Size(60, 18);
+            this.lblPedido.Size = new System.Drawing.Size(55, 20);
             this.lblPedido.TabIndex = 67;
             this.lblPedido.Text = "Pedido";
             // 
@@ -383,11 +383,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTelefonoCadete.AutoSize = true;
-            this.lblTelefonoCadete.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefonoCadete.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefonoCadete.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTelefonoCadete.Location = new System.Drawing.Point(20, 174);
+            this.lblTelefonoCadete.Location = new System.Drawing.Point(42, 174);
             this.lblTelefonoCadete.Name = "lblTelefonoCadete";
-            this.lblTelefonoCadete.Size = new System.Drawing.Size(242, 18);
+            this.lblTelefonoCadete.Size = new System.Drawing.Size(216, 20);
             this.lblTelefonoCadete.TabIndex = 65;
             this.lblTelefonoCadete.Text = "Telefono del cadete (opcional):";
             // 
@@ -397,11 +397,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDireccion.AutoSize = true;
-            this.lblDireccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDireccion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDireccion.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblDireccion.Location = new System.Drawing.Point(103, 65);
+            this.lblDireccion.Location = new System.Drawing.Point(42, 65);
             this.lblDireccion.Name = "lblDireccion";
-            this.lblDireccion.Size = new System.Drawing.Size(157, 18);
+            this.lblDireccion.Size = new System.Drawing.Size(140, 20);
             this.lblDireccion.TabIndex = 64;
             this.lblDireccion.Text = "Direccion del envio:";
             // 
@@ -409,11 +409,11 @@
             // 
             this.lblDatosDeLaReserva.AutoSize = true;
             this.lblDatosDeLaReserva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.lblDatosDeLaReserva.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDatosDeLaReserva.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDatosDeLaReserva.ForeColor = System.Drawing.Color.Gray;
             this.lblDatosDeLaReserva.Location = new System.Drawing.Point(168, 8);
             this.lblDatosDeLaReserva.Name = "lblDatosDeLaReserva";
-            this.lblDatosDeLaReserva.Size = new System.Drawing.Size(162, 19);
+            this.lblDatosDeLaReserva.Size = new System.Drawing.Size(172, 21);
             this.lblDatosDeLaReserva.TabIndex = 64;
             this.lblDatosDeLaReserva.Text = "DATOS DEL DELIVERY";
             // 
@@ -434,7 +434,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
@@ -487,11 +487,11 @@
             this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnGuardarCambios.FlatAppearance.BorderSize = 2;
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardarCambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCambios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.White;
-            this.btnGuardarCambios.Location = new System.Drawing.Point(855, 259);
+            this.btnGuardarCambios.Location = new System.Drawing.Point(855, 251);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
-            this.btnGuardarCambios.Size = new System.Drawing.Size(160, 50);
+            this.btnGuardarCambios.Size = new System.Drawing.Size(160, 58);
             this.btnGuardarCambios.TabIndex = 68;
             this.btnGuardarCambios.Text = "Guardar cambios";
             this.btnGuardarCambios.UseVisualStyleBackColor = false;

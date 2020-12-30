@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlContenedorFrm = new System.Windows.Forms.Panel();
             this.cmbMesas = new System.Windows.Forms.ComboBox();
             this.lblNumeroPedido = new System.Windows.Forms.Label();
@@ -58,7 +58,6 @@
             this.grbEgresoIngreso = new System.Windows.Forms.GroupBox();
             this.rbnEgreso = new System.Windows.Forms.RadioButton();
             this.rbnIngreso = new System.Windows.Forms.RadioButton();
-            this.btnRegistrarPago = new System.Windows.Forms.Button();
             this.txtPago = new System.Windows.Forms.TextBox();
             this.pnlDecorativo1 = new System.Windows.Forms.Panel();
             this.lblPago = new System.Windows.Forms.Label();
@@ -66,13 +65,14 @@
             this.lblTotal = new System.Windows.Forms.Label();
             this.lblMostratTotal = new System.Windows.Forms.Label();
             this.lblMostrarVuelto = new System.Windows.Forms.Label();
+            this.btnRegistrarPago = new System.Windows.Forms.Button();
+            this.btnCerrarPreCuenta = new System.Windows.Forms.Button();
             this.pnlBarraDeArrastre = new System.Windows.Forms.Panel();
             this.lblTituloFrm = new System.Windows.Forms.Label();
             this.picBTNCerrar = new System.Windows.Forms.PictureBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.ttpMensajesDeAyuda = new System.Windows.Forms.ToolTip(this.components);
             this.PtdImprimirTicket = new System.Drawing.Printing.PrintDocument();
-            this.btnCerrarPreCuenta = new System.Windows.Forms.Button();
             this.pnlContenedorFrm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulosPedido)).BeginInit();
             this.pnlContenedorResumen.SuspendLayout();
@@ -102,12 +102,12 @@
             // 
             this.cmbMesas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbMesas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbMesas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbMesas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMesas.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbMesas.FormattingEnabled = true;
             this.cmbMesas.Location = new System.Drawing.Point(11, 37);
             this.cmbMesas.Name = "cmbMesas";
-            this.cmbMesas.Size = new System.Drawing.Size(80, 26);
+            this.cmbMesas.Size = new System.Drawing.Size(80, 28);
             this.cmbMesas.TabIndex = 72;
             this.cmbMesas.Text = "Mesas";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbMesas, "Ver las mesas del pedido");
@@ -115,11 +115,11 @@
             // lblNumeroPedido
             // 
             this.lblNumeroPedido.AutoSize = true;
-            this.lblNumeroPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumeroPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumeroPedido.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblNumeroPedido.Location = new System.Drawing.Point(97, 42);
             this.lblNumeroPedido.Name = "lblNumeroPedido";
-            this.lblNumeroPedido.Size = new System.Drawing.Size(89, 18);
+            this.lblNumeroPedido.Size = new System.Drawing.Size(79, 20);
             this.lblNumeroPedido.TabIndex = 47;
             this.lblNumeroPedido.Text = "Pedido N°:";
             // 
@@ -134,14 +134,14 @@
             this.dgvArticulosPedido.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvArticulosPedido.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.dgvArticulosPedido.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvArticulosPedido.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvArticulosPedido.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvArticulosPedido.ColumnHeadersHeight = 45;
             this.dgvArticulosPedido.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvArticulosPedido.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -155,20 +155,20 @@
             this.dgvArticulosPedido.Location = new System.Drawing.Point(11, 69);
             this.dgvArticulosPedido.Name = "dgvArticulosPedido";
             this.dgvArticulosPedido.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Brown;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvArticulosPedido.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvArticulosPedido.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvArticulosPedido.RowHeadersVisible = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Brown;
-            this.dgvArticulosPedido.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
+            this.dgvArticulosPedido.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvArticulosPedido.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvArticulosPedido.Size = new System.Drawing.Size(776, 353);
             this.dgvArticulosPedido.TabIndex = 25;
@@ -195,7 +195,7 @@
             this.colCantidad.HeaderText = "Cantidad";
             this.colCantidad.Name = "colCantidad";
             this.colCantidad.ReadOnly = true;
-            this.colCantidad.Width = 87;
+            this.colCantidad.Width = 83;
             // 
             // colPrecioUnitario
             // 
@@ -250,11 +250,11 @@
             this.chkRedondearPrecio.AutoSize = true;
             this.chkRedondearPrecio.Checked = true;
             this.chkRedondearPrecio.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkRedondearPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.chkRedondearPrecio.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkRedondearPrecio.ForeColor = System.Drawing.Color.White;
-            this.chkRedondearPrecio.Location = new System.Drawing.Point(267, 138);
+            this.chkRedondearPrecio.Location = new System.Drawing.Point(265, 138);
             this.chkRedondearPrecio.Name = "chkRedondearPrecio";
-            this.chkRedondearPrecio.Size = new System.Drawing.Size(161, 22);
+            this.chkRedondearPrecio.Size = new System.Drawing.Size(147, 24);
             this.chkRedondearPrecio.TabIndex = 67;
             this.chkRedondearPrecio.Text = "Redondear precio";
             this.ttpMensajesDeAyuda.SetToolTip(this.chkRedondearPrecio, "Redondear el precio evitando que los articulos tengan precios que incluyan centav" +
@@ -266,11 +266,11 @@
             // lblTotalAumento
             // 
             this.lblTotalAumento.AutoSize = true;
-            this.lblTotalAumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalAumento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalAumento.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblTotalAumento.Location = new System.Drawing.Point(9, 223);
             this.lblTotalAumento.Name = "lblTotalAumento";
-            this.lblTotalAumento.Size = new System.Drawing.Size(190, 18);
+            this.lblTotalAumento.Size = new System.Drawing.Size(167, 20);
             this.lblTotalAumento.TabIndex = 65;
             this.lblTotalAumento.Text = "Total que se aumentara:";
             // 
@@ -279,11 +279,11 @@
             this.lblMostrarTotalAumento.AutoSize = true;
             this.lblMostrarTotalAumento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblMostrarTotalAumento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMostrarTotalAumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarTotalAumento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarTotalAumento.ForeColor = System.Drawing.Color.Gray;
-            this.lblMostrarTotalAumento.Location = new System.Drawing.Point(203, 221);
+            this.lblMostrarTotalAumento.Location = new System.Drawing.Point(202, 221);
             this.lblMostrarTotalAumento.Name = "lblMostrarTotalAumento";
-            this.lblMostrarTotalAumento.Size = new System.Drawing.Size(21, 22);
+            this.lblMostrarTotalAumento.Size = new System.Drawing.Size(19, 22);
             this.lblMostrarTotalAumento.TabIndex = 66;
             this.lblMostrarTotalAumento.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblMostrarTotalAumento, "Valor que se aumentara del total");
@@ -292,7 +292,7 @@
             // 
             this.pnlDecorativo6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlDecorativo6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo6.Location = new System.Drawing.Point(203, 157);
+            this.pnlDecorativo6.Location = new System.Drawing.Point(202, 159);
             this.pnlDecorativo6.Name = "pnlDecorativo6";
             this.pnlDecorativo6.Size = new System.Drawing.Size(55, 2);
             this.pnlDecorativo6.TabIndex = 64;
@@ -301,11 +301,11 @@
             // 
             this.lblPorcentaje.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPorcentaje.AutoSize = true;
-            this.lblPorcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPorcentaje.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPorcentaje.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPorcentaje.Location = new System.Drawing.Point(24, 138);
+            this.lblPorcentaje.Location = new System.Drawing.Point(9, 138);
             this.lblPorcentaje.Name = "lblPorcentaje";
-            this.lblPorcentaje.Size = new System.Drawing.Size(175, 18);
+            this.lblPorcentaje.Size = new System.Drawing.Size(153, 20);
             this.lblPorcentaje.TabIndex = 62;
             this.lblPorcentaje.Text = "Porcentaje (opcional):";
             // 
@@ -315,9 +315,9 @@
             this.nudPorcentaje.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudPorcentaje.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.nudPorcentaje.Enabled = false;
-            this.nudPorcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudPorcentaje.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudPorcentaje.ForeColor = System.Drawing.Color.DarkGray;
-            this.nudPorcentaje.Location = new System.Drawing.Point(203, 139);
+            this.nudPorcentaje.Location = new System.Drawing.Point(202, 139);
             this.nudPorcentaje.Maximum = new decimal(new int[] {
             99,
             0,
@@ -330,7 +330,7 @@
             0});
             this.nudPorcentaje.Name = "nudPorcentaje";
             this.nudPorcentaje.ReadOnly = true;
-            this.nudPorcentaje.Size = new System.Drawing.Size(55, 20);
+            this.nudPorcentaje.Size = new System.Drawing.Size(55, 23);
             this.nudPorcentaje.TabIndex = 63;
             this.nudPorcentaje.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ttpMensajesDeAyuda.SetToolTip(this.nudPorcentaje, "Porcentaje de aumento/descuento que se le aplicara sobre el total del pedido");
@@ -344,11 +344,11 @@
             // lblTotalDescuento
             // 
             this.lblTotalDescuento.AutoSize = true;
-            this.lblTotalDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalDescuento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalDescuento.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotalDescuento.Location = new System.Drawing.Point(5, 181);
+            this.lblTotalDescuento.Location = new System.Drawing.Point(9, 181);
             this.lblTotalDescuento.Name = "lblTotalDescuento";
-            this.lblTotalDescuento.Size = new System.Drawing.Size(195, 18);
+            this.lblTotalDescuento.Size = new System.Drawing.Size(169, 20);
             this.lblTotalDescuento.TabIndex = 55;
             this.lblTotalDescuento.Text = "Total que se descontara:";
             // 
@@ -357,11 +357,11 @@
             this.lblMostrarTotalDescuento.AutoSize = true;
             this.lblMostrarTotalDescuento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblMostrarTotalDescuento.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMostrarTotalDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarTotalDescuento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarTotalDescuento.ForeColor = System.Drawing.Color.Gray;
-            this.lblMostrarTotalDescuento.Location = new System.Drawing.Point(203, 179);
+            this.lblMostrarTotalDescuento.Location = new System.Drawing.Point(202, 179);
             this.lblMostrarTotalDescuento.Name = "lblMostrarTotalDescuento";
-            this.lblMostrarTotalDescuento.Size = new System.Drawing.Size(21, 22);
+            this.lblMostrarTotalDescuento.Size = new System.Drawing.Size(19, 22);
             this.lblMostrarTotalDescuento.TabIndex = 56;
             this.lblMostrarTotalDescuento.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblMostrarTotalDescuento, "Valor que se descontara del total");
@@ -372,9 +372,9 @@
             this.gpbDescuentosAumentos.Controls.Add(this.rbnNoRealizarAumentoDescuento);
             this.gpbDescuentosAumentos.Controls.Add(this.rbnAumento);
             this.gpbDescuentosAumentos.Controls.Add(this.rbnDescuento);
-            this.gpbDescuentosAumentos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.gpbDescuentosAumentos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpbDescuentosAumentos.ForeColor = System.Drawing.Color.Gray;
-            this.gpbDescuentosAumentos.Location = new System.Drawing.Point(445, 86);
+            this.gpbDescuentosAumentos.Location = new System.Drawing.Point(443, 86);
             this.gpbDescuentosAumentos.Name = "gpbDescuentosAumentos";
             this.gpbDescuentosAumentos.Size = new System.Drawing.Size(326, 113);
             this.gpbDescuentosAumentos.TabIndex = 54;
@@ -385,11 +385,11 @@
             // 
             this.rbnNoRealizarAumentoDescuento.AutoSize = true;
             this.rbnNoRealizarAumentoDescuento.Checked = true;
-            this.rbnNoRealizarAumentoDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnNoRealizarAumentoDescuento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnNoRealizarAumentoDescuento.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnNoRealizarAumentoDescuento.Location = new System.Drawing.Point(6, 26);
             this.rbnNoRealizarAumentoDescuento.Name = "rbnNoRealizarAumentoDescuento";
-            this.rbnNoRealizarAumentoDescuento.Size = new System.Drawing.Size(227, 22);
+            this.rbnNoRealizarAumentoDescuento.Size = new System.Drawing.Size(204, 24);
             this.rbnNoRealizarAumentoDescuento.TabIndex = 34;
             this.rbnNoRealizarAumentoDescuento.TabStop = true;
             this.rbnNoRealizarAumentoDescuento.Text = "No realizar ninguna accion";
@@ -400,11 +400,11 @@
             // rbnAumento
             // 
             this.rbnAumento.AutoSize = true;
-            this.rbnAumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnAumento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnAumento.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnAumento.Location = new System.Drawing.Point(6, 80);
             this.rbnAumento.Name = "rbnAumento";
-            this.rbnAumento.Size = new System.Drawing.Size(92, 22);
+            this.rbnAumento.Size = new System.Drawing.Size(88, 24);
             this.rbnAumento.TabIndex = 33;
             this.rbnAumento.Text = "Aumento";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnAumento, "Realizar un aumento");
@@ -414,11 +414,11 @@
             // rbnDescuento
             // 
             this.rbnDescuento.AutoSize = true;
-            this.rbnDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnDescuento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnDescuento.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnDescuento.Location = new System.Drawing.Point(6, 53);
             this.rbnDescuento.Name = "rbnDescuento";
-            this.rbnDescuento.Size = new System.Drawing.Size(107, 22);
+            this.rbnDescuento.Size = new System.Drawing.Size(97, 24);
             this.rbnDescuento.TabIndex = 32;
             this.rbnDescuento.Text = "Descuento";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnDescuento, "Realizar un descuento");
@@ -432,9 +432,9 @@
             this.btnImprimirResumen.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnImprimirResumen.FlatAppearance.BorderSize = 2;
             this.btnImprimirResumen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImprimirResumen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimirResumen.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimirResumen.ForeColor = System.Drawing.Color.White;
-            this.btnImprimirResumen.Location = new System.Drawing.Point(445, 205);
+            this.btnImprimirResumen.Location = new System.Drawing.Point(443, 203);
             this.btnImprimirResumen.Name = "btnImprimirResumen";
             this.btnImprimirResumen.Size = new System.Drawing.Size(160, 50);
             this.btnImprimirResumen.TabIndex = 53;
@@ -449,9 +449,9 @@
             this.grbEgresoIngreso.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.grbEgresoIngreso.Controls.Add(this.rbnEgreso);
             this.grbEgresoIngreso.Controls.Add(this.rbnIngreso);
-            this.grbEgresoIngreso.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.grbEgresoIngreso.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbEgresoIngreso.ForeColor = System.Drawing.Color.Gray;
-            this.grbEgresoIngreso.Location = new System.Drawing.Point(445, 2);
+            this.grbEgresoIngreso.Location = new System.Drawing.Point(443, 2);
             this.grbEgresoIngreso.Name = "grbEgresoIngreso";
             this.grbEgresoIngreso.Size = new System.Drawing.Size(326, 83);
             this.grbEgresoIngreso.TabIndex = 52;
@@ -461,11 +461,11 @@
             // rbnEgreso
             // 
             this.rbnEgreso.AutoSize = true;
-            this.rbnEgreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnEgreso.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnEgreso.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.rbnEgreso.Location = new System.Drawing.Point(6, 54);
+            this.rbnEgreso.Location = new System.Drawing.Point(6, 52);
             this.rbnEgreso.Name = "rbnEgreso";
-            this.rbnEgreso.Size = new System.Drawing.Size(80, 22);
+            this.rbnEgreso.Size = new System.Drawing.Size(72, 24);
             this.rbnEgreso.TabIndex = 33;
             this.rbnEgreso.Text = "Egreso";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnEgreso, "Indicar que el pedido fue un egreso");
@@ -476,11 +476,11 @@
             // 
             this.rbnIngreso.AutoSize = true;
             this.rbnIngreso.Checked = true;
-            this.rbnIngreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnIngreso.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnIngreso.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.rbnIngreso.Location = new System.Drawing.Point(6, 26);
+            this.rbnIngreso.Location = new System.Drawing.Point(6, 24);
             this.rbnIngreso.Name = "rbnIngreso";
-            this.rbnIngreso.Size = new System.Drawing.Size(82, 22);
+            this.rbnIngreso.Size = new System.Drawing.Size(76, 24);
             this.rbnIngreso.TabIndex = 32;
             this.rbnIngreso.TabStop = true;
             this.rbnIngreso.Text = "Ingreso";
@@ -488,35 +488,16 @@
             this.rbnIngreso.UseVisualStyleBackColor = true;
             this.rbnIngreso.Click += new System.EventHandler(this.RbnTipoMovimiento_Click);
             // 
-            // btnRegistrarPago
-            // 
-            this.btnRegistrarPago.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnRegistrarPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            this.btnRegistrarPago.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnRegistrarPago.FlatAppearance.BorderSize = 2;
-            this.btnRegistrarPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrarPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrarPago.ForeColor = System.Drawing.Color.White;
-            this.btnRegistrarPago.Location = new System.Drawing.Point(611, 205);
-            this.btnRegistrarPago.Name = "btnRegistrarPago";
-            this.btnRegistrarPago.Size = new System.Drawing.Size(160, 50);
-            this.btnRegistrarPago.TabIndex = 51;
-            this.btnRegistrarPago.Text = "Registrar pago";
-            this.btnRegistrarPago.UseVisualStyleBackColor = false;
-            this.btnRegistrarPago.Click += new System.EventHandler(this.BtnRegistrarPago_Click);
-            this.btnRegistrarPago.MouseLeave += new System.EventHandler(this.btnEstiloBotones_Leave);
-            this.btnRegistrarPago.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnEstiloBotones_MouseMove);
-            // 
             // txtPago
             // 
             this.txtPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.txtPago.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPago.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPago.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtPago.ForeColor = System.Drawing.Color.DarkGray;
             this.txtPago.Location = new System.Drawing.Point(202, 53);
             this.txtPago.MaxLength = 7;
             this.txtPago.Name = "txtPago";
-            this.txtPago.Size = new System.Drawing.Size(75, 19);
+            this.txtPago.Size = new System.Drawing.Size(75, 20);
             this.txtPago.TabIndex = 50;
             this.txtPago.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtPago, "Pago del cliente");
@@ -537,33 +518,33 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPago.AutoSize = true;
-            this.lblPago.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPago.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPago.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPago.Location = new System.Drawing.Point(4, 53);
+            this.lblPago.Location = new System.Drawing.Point(9, 53);
             this.lblPago.Name = "lblPago";
-            this.lblPago.Size = new System.Drawing.Size(194, 18);
+            this.lblPago.Size = new System.Drawing.Size(172, 20);
             this.lblPago.TabIndex = 48;
             this.lblPago.Text = "Pago (campo de apoyo):";
             // 
             // lblVuelto
             // 
             this.lblVuelto.AutoSize = true;
-            this.lblVuelto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVuelto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVuelto.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblVuelto.Location = new System.Drawing.Point(139, 95);
+            this.lblVuelto.Location = new System.Drawing.Point(9, 95);
             this.lblVuelto.Name = "lblVuelto";
-            this.lblVuelto.Size = new System.Drawing.Size(60, 18);
+            this.lblVuelto.Size = new System.Drawing.Size(55, 20);
             this.lblVuelto.TabIndex = 46;
             this.lblVuelto.Text = "Vuelto:";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotal.Location = new System.Drawing.Point(147, 11);
+            this.lblTotal.Location = new System.Drawing.Point(9, 11);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(51, 18);
+            this.lblTotal.Size = new System.Drawing.Size(45, 20);
             this.lblTotal.TabIndex = 44;
             this.lblTotal.Text = "Total:";
             // 
@@ -572,11 +553,11 @@
             this.lblMostratTotal.AutoSize = true;
             this.lblMostratTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblMostratTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMostratTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostratTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostratTotal.ForeColor = System.Drawing.Color.Gray;
             this.lblMostratTotal.Location = new System.Drawing.Point(202, 10);
             this.lblMostratTotal.Name = "lblMostratTotal";
-            this.lblMostratTotal.Size = new System.Drawing.Size(21, 22);
+            this.lblMostratTotal.Size = new System.Drawing.Size(19, 22);
             this.lblMostratTotal.TabIndex = 45;
             this.lblMostratTotal.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblMostratTotal, "Total del pedido");
@@ -586,14 +567,52 @@
             this.lblMostrarVuelto.AutoSize = true;
             this.lblMostrarVuelto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblMostrarVuelto.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMostrarVuelto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostrarVuelto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostrarVuelto.ForeColor = System.Drawing.Color.Gray;
-            this.lblMostrarVuelto.Location = new System.Drawing.Point(203, 95);
+            this.lblMostrarVuelto.Location = new System.Drawing.Point(202, 95);
             this.lblMostrarVuelto.Name = "lblMostrarVuelto";
-            this.lblMostrarVuelto.Size = new System.Drawing.Size(21, 22);
+            this.lblMostrarVuelto.Size = new System.Drawing.Size(19, 22);
             this.lblMostrarVuelto.TabIndex = 47;
             this.lblMostrarVuelto.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblMostrarVuelto, "Diferencia entre el total y el pago");
+            // 
+            // btnRegistrarPago
+            // 
+            this.btnRegistrarPago.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnRegistrarPago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
+            this.btnRegistrarPago.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnRegistrarPago.FlatAppearance.BorderSize = 2;
+            this.btnRegistrarPago.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrarPago.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrarPago.ForeColor = System.Drawing.Color.White;
+            this.btnRegistrarPago.Location = new System.Drawing.Point(609, 203);
+            this.btnRegistrarPago.Name = "btnRegistrarPago";
+            this.btnRegistrarPago.Size = new System.Drawing.Size(160, 50);
+            this.btnRegistrarPago.TabIndex = 51;
+            this.btnRegistrarPago.Text = "Registrar pago";
+            this.btnRegistrarPago.UseVisualStyleBackColor = false;
+            this.btnRegistrarPago.Click += new System.EventHandler(this.BtnRegistrarPago_Click);
+            this.btnRegistrarPago.MouseLeave += new System.EventHandler(this.btnEstiloBotones_Leave);
+            this.btnRegistrarPago.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnEstiloBotones_MouseMove);
+            // 
+            // btnCerrarPreCuenta
+            // 
+            this.btnCerrarPreCuenta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCerrarPreCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
+            this.btnCerrarPreCuenta.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnCerrarPreCuenta.FlatAppearance.BorderSize = 2;
+            this.btnCerrarPreCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrarPreCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrarPreCuenta.ForeColor = System.Drawing.Color.White;
+            this.btnCerrarPreCuenta.Location = new System.Drawing.Point(609, 203);
+            this.btnCerrarPreCuenta.Name = "btnCerrarPreCuenta";
+            this.btnCerrarPreCuenta.Size = new System.Drawing.Size(160, 50);
+            this.btnCerrarPreCuenta.TabIndex = 68;
+            this.btnCerrarPreCuenta.Text = "Cerrar pre cuenta";
+            this.btnCerrarPreCuenta.UseVisualStyleBackColor = false;
+            this.btnCerrarPreCuenta.Click += new System.EventHandler(this.BtnCerrarPreCuenta_Click);
+            this.btnCerrarPreCuenta.MouseLeave += new System.EventHandler(this.btnEstiloBotones_Leave);
+            this.btnCerrarPreCuenta.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnEstiloBotones_MouseMove);
             // 
             // pnlBarraDeArrastre
             // 
@@ -611,7 +630,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
@@ -645,25 +664,6 @@
             this.picLogo.TabIndex = 1;
             this.picLogo.TabStop = false;
             this.picLogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
-            // 
-            // btnCerrarPreCuenta
-            // 
-            this.btnCerrarPreCuenta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCerrarPreCuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            this.btnCerrarPreCuenta.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btnCerrarPreCuenta.FlatAppearance.BorderSize = 2;
-            this.btnCerrarPreCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCerrarPreCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrarPreCuenta.ForeColor = System.Drawing.Color.White;
-            this.btnCerrarPreCuenta.Location = new System.Drawing.Point(611, 205);
-            this.btnCerrarPreCuenta.Name = "btnCerrarPreCuenta";
-            this.btnCerrarPreCuenta.Size = new System.Drawing.Size(160, 50);
-            this.btnCerrarPreCuenta.TabIndex = 68;
-            this.btnCerrarPreCuenta.Text = "Cerrar pre cuenta";
-            this.btnCerrarPreCuenta.UseVisualStyleBackColor = false;
-            this.btnCerrarPreCuenta.Click += new System.EventHandler(this.BtnCerrarPreCuenta_Click);
-            this.btnCerrarPreCuenta.MouseLeave += new System.EventHandler(this.btnEstiloBotones_Leave);
-            this.btnCerrarPreCuenta.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnEstiloBotones_MouseMove);
             // 
             // FrmResumenPedido
             // 

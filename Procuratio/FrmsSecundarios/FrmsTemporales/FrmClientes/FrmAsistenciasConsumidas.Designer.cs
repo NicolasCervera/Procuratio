@@ -57,22 +57,24 @@
             this.pnlContFrm.Name = "pnlContFrm";
             this.pnlContFrm.Size = new System.Drawing.Size(371, 135);
             this.pnlContFrm.TabIndex = 1;
+            this.pnlContFrm.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContFrm_Paint);
             // 
             // lblCantidadAConsumirTexto
             // 
             this.lblCantidadAConsumirTexto.AutoSize = true;
-            this.lblCantidadAConsumirTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidadAConsumirTexto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidadAConsumirTexto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCantidadAConsumirTexto.Location = new System.Drawing.Point(11, 42);
             this.lblCantidadAConsumirTexto.Name = "lblCantidadAConsumirTexto";
-            this.lblCantidadAConsumirTexto.Size = new System.Drawing.Size(281, 18);
+            this.lblCantidadAConsumirTexto.Size = new System.Drawing.Size(243, 20);
             this.lblCantidadAConsumirTexto.TabIndex = 62;
             this.lblCantidadAConsumirTexto.Text = "Cantidad de asistencias a consumir:";
             // 
             // pnlDecorativo6
             // 
             this.pnlDecorativo6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo6.Location = new System.Drawing.Point(298, 61);
+            this.pnlDecorativo6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlDecorativo6.Location = new System.Drawing.Point(259, 63);
             this.pnlDecorativo6.Name = "pnlDecorativo6";
             this.pnlDecorativo6.Size = new System.Drawing.Size(55, 2);
             this.pnlDecorativo6.TabIndex = 61;
@@ -81,9 +83,9 @@
             // 
             this.nudCantidadAConsumir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.nudCantidadAConsumir.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudCantidadAConsumir.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudCantidadAConsumir.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudCantidadAConsumir.ForeColor = System.Drawing.Color.DarkGray;
-            this.nudCantidadAConsumir.Location = new System.Drawing.Point(298, 43);
+            this.nudCantidadAConsumir.Location = new System.Drawing.Point(260, 42);
             this.nudCantidadAConsumir.Minimum = new decimal(new int[] {
             1,
             0,
@@ -91,7 +93,7 @@
             0});
             this.nudCantidadAConsumir.Name = "nudCantidadAConsumir";
             this.nudCantidadAConsumir.ReadOnly = true;
-            this.nudCantidadAConsumir.Size = new System.Drawing.Size(55, 20);
+            this.nudCantidadAConsumir.Size = new System.Drawing.Size(55, 23);
             this.nudCantidadAConsumir.TabIndex = 60;
             this.nudCantidadAConsumir.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudCantidadAConsumir.Value = new decimal(new int[] {
@@ -107,7 +109,7 @@
             this.btnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(193, 75);
             this.btnAceptar.Name = "btnAceptar";
@@ -135,7 +137,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(268, 30);
@@ -170,7 +172,7 @@
             this.picLogo.TabStop = false;
             this.picLogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
             // 
-            // FrmAsistenciasAConsumir
+            // FrmAsistenciasAConssumir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -178,7 +180,7 @@
             this.ClientSize = new System.Drawing.Size(371, 135);
             this.Controls.Add(this.pnlContFrm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "FrmAsistenciasAConsumir";
+            this.Name = "FrmAsistenciasAConssumir";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAsistenciasAConsumir";
             this.pnlContFrm.ResumeLayout(false);

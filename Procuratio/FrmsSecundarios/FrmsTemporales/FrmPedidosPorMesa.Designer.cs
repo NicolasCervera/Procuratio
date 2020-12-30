@@ -274,7 +274,7 @@
             this.lblPedido.AutoSize = true;
             this.lblPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPedido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPedido.Location = new System.Drawing.Point(84, 44);
+            this.lblPedido.Location = new System.Drawing.Point(98, 44);
             this.lblPedido.Name = "lblPedido";
             this.lblPedido.Size = new System.Drawing.Size(80, 20);
             this.lblPedido.TabIndex = 72;
@@ -289,7 +289,7 @@
             this.cmbMesas.FormattingEnabled = true;
             this.cmbMesas.Location = new System.Drawing.Point(12, 40);
             this.cmbMesas.Name = "cmbMesas";
-            this.cmbMesas.Size = new System.Drawing.Size(69, 28);
+            this.cmbMesas.Size = new System.Drawing.Size(80, 28);
             this.cmbMesas.TabIndex = 71;
             this.cmbMesas.Text = "Mesas";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbMesas, "Mesas del pedido");

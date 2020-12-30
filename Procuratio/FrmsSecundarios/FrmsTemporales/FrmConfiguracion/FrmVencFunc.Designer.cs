@@ -58,6 +58,7 @@
             this.pnlContFrm.Name = "pnlContFrm";
             this.pnlContFrm.Size = new System.Drawing.Size(530, 169);
             this.pnlContFrm.TabIndex = 0;
+            this.pnlContFrm.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContFrm_Paint);
             // 
             // btnActualizar
             // 
@@ -66,9 +67,9 @@
             this.btnActualizar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnActualizar.FlatAppearance.BorderSize = 2;
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizar.ForeColor = System.Drawing.Color.White;
-            this.btnActualizar.Location = new System.Drawing.Point(357, 106);
+            this.btnActualizar.Location = new System.Drawing.Point(334, 106);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(160, 50);
             this.btnActualizar.TabIndex = 72;
@@ -82,11 +83,11 @@
             // 
             this.lblReservasHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblReservasHasta.AutoSize = true;
-            this.lblReservasHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReservasHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReservasHasta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblReservasHasta.Location = new System.Drawing.Point(7, 73);
             this.lblReservasHasta.Name = "lblReservasHasta";
-            this.lblReservasHasta.Size = new System.Drawing.Size(273, 18);
+            this.lblReservasHasta.Size = new System.Drawing.Size(237, 20);
             this.lblReservasHasta.TabIndex = 71;
             this.lblReservasHasta.Text = "Vencimiento funciones especificas:";
             // 
@@ -94,28 +95,30 @@
             // 
             this.lblVencimientoGeneral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblVencimientoGeneral.AutoSize = true;
-            this.lblVencimientoGeneral.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVencimientoGeneral.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblVencimientoGeneral.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblVencimientoGeneral.Location = new System.Drawing.Point(111, 45);
+            this.lblVencimientoGeneral.Location = new System.Drawing.Point(7, 45);
             this.lblVencimientoGeneral.Name = "lblVencimientoGeneral";
-            this.lblVencimientoGeneral.Size = new System.Drawing.Size(169, 18);
+            this.lblVencimientoGeneral.Size = new System.Drawing.Size(149, 20);
             this.lblVencimientoGeneral.TabIndex = 70;
             this.lblVencimientoGeneral.Text = "Vencimiento General:";
             // 
             // dtpVencimientoFuncionesEspecificas
             // 
             this.dtpVencimientoFuncionesEspecificas.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpVencimientoFuncionesEspecificas.Location = new System.Drawing.Point(286, 73);
+            this.dtpVencimientoFuncionesEspecificas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpVencimientoFuncionesEspecificas.Location = new System.Drawing.Point(263, 70);
             this.dtpVencimientoFuncionesEspecificas.Name = "dtpVencimientoFuncionesEspecificas";
-            this.dtpVencimientoFuncionesEspecificas.Size = new System.Drawing.Size(231, 20);
+            this.dtpVencimientoFuncionesEspecificas.Size = new System.Drawing.Size(231, 27);
             this.dtpVencimientoFuncionesEspecificas.TabIndex = 69;
             // 
             // dtpVencimientoGeneral
             // 
             this.dtpVencimientoGeneral.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpVencimientoGeneral.Location = new System.Drawing.Point(286, 45);
+            this.dtpVencimientoGeneral.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtpVencimientoGeneral.Location = new System.Drawing.Point(263, 42);
             this.dtpVencimientoGeneral.Name = "dtpVencimientoGeneral";
-            this.dtpVencimientoGeneral.Size = new System.Drawing.Size(231, 20);
+            this.dtpVencimientoGeneral.Size = new System.Drawing.Size(231, 27);
             this.dtpVencimientoGeneral.TabIndex = 68;
             // 
             // pnlBarraDeArrastre
@@ -134,7 +137,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);

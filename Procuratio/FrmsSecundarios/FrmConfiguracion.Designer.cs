@@ -94,11 +94,11 @@
             // lblCantidadMesasPBTexto
             // 
             this.lblCantidadMesasPBTexto.AutoSize = true;
-            this.lblCantidadMesasPBTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidadMesasPBTexto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidadMesasPBTexto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCantidadMesasPBTexto.Location = new System.Drawing.Point(13, 76);
             this.lblCantidadMesasPBTexto.Name = "lblCantidadMesasPBTexto";
-            this.lblCantidadMesasPBTexto.Size = new System.Drawing.Size(184, 18);
+            this.lblCantidadMesasPBTexto.Size = new System.Drawing.Size(159, 20);
             this.lblCantidadMesasPBTexto.TabIndex = 25;
             this.lblCantidadMesasPBTexto.Text = "Cantidad de mesas PB:";
             // 
@@ -109,11 +109,11 @@
             this.ckbSegundaPlanta.AutoSize = true;
             this.ckbSegundaPlanta.Checked = true;
             this.ckbSegundaPlanta.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbSegundaPlanta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbSegundaPlanta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbSegundaPlanta.ForeColor = System.Drawing.Color.White;
             this.ckbSegundaPlanta.Location = new System.Drawing.Point(16, 40);
             this.ckbSegundaPlanta.Name = "ckbSegundaPlanta";
-            this.ckbSegundaPlanta.Size = new System.Drawing.Size(204, 22);
+            this.ckbSegundaPlanta.Size = new System.Drawing.Size(185, 24);
             this.ckbSegundaPlanta.TabIndex = 26;
             this.ckbSegundaPlanta.Text = "Trabajar con planta alta";
             this.ckbSegundaPlanta.UseVisualStyleBackColor = true;
@@ -122,6 +122,7 @@
             // pnlDecorativo1
             // 
             this.pnlDecorativo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo1.Location = new System.Drawing.Point(108, 339);
             this.pnlDecorativo1.Name = "pnlDecorativo1";
             this.pnlDecorativo1.Size = new System.Drawing.Size(55, 2);
@@ -131,7 +132,7 @@
             // 
             this.nudCapacidadNuevaMesa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudCapacidadNuevaMesa.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudCapacidadNuevaMesa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudCapacidadNuevaMesa.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudCapacidadNuevaMesa.ForeColor = System.Drawing.Color.DarkGray;
             this.nudCapacidadNuevaMesa.Location = new System.Drawing.Point(108, 319);
             this.nudCapacidadNuevaMesa.Maximum = new decimal(new int[] {
@@ -146,7 +147,7 @@
             0});
             this.nudCapacidadNuevaMesa.Name = "nudCapacidadNuevaMesa";
             this.nudCapacidadNuevaMesa.ReadOnly = true;
-            this.nudCapacidadNuevaMesa.Size = new System.Drawing.Size(55, 20);
+            this.nudCapacidadNuevaMesa.Size = new System.Drawing.Size(55, 23);
             this.nudCapacidadNuevaMesa.TabIndex = 27;
             this.nudCapacidadNuevaMesa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ttpMensajesDeAyuda.SetToolTip(this.nudCapacidadNuevaMesa, "Capacidad de la nueva mesa");
@@ -159,11 +160,11 @@
             // lblCantidadMesasPATexto
             // 
             this.lblCantidadMesasPATexto.AutoSize = true;
-            this.lblCantidadMesasPATexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidadMesasPATexto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidadMesasPATexto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCantidadMesasPATexto.Location = new System.Drawing.Point(254, 76);
             this.lblCantidadMesasPATexto.Name = "lblCantidadMesasPATexto";
-            this.lblCantidadMesasPATexto.Size = new System.Drawing.Size(183, 18);
+            this.lblCantidadMesasPATexto.Size = new System.Drawing.Size(159, 20);
             this.lblCantidadMesasPATexto.TabIndex = 29;
             this.lblCantidadMesasPATexto.Text = "Cantidad de mesas PA:";
             // 
@@ -222,7 +223,7 @@
             // picBTNInformacionVentanas
             // 
             this.picBTNInformacionVentanas.Image = global::Procuratio.Properties.Resources._3017955_48;
-            this.picBTNInformacionVentanas.Location = new System.Drawing.Point(647, 211);
+            this.picBTNInformacionVentanas.Location = new System.Drawing.Point(587, 209);
             this.picBTNInformacionVentanas.Name = "picBTNInformacionVentanas";
             this.picBTNInformacionVentanas.Size = new System.Drawing.Size(41, 30);
             this.picBTNInformacionVentanas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -233,7 +234,7 @@
             // pnlDecorativo11
             // 
             this.pnlDecorativo11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo11.Location = new System.Drawing.Point(586, 234);
+            this.pnlDecorativo11.Location = new System.Drawing.Point(525, 234);
             this.pnlDecorativo11.Name = "pnlDecorativo11";
             this.pnlDecorativo11.Size = new System.Drawing.Size(55, 2);
             this.pnlDecorativo11.TabIndex = 65;
@@ -241,11 +242,11 @@
             // lblTiempoFrmAbierto
             // 
             this.lblTiempoFrmAbierto.AutoSize = true;
-            this.lblTiempoFrmAbierto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTiempoFrmAbierto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTiempoFrmAbierto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblTiempoFrmAbierto.Location = new System.Drawing.Point(13, 214);
             this.lblTiempoFrmAbierto.Name = "lblTiempoFrmAbierto";
-            this.lblTiempoFrmAbierto.Size = new System.Drawing.Size(568, 18);
+            this.lblTiempoFrmAbierto.Size = new System.Drawing.Size(508, 20);
             this.lblTiempoFrmAbierto.TabIndex = 64;
             this.lblTiempoFrmAbierto.Text = "Indicar los minutos que puede permanecer abierta una ventana importante:";
             // 
@@ -253,9 +254,9 @@
             // 
             this.nudTiempoVentanaAbierta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudTiempoVentanaAbierta.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudTiempoVentanaAbierta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudTiempoVentanaAbierta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudTiempoVentanaAbierta.ForeColor = System.Drawing.Color.DarkGray;
-            this.nudTiempoVentanaAbierta.Location = new System.Drawing.Point(586, 216);
+            this.nudTiempoVentanaAbierta.Location = new System.Drawing.Point(525, 213);
             this.nudTiempoVentanaAbierta.Maximum = new decimal(new int[] {
             30,
             0,
@@ -268,7 +269,7 @@
             0});
             this.nudTiempoVentanaAbierta.Name = "nudTiempoVentanaAbierta";
             this.nudTiempoVentanaAbierta.ReadOnly = true;
-            this.nudTiempoVentanaAbierta.Size = new System.Drawing.Size(55, 20);
+            this.nudTiempoVentanaAbierta.Size = new System.Drawing.Size(55, 23);
             this.nudTiempoVentanaAbierta.TabIndex = 63;
             this.nudTiempoVentanaAbierta.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudTiempoVentanaAbierta.Value = new decimal(new int[] {
@@ -311,7 +312,8 @@
             // pnlDecorativo6
             // 
             this.pnlDecorativo6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo6.Location = new System.Drawing.Point(588, 196);
+            this.pnlDecorativo6.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlDecorativo6.Location = new System.Drawing.Point(527, 195);
             this.pnlDecorativo6.Name = "pnlDecorativo6";
             this.pnlDecorativo6.Size = new System.Drawing.Size(55, 2);
             this.pnlDecorativo6.TabIndex = 59;
@@ -319,11 +321,11 @@
             // lblAvisoEspera
             // 
             this.lblAvisoEspera.AutoSize = true;
-            this.lblAvisoEspera.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAvisoEspera.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAvisoEspera.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblAvisoEspera.Location = new System.Drawing.Point(13, 177);
             this.lblAvisoEspera.Name = "lblAvisoEspera";
-            this.lblAvisoEspera.Size = new System.Drawing.Size(572, 18);
+            this.lblAvisoEspera.Size = new System.Drawing.Size(506, 20);
             this.lblAvisoEspera.TabIndex = 58;
             this.lblAvisoEspera.Text = "Establecer el minuto en que se avisara un tiempo de espera largo (pedido):";
             // 
@@ -331,9 +333,9 @@
             // 
             this.nudAvisoEspera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudAvisoEspera.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudAvisoEspera.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudAvisoEspera.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudAvisoEspera.ForeColor = System.Drawing.Color.DarkGray;
-            this.nudAvisoEspera.Location = new System.Drawing.Point(588, 178);
+            this.nudAvisoEspera.Location = new System.Drawing.Point(527, 175);
             this.nudAvisoEspera.Maximum = new decimal(new int[] {
             50,
             0,
@@ -346,7 +348,7 @@
             0});
             this.nudAvisoEspera.Name = "nudAvisoEspera";
             this.nudAvisoEspera.ReadOnly = true;
-            this.nudAvisoEspera.Size = new System.Drawing.Size(55, 20);
+            this.nudAvisoEspera.Size = new System.Drawing.Size(55, 23);
             this.nudAvisoEspera.TabIndex = 57;
             this.nudAvisoEspera.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudAvisoEspera.Value = new decimal(new int[] {
@@ -369,7 +371,7 @@
             this.btnAplicarNuevaCapacidad.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAplicarNuevaCapacidad.FlatAppearance.BorderSize = 2;
             this.btnAplicarNuevaCapacidad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAplicarNuevaCapacidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAplicarNuevaCapacidad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplicarNuevaCapacidad.ForeColor = System.Drawing.Color.White;
             this.btnAplicarNuevaCapacidad.Location = new System.Drawing.Point(16, 470);
             this.btnAplicarNuevaCapacidad.Name = "btnAplicarNuevaCapacidad";
@@ -384,11 +386,11 @@
             // lblNuevaCapacidad
             // 
             this.lblNuevaCapacidad.AutoSize = true;
-            this.lblNuevaCapacidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNuevaCapacidad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNuevaCapacidad.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblNuevaCapacidad.Location = new System.Drawing.Point(229, 440);
             this.lblNuevaCapacidad.Name = "lblNuevaCapacidad";
-            this.lblNuevaCapacidad.Size = new System.Drawing.Size(141, 18);
+            this.lblNuevaCapacidad.Size = new System.Drawing.Size(127, 20);
             this.lblNuevaCapacidad.TabIndex = 54;
             this.lblNuevaCapacidad.Text = "Nueva capacidad:";
             // 
@@ -396,7 +398,7 @@
             // 
             this.nudNuevaCapacidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudNuevaCapacidad.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudNuevaCapacidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudNuevaCapacidad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudNuevaCapacidad.ForeColor = System.Drawing.Color.DarkGray;
             this.nudNuevaCapacidad.Location = new System.Drawing.Point(371, 439);
             this.nudNuevaCapacidad.Maximum = new decimal(new int[] {
@@ -411,7 +413,7 @@
             0});
             this.nudNuevaCapacidad.Name = "nudNuevaCapacidad";
             this.nudNuevaCapacidad.ReadOnly = true;
-            this.nudNuevaCapacidad.Size = new System.Drawing.Size(55, 20);
+            this.nudNuevaCapacidad.Size = new System.Drawing.Size(55, 23);
             this.nudNuevaCapacidad.TabIndex = 52;
             this.nudNuevaCapacidad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudNuevaCapacidad.Value = new decimal(new int[] {
@@ -423,6 +425,7 @@
             // pnlDecorativo4
             // 
             this.pnlDecorativo4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo4.Location = new System.Drawing.Point(371, 459);
             this.pnlDecorativo4.Name = "pnlDecorativo4";
             this.pnlDecorativo4.Size = new System.Drawing.Size(55, 2);
@@ -431,6 +434,7 @@
             // pnlDecorativo3
             // 
             this.pnlDecorativo3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo3.Location = new System.Drawing.Point(156, 459);
             this.pnlDecorativo3.Name = "pnlDecorativo3";
             this.pnlDecorativo3.Size = new System.Drawing.Size(55, 2);
@@ -439,11 +443,11 @@
             // lblNumeroDeMesa
             // 
             this.lblNumeroDeMesa.AutoSize = true;
-            this.lblNumeroDeMesa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumeroDeMesa.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumeroDeMesa.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblNumeroDeMesa.Location = new System.Drawing.Point(13, 440);
             this.lblNumeroDeMesa.Name = "lblNumeroDeMesa";
-            this.lblNumeroDeMesa.Size = new System.Drawing.Size(142, 18);
+            this.lblNumeroDeMesa.Size = new System.Drawing.Size(126, 20);
             this.lblNumeroDeMesa.TabIndex = 50;
             this.lblNumeroDeMesa.Text = "Numero de mesa:";
             // 
@@ -451,7 +455,7 @@
             // 
             this.nudNumeroDeMesaEditar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudNumeroDeMesaEditar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudNumeroDeMesaEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudNumeroDeMesaEditar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudNumeroDeMesaEditar.ForeColor = System.Drawing.Color.DarkGray;
             this.nudNumeroDeMesaEditar.Location = new System.Drawing.Point(156, 441);
             this.nudNumeroDeMesaEditar.Maximum = new decimal(new int[] {
@@ -466,7 +470,7 @@
             0});
             this.nudNumeroDeMesaEditar.Name = "nudNumeroDeMesaEditar";
             this.nudNumeroDeMesaEditar.ReadOnly = true;
-            this.nudNumeroDeMesaEditar.Size = new System.Drawing.Size(55, 20);
+            this.nudNumeroDeMesaEditar.Size = new System.Drawing.Size(55, 23);
             this.nudNumeroDeMesaEditar.TabIndex = 49;
             this.nudNumeroDeMesaEditar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.nudNumeroDeMesaEditar.Value = new decimal(new int[] {
@@ -481,11 +485,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEditarMesa.AutoSize = true;
             this.lblEditarMesa.BackColor = System.Drawing.Color.Transparent;
-            this.lblEditarMesa.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEditarMesa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEditarMesa.ForeColor = System.Drawing.Color.Gray;
             this.lblEditarMesa.Location = new System.Drawing.Point(14, 406);
             this.lblEditarMesa.Name = "lblEditarMesa";
-            this.lblEditarMesa.Size = new System.Drawing.Size(289, 19);
+            this.lblEditarMesa.Size = new System.Drawing.Size(296, 21);
             this.lblEditarMesa.TabIndex = 48;
             this.lblEditarMesa.Text = "EDITAR LA CAPACIDAD DE UNA MESA";
             // 
@@ -494,11 +498,11 @@
             this.lblNumeroNuevaMesa.AutoSize = true;
             this.lblNumeroNuevaMesa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblNumeroNuevaMesa.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblNumeroNuevaMesa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumeroNuevaMesa.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumeroNuevaMesa.ForeColor = System.Drawing.Color.Gray;
-            this.lblNumeroNuevaMesa.Location = new System.Drawing.Point(232, 283);
+            this.lblNumeroNuevaMesa.Location = new System.Drawing.Point(205, 284);
             this.lblNumeroNuevaMesa.Name = "lblNumeroNuevaMesa";
-            this.lblNumeroNuevaMesa.Size = new System.Drawing.Size(21, 22);
+            this.lblNumeroNuevaMesa.Size = new System.Drawing.Size(19, 22);
             this.lblNumeroNuevaMesa.TabIndex = 47;
             this.lblNumeroNuevaMesa.Text = "1";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblNumeroNuevaMesa, "Numero basado en la siguiente mesa que se creara");
@@ -506,11 +510,11 @@
             // lblNumeroNuevaMesaTexto
             // 
             this.lblNumeroNuevaMesaTexto.AutoSize = true;
-            this.lblNumeroNuevaMesaTexto.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumeroNuevaMesaTexto.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNumeroNuevaMesaTexto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblNumeroNuevaMesaTexto.Location = new System.Drawing.Point(13, 285);
             this.lblNumeroNuevaMesaTexto.Name = "lblNumeroNuevaMesaTexto";
-            this.lblNumeroNuevaMesaTexto.Size = new System.Drawing.Size(215, 18);
+            this.lblNumeroNuevaMesaTexto.Size = new System.Drawing.Size(189, 20);
             this.lblNumeroNuevaMesaTexto.TabIndex = 46;
             this.lblNumeroNuevaMesaTexto.Text = "Numero que se le asignará:";
             // 
@@ -520,7 +524,7 @@
             this.btnEliminar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminar.FlatAppearance.BorderSize = 2;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.Color.White;
             this.btnEliminar.Location = new System.Drawing.Point(16, 584);
             this.btnEliminar.Name = "btnEliminar";
@@ -535,11 +539,11 @@
             // lblCantidad
             // 
             this.lblCantidad.AutoSize = true;
-            this.lblCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidad.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCantidad.Location = new System.Drawing.Point(13, 551);
             this.lblCantidad.Name = "lblCantidad";
-            this.lblCantidad.Size = new System.Drawing.Size(79, 18);
+            this.lblCantidad.Size = new System.Drawing.Size(72, 20);
             this.lblCantidad.TabIndex = 44;
             this.lblCantidad.Text = "Cantidad:";
             // 
@@ -547,7 +551,7 @@
             // 
             this.nudCantidadMesasAEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudCantidadMesasAEliminar.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudCantidadMesasAEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudCantidadMesasAEliminar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudCantidadMesasAEliminar.ForeColor = System.Drawing.Color.DarkGray;
             this.nudCantidadMesasAEliminar.Location = new System.Drawing.Point(96, 550);
             this.nudCantidadMesasAEliminar.Maximum = new decimal(new int[] {
@@ -558,7 +562,7 @@
             this.nudCantidadMesasAEliminar.Name = "nudCantidadMesasAEliminar";
             this.nudCantidadMesasAEliminar.ReadOnly = true;
             this.nudCantidadMesasAEliminar.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.nudCantidadMesasAEliminar.Size = new System.Drawing.Size(55, 20);
+            this.nudCantidadMesasAEliminar.Size = new System.Drawing.Size(55, 23);
             this.nudCantidadMesasAEliminar.TabIndex = 42;
             this.nudCantidadMesasAEliminar.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ttpMensajesDeAyuda.SetToolTip(this.nudCantidadMesasAEliminar, "Cantidad de mesas que eliminara");
@@ -566,6 +570,7 @@
             // pnlDecorativo2
             // 
             this.pnlDecorativo2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo2.Location = new System.Drawing.Point(96, 570);
             this.pnlDecorativo2.Name = "pnlDecorativo2";
             this.pnlDecorativo2.Size = new System.Drawing.Size(55, 2);
@@ -575,7 +580,7 @@
             // 
             this.grbPlantas.Controls.Add(this.rbnPlantaAlta);
             this.grbPlantas.Controls.Add(this.rbnPlantaBaja);
-            this.grbPlantas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.grbPlantas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbPlantas.ForeColor = System.Drawing.Color.Gray;
             this.grbPlantas.Location = new System.Drawing.Point(16, 105);
             this.grbPlantas.Name = "grbPlantas";
@@ -587,11 +592,11 @@
             // rbnPlantaAlta
             // 
             this.rbnPlantaAlta.AutoSize = true;
-            this.rbnPlantaAlta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaAlta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaAlta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaAlta.Location = new System.Drawing.Point(121, 26);
             this.rbnPlantaAlta.Name = "rbnPlantaAlta";
-            this.rbnPlantaAlta.Size = new System.Drawing.Size(105, 22);
+            this.rbnPlantaAlta.Size = new System.Drawing.Size(97, 24);
             this.rbnPlantaAlta.TabIndex = 33;
             this.rbnPlantaAlta.Text = "Planta alta";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnPlantaAlta, "Ver y administrar la planta alta");
@@ -602,11 +607,11 @@
             // 
             this.rbnPlantaBaja.AutoSize = true;
             this.rbnPlantaBaja.Checked = true;
-            this.rbnPlantaBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaBaja.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaBaja.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaBaja.Location = new System.Drawing.Point(6, 26);
             this.rbnPlantaBaja.Name = "rbnPlantaBaja";
-            this.rbnPlantaBaja.Size = new System.Drawing.Size(109, 22);
+            this.rbnPlantaBaja.Size = new System.Drawing.Size(101, 24);
             this.rbnPlantaBaja.TabIndex = 32;
             this.rbnPlantaBaja.TabStop = true;
             this.rbnPlantaBaja.Text = "Planta baja";
@@ -620,11 +625,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblAjustesGenerales.AutoSize = true;
             this.lblAjustesGenerales.BackColor = System.Drawing.Color.Transparent;
-            this.lblAjustesGenerales.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAjustesGenerales.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAjustesGenerales.ForeColor = System.Drawing.Color.Gray;
             this.lblAjustesGenerales.Location = new System.Drawing.Point(12, 10);
             this.lblAjustesGenerales.Name = "lblAjustesGenerales";
-            this.lblAjustesGenerales.Size = new System.Drawing.Size(515, 19);
+            this.lblAjustesGenerales.Size = new System.Drawing.Size(536, 21);
             this.lblAjustesGenerales.TabIndex = 41;
             this.lblAjustesGenerales.Text = "GENERAL (SELECCIONE LA PLANTA PARA LOS AJUSTES POSTERIORES)";
             // 
@@ -634,7 +639,7 @@
             this.btnCrearMesa.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCrearMesa.FlatAppearance.BorderSize = 2;
             this.btnCrearMesa.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearMesa.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearMesa.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearMesa.ForeColor = System.Drawing.Color.White;
             this.btnCrearMesa.Location = new System.Drawing.Point(16, 358);
             this.btnCrearMesa.Name = "btnCrearMesa";
@@ -651,11 +656,11 @@
             this.lblCantidadMesasPA.AutoSize = true;
             this.lblCantidadMesasPA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblCantidadMesasPA.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblCantidadMesasPA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidadMesasPA.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidadMesasPA.ForeColor = System.Drawing.Color.Gray;
-            this.lblCantidadMesasPA.Location = new System.Drawing.Point(441, 74);
+            this.lblCantidadMesasPA.Location = new System.Drawing.Point(418, 75);
             this.lblCantidadMesasPA.Name = "lblCantidadMesasPA";
-            this.lblCantidadMesasPA.Size = new System.Drawing.Size(21, 22);
+            this.lblCantidadMesasPA.Size = new System.Drawing.Size(19, 22);
             this.lblCantidadMesasPA.TabIndex = 38;
             this.lblCantidadMesasPA.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblCantidadMesasPA, "Total de mesas creadas en la planta alta");
@@ -665,11 +670,11 @@
             this.lblCantidadMesasPB.AutoSize = true;
             this.lblCantidadMesasPB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblCantidadMesasPB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblCantidadMesasPB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCantidadMesasPB.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCantidadMesasPB.ForeColor = System.Drawing.Color.Gray;
-            this.lblCantidadMesasPB.Location = new System.Drawing.Point(201, 73);
+            this.lblCantidadMesasPB.Location = new System.Drawing.Point(177, 75);
             this.lblCantidadMesasPB.Name = "lblCantidadMesasPB";
-            this.lblCantidadMesasPB.Size = new System.Drawing.Size(21, 22);
+            this.lblCantidadMesasPB.Size = new System.Drawing.Size(19, 22);
             this.lblCantidadMesasPB.TabIndex = 37;
             this.lblCantidadMesasPB.Text = "0";
             this.ttpMensajesDeAyuda.SetToolTip(this.lblCantidadMesasPB, "Total de mesas creadas en la planta baja");
@@ -677,11 +682,11 @@
             // lblCrearMesa
             // 
             this.lblCrearMesa.AutoSize = true;
-            this.lblCrearMesa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCrearMesa.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCrearMesa.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCrearMesa.Location = new System.Drawing.Point(13, 321);
             this.lblCrearMesa.Name = "lblCrearMesa";
-            this.lblCrearMesa.Size = new System.Drawing.Size(92, 18);
+            this.lblCrearMesa.Size = new System.Drawing.Size(83, 20);
             this.lblCrearMesa.TabIndex = 36;
             this.lblCrearMesa.Text = "Capacidad:";
             // 
@@ -691,11 +696,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEliminarMesa.AutoSize = true;
             this.lblEliminarMesa.BackColor = System.Drawing.Color.Transparent;
-            this.lblEliminarMesa.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEliminarMesa.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEliminarMesa.ForeColor = System.Drawing.Color.Gray;
             this.lblEliminarMesa.Location = new System.Drawing.Point(12, 521);
             this.lblEliminarMesa.Name = "lblEliminarMesa";
-            this.lblEliminarMesa.Size = new System.Drawing.Size(506, 19);
+            this.lblEliminarMesa.Size = new System.Drawing.Size(535, 21);
             this.lblEliminarMesa.TabIndex = 35;
             this.lblEliminarMesa.Text = "ELIMINAR MESAS (DESDE LA ULTIMA, HASTA EL NUMERO INDICADO)";
             // 
@@ -705,11 +710,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCreacionMesas.AutoSize = true;
             this.lblCreacionMesas.BackColor = System.Drawing.Color.Transparent;
-            this.lblCreacionMesas.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCreacionMesas.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCreacionMesas.ForeColor = System.Drawing.Color.Gray;
             this.lblCreacionMesas.Location = new System.Drawing.Point(14, 257);
             this.lblCreacionMesas.Name = "lblCreacionMesas";
-            this.lblCreacionMesas.Size = new System.Drawing.Size(113, 19);
+            this.lblCreacionMesas.Size = new System.Drawing.Size(117, 21);
             this.lblCreacionMesas.TabIndex = 34;
             this.lblCreacionMesas.Text = "CREAR MESAS";
             // 
@@ -720,11 +725,11 @@
             this.btnVerMesasDisponibles.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerMesasDisponibles.FlatAppearance.BorderSize = 2;
             this.btnVerMesasDisponibles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerMesasDisponibles.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerMesasDisponibles.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerMesasDisponibles.ForeColor = System.Drawing.Color.White;
-            this.btnVerMesasDisponibles.Location = new System.Drawing.Point(765, 150);
+            this.btnVerMesasDisponibles.Location = new System.Drawing.Point(766, 173);
             this.btnVerMesasDisponibles.Name = "btnVerMesasDisponibles";
-            this.btnVerMesasDisponibles.Size = new System.Drawing.Size(160, 50);
+            this.btnVerMesasDisponibles.Size = new System.Drawing.Size(160, 61);
             this.btnVerMesasDisponibles.TabIndex = 40;
             this.btnVerMesasDisponibles.Text = "Ver mesas";
             this.btnVerMesasDisponibles.UseVisualStyleBackColor = false;
@@ -744,11 +749,11 @@
             this.btnAdministrarUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAdministrarUsuarios.FlatAppearance.BorderSize = 2;
             this.btnAdministrarUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAdministrarUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdministrarUsuarios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAdministrarUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnAdministrarUsuarios.Location = new System.Drawing.Point(765, 38);
+            this.btnAdministrarUsuarios.Location = new System.Drawing.Point(766, 38);
             this.btnAdministrarUsuarios.Name = "btnAdministrarUsuarios";
-            this.btnAdministrarUsuarios.Size = new System.Drawing.Size(160, 50);
+            this.btnAdministrarUsuarios.Size = new System.Drawing.Size(160, 62);
             this.btnAdministrarUsuarios.TabIndex = 41;
             this.btnAdministrarUsuarios.Text = "Administrar los usuarios";
             this.btnAdministrarUsuarios.UseVisualStyleBackColor = false;
@@ -761,11 +766,11 @@
             this.lblRegistroDeCaja.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblRegistroDeCaja.AutoSize = true;
             this.lblRegistroDeCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
-            this.lblRegistroDeCaja.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegistroDeCaja.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistroDeCaja.ForeColor = System.Drawing.Color.Gray;
-            this.lblRegistroDeCaja.Location = new System.Drawing.Point(322, 9);
+            this.lblRegistroDeCaja.Location = new System.Drawing.Point(373, 9);
             this.lblRegistroDeCaja.Name = "lblRegistroDeCaja";
-            this.lblRegistroDeCaja.Size = new System.Drawing.Size(268, 19);
+            this.lblRegistroDeCaja.Size = new System.Drawing.Size(269, 21);
             this.lblRegistroDeCaja.TabIndex = 30;
             this.lblRegistroDeCaja.Text = "CONFIGURACIÓN DEL PROGRAMA";
             // 
@@ -777,11 +782,11 @@
             this.btnActualizarVencimientos.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnActualizarVencimientos.FlatAppearance.BorderSize = 2;
             this.btnActualizarVencimientos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnActualizarVencimientos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnActualizarVencimientos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnActualizarVencimientos.ForeColor = System.Drawing.Color.White;
-            this.btnActualizarVencimientos.Location = new System.Drawing.Point(765, 507);
+            this.btnActualizarVencimientos.Location = new System.Drawing.Point(766, 503);
             this.btnActualizarVencimientos.Name = "btnActualizarVencimientos";
-            this.btnActualizarVencimientos.Size = new System.Drawing.Size(160, 50);
+            this.btnActualizarVencimientos.Size = new System.Drawing.Size(160, 54);
             this.btnActualizarVencimientos.TabIndex = 42;
             this.btnActualizarVencimientos.Text = "Actualizar vencimientos";
             this.btnActualizarVencimientos.UseVisualStyleBackColor = false;
@@ -797,11 +802,11 @@
             this.btnGenerarCopiaDeSeguridad.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnGenerarCopiaDeSeguridad.FlatAppearance.BorderSize = 2;
             this.btnGenerarCopiaDeSeguridad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGenerarCopiaDeSeguridad.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGenerarCopiaDeSeguridad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerarCopiaDeSeguridad.ForeColor = System.Drawing.Color.White;
-            this.btnGenerarCopiaDeSeguridad.Location = new System.Drawing.Point(765, 262);
+            this.btnGenerarCopiaDeSeguridad.Location = new System.Drawing.Point(766, 314);
             this.btnGenerarCopiaDeSeguridad.Name = "btnGenerarCopiaDeSeguridad";
-            this.btnGenerarCopiaDeSeguridad.Size = new System.Drawing.Size(160, 50);
+            this.btnGenerarCopiaDeSeguridad.Size = new System.Drawing.Size(160, 59);
             this.btnGenerarCopiaDeSeguridad.TabIndex = 43;
             this.btnGenerarCopiaDeSeguridad.Text = "Generar copia de seguridad";
             this.btnGenerarCopiaDeSeguridad.UseVisualStyleBackColor = false;
@@ -816,11 +821,11 @@
             this.BtnEditarInformacionRestaurante.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnEditarInformacionRestaurante.FlatAppearance.BorderSize = 2;
             this.BtnEditarInformacionRestaurante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnEditarInformacionRestaurante.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEditarInformacionRestaurante.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEditarInformacionRestaurante.ForeColor = System.Drawing.Color.White;
-            this.BtnEditarInformacionRestaurante.Location = new System.Drawing.Point(765, 94);
+            this.BtnEditarInformacionRestaurante.Location = new System.Drawing.Point(766, 105);
             this.BtnEditarInformacionRestaurante.Name = "BtnEditarInformacionRestaurante";
-            this.BtnEditarInformacionRestaurante.Size = new System.Drawing.Size(160, 50);
+            this.BtnEditarInformacionRestaurante.Size = new System.Drawing.Size(160, 62);
             this.BtnEditarInformacionRestaurante.TabIndex = 44;
             this.BtnEditarInformacionRestaurante.Text = "Editar la infomacion del restaurante";
             this.BtnEditarInformacionRestaurante.UseVisualStyleBackColor = false;
@@ -835,11 +840,11 @@
             this.BtnTicketDePrueba.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnTicketDePrueba.FlatAppearance.BorderSize = 2;
             this.BtnTicketDePrueba.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnTicketDePrueba.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnTicketDePrueba.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTicketDePrueba.ForeColor = System.Drawing.Color.White;
-            this.BtnTicketDePrueba.Location = new System.Drawing.Point(765, 206);
+            this.BtnTicketDePrueba.Location = new System.Drawing.Point(766, 240);
             this.BtnTicketDePrueba.Name = "BtnTicketDePrueba";
-            this.BtnTicketDePrueba.Size = new System.Drawing.Size(160, 50);
+            this.BtnTicketDePrueba.Size = new System.Drawing.Size(160, 68);
             this.BtnTicketDePrueba.TabIndex = 45;
             this.BtnTicketDePrueba.Text = "Imprimir ticket de prueba";
             this.BtnTicketDePrueba.UseVisualStyleBackColor = false;

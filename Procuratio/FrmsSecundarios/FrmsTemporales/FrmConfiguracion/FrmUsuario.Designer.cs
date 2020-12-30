@@ -102,13 +102,13 @@
             // 
             this.txtContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContraseña.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.DarkGray;
             this.txtContraseña.Location = new System.Drawing.Point(104, 144);
             this.txtContraseña.MaxLength = 20;
             this.txtContraseña.Name = "txtContraseña";
             this.txtContraseña.ShortcutsEnabled = false;
-            this.txtContraseña.Size = new System.Drawing.Size(359, 19);
+            this.txtContraseña.Size = new System.Drawing.Size(359, 20);
             this.txtContraseña.TabIndex = 55;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtContraseña, "Contraseña del usuario");
             this.txtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtContraseña_KeyPress);
@@ -116,6 +116,7 @@
             // pnlDecorativo4
             // 
             this.pnlDecorativo4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo4.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo4.Location = new System.Drawing.Point(104, 163);
             this.pnlDecorativo4.Name = "pnlDecorativo4";
             this.pnlDecorativo4.Size = new System.Drawing.Size(359, 2);
@@ -127,11 +128,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblContraseña.AutoSize = true;
-            this.lblContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblContraseña.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblContraseña.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblContraseña.Location = new System.Drawing.Point(1, 144);
+            this.lblContraseña.Location = new System.Drawing.Point(10, 144);
             this.lblContraseña.Name = "lblContraseña";
-            this.lblContraseña.Size = new System.Drawing.Size(100, 18);
+            this.lblContraseña.Size = new System.Drawing.Size(86, 20);
             this.lblContraseña.TabIndex = 53;
             this.lblContraseña.Text = "Contraseña:";
             // 
@@ -142,7 +143,7 @@
             this.btnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(303, 217);
             this.btnAceptar.Name = "btnAceptar";
@@ -159,12 +160,12 @@
             this.cmbPerfil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbPerfil.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbPerfil.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbPerfil.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbPerfil.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbPerfil.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbPerfil.FormattingEnabled = true;
             this.cmbPerfil.Location = new System.Drawing.Point(104, 180);
             this.cmbPerfil.Name = "cmbPerfil";
-            this.cmbPerfil.Size = new System.Drawing.Size(359, 26);
+            this.cmbPerfil.Size = new System.Drawing.Size(359, 28);
             this.cmbPerfil.TabIndex = 50;
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbPerfil, "Perfil del usuario (el perfil de gerente es el perfil con mas acceso en el progra" +
         "ma, no se puede eliminar ni cambiar el perfil de gerente una vez asignado)");
@@ -175,11 +176,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPerfil.AutoSize = true;
-            this.lblPerfil.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPerfil.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPerfil.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblPerfil.Location = new System.Drawing.Point(49, 184);
+            this.lblPerfil.Location = new System.Drawing.Point(10, 184);
             this.lblPerfil.Name = "lblPerfil";
-            this.lblPerfil.Size = new System.Drawing.Size(52, 18);
+            this.lblPerfil.Size = new System.Drawing.Size(45, 20);
             this.lblPerfil.TabIndex = 49;
             this.lblPerfil.Text = "Perfil:";
             // 
@@ -187,13 +188,13 @@
             // 
             this.txtApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtApellido.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtApellido.ForeColor = System.Drawing.Color.DarkGray;
             this.txtApellido.Location = new System.Drawing.Point(105, 111);
             this.txtApellido.MaxLength = 12;
             this.txtApellido.Name = "txtApellido";
             this.txtApellido.ShortcutsEnabled = false;
-            this.txtApellido.Size = new System.Drawing.Size(359, 19);
+            this.txtApellido.Size = new System.Drawing.Size(359, 20);
             this.txtApellido.TabIndex = 48;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtApellido, "Apellido del usuario");
             this.txtApellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtApellido_KeyPress);
@@ -201,6 +202,7 @@
             // pnlDecorativo3
             // 
             this.pnlDecorativo3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo3.Location = new System.Drawing.Point(105, 130);
             this.pnlDecorativo3.Name = "pnlDecorativo3";
             this.pnlDecorativo3.Size = new System.Drawing.Size(359, 2);
@@ -212,11 +214,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblApellido.AutoSize = true;
-            this.lblApellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblApellido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblApellido.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblApellido.Location = new System.Drawing.Point(29, 111);
+            this.lblApellido.Location = new System.Drawing.Point(10, 111);
             this.lblApellido.Name = "lblApellido";
-            this.lblApellido.Size = new System.Drawing.Size(72, 18);
+            this.lblApellido.Size = new System.Drawing.Size(69, 20);
             this.lblApellido.TabIndex = 46;
             this.lblApellido.Text = "Apellido:";
             // 
@@ -224,13 +226,13 @@
             // 
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.DarkGray;
             this.txtNombre.Location = new System.Drawing.Point(105, 78);
             this.txtNombre.MaxLength = 12;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.ShortcutsEnabled = false;
-            this.txtNombre.Size = new System.Drawing.Size(359, 19);
+            this.txtNombre.Size = new System.Drawing.Size(359, 20);
             this.txtNombre.TabIndex = 45;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtNombre, "Nombre del usuario");
             this.txtNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNombre_KeyPress);
@@ -238,6 +240,7 @@
             // pnlDecorativo2
             // 
             this.pnlDecorativo2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo2.Location = new System.Drawing.Point(105, 97);
             this.pnlDecorativo2.Name = "pnlDecorativo2";
             this.pnlDecorativo2.Size = new System.Drawing.Size(359, 2);
@@ -249,11 +252,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNombre.Location = new System.Drawing.Point(29, 78);
+            this.lblNombre.Location = new System.Drawing.Point(10, 78);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(73, 18);
+            this.lblNombre.Size = new System.Drawing.Size(67, 20);
             this.lblNombre.TabIndex = 43;
             this.lblNombre.Text = "Nombre:";
             // 
@@ -261,13 +264,13 @@
             // 
             this.txtNick.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtNick.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNick.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNick.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNick.ForeColor = System.Drawing.Color.DarkGray;
             this.txtNick.Location = new System.Drawing.Point(105, 46);
             this.txtNick.MaxLength = 20;
             this.txtNick.Name = "txtNick";
             this.txtNick.ShortcutsEnabled = false;
-            this.txtNick.Size = new System.Drawing.Size(359, 19);
+            this.txtNick.Size = new System.Drawing.Size(359, 20);
             this.txtNick.TabIndex = 42;
             this.ttpMensajesDeAyuda.SetToolTip(this.txtNick, "Nick del usuario");
             this.txtNick.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNick_KeyPress);
@@ -275,6 +278,7 @@
             // pnlDecorativo1
             // 
             this.pnlDecorativo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlDecorativo1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlDecorativo1.Location = new System.Drawing.Point(105, 65);
             this.pnlDecorativo1.Name = "pnlDecorativo1";
             this.pnlDecorativo1.Size = new System.Drawing.Size(359, 2);
@@ -286,11 +290,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblNick.AutoSize = true;
-            this.lblNick.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNick.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNick.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNick.Location = new System.Drawing.Point(55, 46);
+            this.lblNick.Location = new System.Drawing.Point(10, 46);
             this.lblNick.Name = "lblNick";
-            this.lblNick.Size = new System.Drawing.Size(47, 18);
+            this.lblNick.Size = new System.Drawing.Size(41, 20);
             this.lblNick.TabIndex = 40;
             this.lblNick.Text = "Nick:";
             // 
@@ -310,7 +314,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(159, 30);
@@ -352,7 +356,7 @@
             this.btnGuardarCambios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnGuardarCambios.FlatAppearance.BorderSize = 2;
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuardarCambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardarCambios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.White;
             this.btnGuardarCambios.Location = new System.Drawing.Point(303, 217);
             this.btnGuardarCambios.Name = "btnGuardarCambios";

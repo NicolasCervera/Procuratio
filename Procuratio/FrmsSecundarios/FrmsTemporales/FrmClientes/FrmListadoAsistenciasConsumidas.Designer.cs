@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnlContFrm = new System.Windows.Forms.Panel();
-            this.pnlBarraDeArrastre = new System.Windows.Forms.Panel();
-            this.lblTituloFrm = new System.Windows.Forms.Label();
-            this.picBTNCerrar = new System.Windows.Forms.PictureBox();
-            this.picLogo = new System.Windows.Forms.PictureBox();
             this.dgvListarClientes = new System.Windows.Forms.DataGridView();
             this.colID_Cliente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colApellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colTelefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colAsistenciasAcumuladasRestantes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pnlBarraDeArrastre = new System.Windows.Forms.Panel();
+            this.lblTituloFrm = new System.Windows.Forms.Label();
+            this.picBTNCerrar = new System.Windows.Forms.PictureBox();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             this.pnlContFrm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListarClientes)).BeginInit();
             this.pnlBarraDeArrastre.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListarClientes)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlContFrm
@@ -61,57 +61,6 @@
             this.pnlContFrm.Size = new System.Drawing.Size(707, 467);
             this.pnlContFrm.TabIndex = 2;
             // 
-            // pnlBarraDeArrastre
-            // 
-            this.pnlBarraDeArrastre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            this.pnlBarraDeArrastre.Controls.Add(this.lblTituloFrm);
-            this.pnlBarraDeArrastre.Controls.Add(this.picBTNCerrar);
-            this.pnlBarraDeArrastre.Controls.Add(this.picLogo);
-            this.pnlBarraDeArrastre.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlBarraDeArrastre.Location = new System.Drawing.Point(0, 0);
-            this.pnlBarraDeArrastre.Name = "pnlBarraDeArrastre";
-            this.pnlBarraDeArrastre.Size = new System.Drawing.Size(705, 30);
-            this.pnlBarraDeArrastre.TabIndex = 3;
-            this.pnlBarraDeArrastre.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
-            // 
-            // lblTituloFrm
-            // 
-            this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
-            this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
-            this.lblTituloFrm.Name = "lblTituloFrm";
-            this.lblTituloFrm.Size = new System.Drawing.Size(463, 30);
-            this.lblTituloFrm.TabIndex = 11;
-            this.lblTituloFrm.Text = "Resumen de los clientes que se le consumieron asistencias";
-            this.lblTituloFrm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTituloFrm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
-            // 
-            // picBTNCerrar
-            // 
-            this.picBTNCerrar.Dock = System.Windows.Forms.DockStyle.Right;
-            this.picBTNCerrar.Image = global::Procuratio.Properties.Resources.Cerrar;
-            this.picBTNCerrar.Location = new System.Drawing.Point(664, 0);
-            this.picBTNCerrar.Name = "picBTNCerrar";
-            this.picBTNCerrar.Size = new System.Drawing.Size(41, 30);
-            this.picBTNCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBTNCerrar.TabIndex = 3;
-            this.picBTNCerrar.TabStop = false;
-            this.picBTNCerrar.Click += new System.EventHandler(this.PicBTNCerrar_Click);
-            this.picBTNCerrar.MouseLeave += new System.EventHandler(this.ColorFondoBotones_MouseLeave);
-            this.picBTNCerrar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ColorFondoBotones_MouseMove);
-            // 
-            // picLogo
-            // 
-            this.picLogo.Dock = System.Windows.Forms.DockStyle.Left;
-            this.picLogo.Image = global::Procuratio.Properties.Resources.Icono_2;
-            this.picLogo.Location = new System.Drawing.Point(0, 0);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(41, 30);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogo.TabIndex = 1;
-            this.picLogo.TabStop = false;
-            this.picLogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
-            // 
             // dgvListarClientes
             // 
             this.dgvListarClientes.AllowUserToAddRows = false;
@@ -123,14 +72,14 @@
             this.dgvListarClientes.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvListarClientes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.dgvListarClientes.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvListarClientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvListarClientes.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvListarClientes.ColumnHeadersHeight = 45;
             this.dgvListarClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvListarClientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -144,20 +93,20 @@
             this.dgvListarClientes.Location = new System.Drawing.Point(7, 38);
             this.dgvListarClientes.Name = "dgvListarClientes";
             this.dgvListarClientes.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Brown;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvListarClientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvListarClientes.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvListarClientes.RowHeadersVisible = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Brown;
-            this.dgvListarClientes.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
+            this.dgvListarClientes.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvListarClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvListarClientes.Size = new System.Drawing.Size(687, 419);
             this.dgvListarClientes.TabIndex = 52;
@@ -206,6 +155,57 @@
             this.colAsistenciasAcumuladasRestantes.Name = "colAsistenciasAcumuladasRestantes";
             this.colAsistenciasAcumuladasRestantes.ReadOnly = true;
             // 
+            // pnlBarraDeArrastre
+            // 
+            this.pnlBarraDeArrastre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
+            this.pnlBarraDeArrastre.Controls.Add(this.lblTituloFrm);
+            this.pnlBarraDeArrastre.Controls.Add(this.picBTNCerrar);
+            this.pnlBarraDeArrastre.Controls.Add(this.picLogo);
+            this.pnlBarraDeArrastre.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlBarraDeArrastre.Location = new System.Drawing.Point(0, 0);
+            this.pnlBarraDeArrastre.Name = "pnlBarraDeArrastre";
+            this.pnlBarraDeArrastre.Size = new System.Drawing.Size(705, 30);
+            this.pnlBarraDeArrastre.TabIndex = 3;
+            this.pnlBarraDeArrastre.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
+            // 
+            // lblTituloFrm
+            // 
+            this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
+            this.lblTituloFrm.Name = "lblTituloFrm";
+            this.lblTituloFrm.Size = new System.Drawing.Size(463, 30);
+            this.lblTituloFrm.TabIndex = 11;
+            this.lblTituloFrm.Text = "Resumen de los clientes que se le consumieron asistencias";
+            this.lblTituloFrm.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblTituloFrm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
+            // 
+            // picBTNCerrar
+            // 
+            this.picBTNCerrar.Dock = System.Windows.Forms.DockStyle.Right;
+            this.picBTNCerrar.Image = global::Procuratio.Properties.Resources.Cerrar;
+            this.picBTNCerrar.Location = new System.Drawing.Point(664, 0);
+            this.picBTNCerrar.Name = "picBTNCerrar";
+            this.picBTNCerrar.Size = new System.Drawing.Size(41, 30);
+            this.picBTNCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBTNCerrar.TabIndex = 3;
+            this.picBTNCerrar.TabStop = false;
+            this.picBTNCerrar.Click += new System.EventHandler(this.PicBTNCerrar_Click);
+            this.picBTNCerrar.MouseLeave += new System.EventHandler(this.ColorFondoBotones_MouseLeave);
+            this.picBTNCerrar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ColorFondoBotones_MouseMove);
+            // 
+            // picLogo
+            // 
+            this.picLogo.Dock = System.Windows.Forms.DockStyle.Left;
+            this.picLogo.Image = global::Procuratio.Properties.Resources.Icono_2;
+            this.picLogo.Location = new System.Drawing.Point(0, 0);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(41, 30);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 1;
+            this.picLogo.TabStop = false;
+            this.picLogo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlBarraDeArrastre_MouseDown);
+            // 
             // FrmListadoAsistenciasConsumidas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -218,10 +218,10 @@
             this.Text = "FrmListadoAsistenciasConsumidas";
             this.Load += new System.EventHandler(this.FrmListadoAsistenciasConsumidas_Load);
             this.pnlContFrm.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListarClientes)).EndInit();
             this.pnlBarraDeArrastre.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvListarClientes)).EndInit();
             this.ResumeLayout(false);
 
         }

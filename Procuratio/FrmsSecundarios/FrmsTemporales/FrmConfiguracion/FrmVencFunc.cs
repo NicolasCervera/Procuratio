@@ -146,5 +146,10 @@ namespace Procuratio.FrmsSecundarios.FrmsTemporales.FrmConfiguracion
             }
         }
         #endregion
+
+        private void pnlContFrm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

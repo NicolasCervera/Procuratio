@@ -69,5 +69,10 @@ namespace Procuratio.FrmsSecundarios.FrmsTemporales.FrmClientes
         }
 
         private void PicBTNCerrar_Click(object sender, EventArgs e) => Close();
+
+        private void pnlContFrm_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

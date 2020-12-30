@@ -83,7 +83,7 @@
             this.grbUsuarios.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.grbUsuarios.Controls.Add(this.rbnUsuariosInactivos);
             this.grbUsuarios.Controls.Add(this.rbnUsuariosActivos);
-            this.grbUsuarios.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.grbUsuarios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbUsuarios.ForeColor = System.Drawing.Color.Gray;
             this.grbUsuarios.Location = new System.Drawing.Point(771, 460);
             this.grbUsuarios.Name = "grbUsuarios";
@@ -95,11 +95,11 @@
             // rbnUsuariosInactivos
             // 
             this.rbnUsuariosInactivos.AutoSize = true;
-            this.rbnUsuariosInactivos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnUsuariosInactivos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnUsuariosInactivos.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnUsuariosInactivos.Location = new System.Drawing.Point(6, 54);
             this.rbnUsuariosInactivos.Name = "rbnUsuariosInactivos";
-            this.rbnUsuariosInactivos.Size = new System.Drawing.Size(93, 22);
+            this.rbnUsuariosInactivos.Size = new System.Drawing.Size(85, 24);
             this.rbnUsuariosInactivos.TabIndex = 33;
             this.rbnUsuariosInactivos.Text = "Inactivos";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnUsuariosInactivos, "Ver los usuarios inactivos");
@@ -110,11 +110,11 @@
             // 
             this.rbnUsuariosActivos.AutoSize = true;
             this.rbnUsuariosActivos.Checked = true;
-            this.rbnUsuariosActivos.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnUsuariosActivos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnUsuariosActivos.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnUsuariosActivos.Location = new System.Drawing.Point(6, 26);
             this.rbnUsuariosActivos.Name = "rbnUsuariosActivos";
-            this.rbnUsuariosActivos.Size = new System.Drawing.Size(81, 22);
+            this.rbnUsuariosActivos.Size = new System.Drawing.Size(75, 24);
             this.rbnUsuariosActivos.TabIndex = 32;
             this.rbnUsuariosActivos.TabStop = true;
             this.rbnUsuariosActivos.Text = "Activos";
@@ -129,11 +129,11 @@
             this.btnCrearUsuario.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCrearUsuario.FlatAppearance.BorderSize = 2;
             this.btnCrearUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearUsuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearUsuario.ForeColor = System.Drawing.Color.White;
             this.btnCrearUsuario.Location = new System.Drawing.Point(771, 36);
             this.btnCrearUsuario.Name = "btnCrearUsuario";
-            this.btnCrearUsuario.Size = new System.Drawing.Size(160, 50);
+            this.btnCrearUsuario.Size = new System.Drawing.Size(160, 60);
             this.btnCrearUsuario.TabIndex = 32;
             this.btnCrearUsuario.Text = "Crear un nuevo usuario";
             this.btnCrearUsuario.UseVisualStyleBackColor = false;
@@ -148,11 +148,11 @@
             this.btnEliminarUsuarios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminarUsuarios.FlatAppearance.BorderSize = 2;
             this.btnEliminarUsuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarUsuarios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarUsuarios.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarUsuarios.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarUsuarios.Location = new System.Drawing.Point(771, 92);
+            this.btnEliminarUsuarios.Location = new System.Drawing.Point(771, 102);
             this.btnEliminarUsuarios.Name = "btnEliminarUsuarios";
-            this.btnEliminarUsuarios.Size = new System.Drawing.Size(160, 50);
+            this.btnEliminarUsuarios.Size = new System.Drawing.Size(160, 57);
             this.btnEliminarUsuarios.TabIndex = 31;
             this.btnEliminarUsuarios.Text = "Eliminar usuarios seleccionados";
             this.btnEliminarUsuarios.UseVisualStyleBackColor = false;
@@ -173,7 +173,7 @@
             this.dgvDatosUsuarios.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -203,7 +203,7 @@
             this.dgvDatosUsuarios.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -211,7 +211,7 @@
             this.dgvDatosUsuarios.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvDatosUsuarios.RowHeadersVisible = false;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvDatosUsuarios.RowsDefaultCellStyle = dataGridViewCellStyle4;
@@ -281,7 +281,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
@@ -335,11 +335,11 @@
             this.btnRestaurarUsuario.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnRestaurarUsuario.FlatAppearance.BorderSize = 2;
             this.btnRestaurarUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRestaurarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRestaurarUsuario.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRestaurarUsuario.ForeColor = System.Drawing.Color.White;
-            this.btnRestaurarUsuario.Location = new System.Drawing.Point(771, 92);
+            this.btnRestaurarUsuario.Location = new System.Drawing.Point(771, 102);
             this.btnRestaurarUsuario.Name = "btnRestaurarUsuario";
-            this.btnRestaurarUsuario.Size = new System.Drawing.Size(160, 50);
+            this.btnRestaurarUsuario.Size = new System.Drawing.Size(160, 57);
             this.btnRestaurarUsuario.TabIndex = 34;
             this.btnRestaurarUsuario.Text = "Activar usuarios seleccionados";
             this.btnRestaurarUsuario.UseVisualStyleBackColor = false;
