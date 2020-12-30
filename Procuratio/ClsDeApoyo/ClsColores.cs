@@ -7,6 +7,8 @@ namespace Procuratio.ClsDeApoyo
     {
         private static bool SeAdvirtioFuncionBeta = false;
 
+        //probando cambios
+
         /// <summary>
         /// Color usado para botones que requieran un resaltado especial.
         /// </summary>
