@@ -76,11 +76,11 @@
             this.lblMostratTotal.AutoSize = true;
             this.lblMostratTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblMostratTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMostratTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostratTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostratTotal.ForeColor = System.Drawing.Color.Gray;
-            this.lblMostratTotal.Location = new System.Drawing.Point(174, 123);
+            this.lblMostratTotal.Location = new System.Drawing.Point(156, 123);
             this.lblMostratTotal.Name = "lblMostratTotal";
-            this.lblMostratTotal.Size = new System.Drawing.Size(21, 22);
+            this.lblMostratTotal.Size = new System.Drawing.Size(19, 22);
             this.lblMostratTotal.TabIndex = 78;
             this.lblMostratTotal.Text = "0";
             // 
@@ -90,11 +90,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label1.Location = new System.Drawing.Point(12, 123);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(155, 18);
+            this.label1.Size = new System.Drawing.Size(142, 20);
             this.label1.TabIndex = 77;
             this.label1.Text = "Monto real perdido:";
             // 
@@ -102,20 +102,20 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.DarkGray;
-            this.textBox1.Location = new System.Drawing.Point(174, 85);
+            this.textBox1.Location = new System.Drawing.Point(156, 85);
             this.textBox1.MaxLength = 99;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(79, 19);
+            this.textBox1.Size = new System.Drawing.Size(79, 20);
             this.textBox1.TabIndex = 76;
             this.textBox1.Visible = false;
             // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Location = new System.Drawing.Point(174, 104);
+            this.panel1.Location = new System.Drawing.Point(156, 104);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(79, 2);
             this.panel1.TabIndex = 75;
@@ -127,11 +127,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblGanancia.AutoSize = true;
-            this.lblGanancia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGanancia.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGanancia.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblGanancia.Location = new System.Drawing.Point(21, 85);
+            this.lblGanancia.Location = new System.Drawing.Point(12, 85);
             this.lblGanancia.Name = "lblGanancia";
-            this.lblGanancia.Size = new System.Drawing.Size(146, 18);
+            this.lblGanancia.Size = new System.Drawing.Size(130, 20);
             this.lblGanancia.TabIndex = 74;
             this.lblGanancia.Text = "Total de ganancia:";
             // 
@@ -139,20 +139,20 @@
             // 
             this.txtNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtNombre.Location = new System.Drawing.Point(174, 49);
+            this.txtNombre.Location = new System.Drawing.Point(156, 49);
             this.txtNombre.MaxLength = 99;
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.ReadOnly = true;
-            this.txtNombre.Size = new System.Drawing.Size(79, 19);
+            this.txtNombre.Size = new System.Drawing.Size(79, 20);
             this.txtNombre.TabIndex = 73;
             this.txtNombre.Visible = false;
             // 
             // pnlDecorativo1
             // 
             this.pnlDecorativo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pnlDecorativo1.Location = new System.Drawing.Point(174, 68);
+            this.pnlDecorativo1.Location = new System.Drawing.Point(156, 68);
             this.pnlDecorativo1.Name = "pnlDecorativo1";
             this.pnlDecorativo1.Size = new System.Drawing.Size(79, 2);
             this.pnlDecorativo1.TabIndex = 71;
@@ -164,11 +164,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblTotal.Location = new System.Drawing.Point(12, 50);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(156, 18);
+            this.lblTotal.Size = new System.Drawing.Size(137, 20);
             this.lblTotal.TabIndex = 72;
             this.lblTotal.Text = "Total con ganancia:";
             // 
@@ -178,7 +178,7 @@
             this.btnAceptar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAceptar.FlatAppearance.BorderSize = 2;
             this.btnAceptar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAceptar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.Color.White;
             this.btnAceptar.Location = new System.Drawing.Point(350, 142);
             this.btnAceptar.Name = "btnAceptar";
@@ -207,7 +207,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(164, 30);

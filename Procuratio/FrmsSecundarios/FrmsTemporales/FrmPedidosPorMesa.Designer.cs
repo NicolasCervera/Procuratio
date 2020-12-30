@@ -128,11 +128,11 @@
             this.btnResetearSeleccionCarta.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnResetearSeleccionCarta.FlatAppearance.BorderSize = 2;
             this.btnResetearSeleccionCarta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnResetearSeleccionCarta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResetearSeleccionCarta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnResetearSeleccionCarta.ForeColor = System.Drawing.Color.White;
-            this.btnResetearSeleccionCarta.Location = new System.Drawing.Point(1126, 636);
+            this.btnResetearSeleccionCarta.Location = new System.Drawing.Point(1031, 636);
             this.btnResetearSeleccionCarta.Name = "btnResetearSeleccionCarta";
-            this.btnResetearSeleccionCarta.Size = new System.Drawing.Size(160, 50);
+            this.btnResetearSeleccionCarta.Size = new System.Drawing.Size(255, 50);
             this.btnResetearSeleccionCarta.TabIndex = 74;
             this.btnResetearSeleccionCarta.Text = "Reiniciar la selección de carta";
             this.btnResetearSeleccionCarta.UseVisualStyleBackColor = false;
@@ -145,7 +145,7 @@
             this.lblEstadoDelPedido.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEstadoDelPedido.BackColor = System.Drawing.Color.Silver;
             this.lblEstadoDelPedido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblEstadoDelPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstadoDelPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadoDelPedido.ForeColor = System.Drawing.Color.Black;
             this.lblEstadoDelPedido.Location = new System.Drawing.Point(277, 37);
             this.lblEstadoDelPedido.Name = "lblEstadoDelPedido";
@@ -168,7 +168,7 @@
             this.dgvArticulosPedido.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -191,7 +191,7 @@
             this.dgvArticulosPedido.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -199,7 +199,7 @@
             this.dgvArticulosPedido.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvArticulosPedido.RowHeadersVisible = false;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvArticulosPedido.RowsDefaultCellStyle = dataGridViewCellStyle3;
@@ -272,11 +272,11 @@
             // lblPedido
             // 
             this.lblPedido.AutoSize = true;
-            this.lblPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPedido.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblPedido.Location = new System.Drawing.Point(84, 44);
             this.lblPedido.Name = "lblPedido";
-            this.lblPedido.Size = new System.Drawing.Size(91, 18);
+            this.lblPedido.Size = new System.Drawing.Size(80, 20);
             this.lblPedido.TabIndex = 72;
             this.lblPedido.Text = "Pedido n°: ";
             // 
@@ -284,12 +284,12 @@
             // 
             this.cmbMesas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbMesas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbMesas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbMesas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbMesas.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbMesas.FormattingEnabled = true;
             this.cmbMesas.Location = new System.Drawing.Point(12, 40);
             this.cmbMesas.Name = "cmbMesas";
-            this.cmbMesas.Size = new System.Drawing.Size(69, 26);
+            this.cmbMesas.Size = new System.Drawing.Size(69, 28);
             this.cmbMesas.TabIndex = 71;
             this.cmbMesas.Text = "Mesas";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbMesas, "Mesas del pedido");
@@ -305,7 +305,7 @@
             this.dgvCarta.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -327,7 +327,7 @@
             this.dgvCarta.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -335,7 +335,7 @@
             this.dgvCarta.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvCarta.RowHeadersVisible = false;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvCarta.RowsDefaultCellStyle = dataGridViewCellStyle6;
@@ -400,11 +400,11 @@
             this.btnAñadirArticulos.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAñadirArticulos.FlatAppearance.BorderSize = 2;
             this.btnAñadirArticulos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAñadirArticulos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAñadirArticulos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAñadirArticulos.ForeColor = System.Drawing.Color.White;
             this.btnAñadirArticulos.Location = new System.Drawing.Point(530, 636);
             this.btnAñadirArticulos.Name = "btnAñadirArticulos";
-            this.btnAñadirArticulos.Size = new System.Drawing.Size(160, 50);
+            this.btnAñadirArticulos.Size = new System.Drawing.Size(212, 50);
             this.btnAñadirArticulos.TabIndex = 69;
             this.btnAñadirArticulos.Text = "Añadir articulos al pedido";
             this.btnAñadirArticulos.UseVisualStyleBackColor = false;
@@ -438,11 +438,11 @@
             this.btnMostrarCocina.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnMostrarCocina.FlatAppearance.BorderSize = 2;
             this.btnMostrarCocina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMostrarCocina.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrarCocina.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMostrarCocina.ForeColor = System.Drawing.Color.White;
-            this.btnMostrarCocina.Location = new System.Drawing.Point(174, 59);
+            this.btnMostrarCocina.Location = new System.Drawing.Point(127, 59);
             this.btnMostrarCocina.Name = "btnMostrarCocina";
-            this.btnMostrarCocina.Size = new System.Drawing.Size(160, 50);
+            this.btnMostrarCocina.Size = new System.Drawing.Size(207, 106);
             this.btnMostrarCocina.TabIndex = 73;
             this.btnMostrarCocina.Text = "Ver lo que cocina tiene de este pedido";
             this.btnMostrarCocina.UseVisualStyleBackColor = false;
@@ -457,11 +457,11 @@
             this.btnImprimirTicket.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnImprimirTicket.FlatAppearance.BorderSize = 2;
             this.btnImprimirTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImprimirTicket.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimirTicket.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimirTicket.ForeColor = System.Drawing.Color.White;
-            this.btnImprimirTicket.Location = new System.Drawing.Point(174, 115);
+            this.btnImprimirTicket.Location = new System.Drawing.Point(127, 3);
             this.btnImprimirTicket.Name = "btnImprimirTicket";
-            this.btnImprimirTicket.Size = new System.Drawing.Size(160, 50);
+            this.btnImprimirTicket.Size = new System.Drawing.Size(208, 50);
             this.btnImprimirTicket.TabIndex = 72;
             this.btnImprimirTicket.Text = "Imprimir ticket para cocina";
             this.btnImprimirTicket.UseVisualStyleBackColor = false;
@@ -477,7 +477,7 @@
             this.btnPedidoRecibido.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnPedidoRecibido.FlatAppearance.BorderSize = 2;
             this.btnPedidoRecibido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPedidoRecibido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPedidoRecibido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPedidoRecibido.ForeColor = System.Drawing.Color.White;
             this.btnPedidoRecibido.Location = new System.Drawing.Point(340, 59);
             this.btnPedidoRecibido.Name = "btnPedidoRecibido";
@@ -497,7 +497,7 @@
             this.btnPreCuenta.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnPreCuenta.FlatAppearance.BorderSize = 2;
             this.btnPreCuenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPreCuenta.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPreCuenta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPreCuenta.ForeColor = System.Drawing.Color.White;
             this.btnPreCuenta.Location = new System.Drawing.Point(340, 115);
             this.btnPreCuenta.Name = "btnPreCuenta";
@@ -516,7 +516,7 @@
             this.btnEnviarPedido.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEnviarPedido.FlatAppearance.BorderSize = 2;
             this.btnEnviarPedido.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnviarPedido.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnviarPedido.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarPedido.ForeColor = System.Drawing.Color.White;
             this.btnEnviarPedido.Location = new System.Drawing.Point(340, 3);
             this.btnEnviarPedido.Name = "btnEnviarPedido";
@@ -533,22 +533,22 @@
             this.lblMostratTotal.AutoSize = true;
             this.lblMostratTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblMostratTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblMostratTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMostratTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMostratTotal.ForeColor = System.Drawing.Color.Gray;
-            this.lblMostratTotal.Location = new System.Drawing.Point(58, 73);
+            this.lblMostratTotal.Location = new System.Drawing.Point(60, 141);
             this.lblMostratTotal.Name = "lblMostratTotal";
-            this.lblMostratTotal.Size = new System.Drawing.Size(21, 22);
+            this.lblMostratTotal.Size = new System.Drawing.Size(19, 22);
             this.lblMostratTotal.TabIndex = 43;
             this.lblMostratTotal.Text = "0";
             // 
             // lblTotal
             // 
             this.lblTotal.AutoSize = true;
-            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTotal.Location = new System.Drawing.Point(3, 74);
+            this.lblTotal.Location = new System.Drawing.Point(5, 142);
             this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Size = new System.Drawing.Size(51, 18);
+            this.lblTotal.Size = new System.Drawing.Size(45, 20);
             this.lblTotal.TabIndex = 42;
             this.lblTotal.Text = "Total:";
             // 
@@ -556,11 +556,11 @@
             // 
             this.lblCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoria.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategoria.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCategoria.Location = new System.Drawing.Point(893, 44);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(162, 18);
+            this.lblCategoria.Size = new System.Drawing.Size(144, 20);
             this.lblCategoria.TabIndex = 66;
             this.lblCategoria.Text = "Filtrar por categoria:";
             // 
@@ -569,12 +569,12 @@
             this.cmbCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbCategoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbCategoria.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategoria.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbCategoria.FormattingEnabled = true;
             this.cmbCategoria.Location = new System.Drawing.Point(1058, 39);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(228, 26);
+            this.cmbCategoria.Size = new System.Drawing.Size(228, 28);
             this.cmbCategoria.TabIndex = 65;
             this.cmbCategoria.Text = "Categoria";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbCategoria, "Filtrar por nombre de categoria");
@@ -588,7 +588,7 @@
             this.picLupa.Image = global::Procuratio.Properties.Resources.Lupa;
             this.picLupa.Location = new System.Drawing.Point(530, 40);
             this.picLupa.Name = "picLupa";
-            this.picLupa.Size = new System.Drawing.Size(29, 26);
+            this.picLupa.Size = new System.Drawing.Size(29, 27);
             this.picLupa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLupa.TabIndex = 64;
             this.picLupa.TabStop = false;
@@ -598,12 +598,12 @@
             this.txtBuscarPorNombre.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBuscarPorNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtBuscarPorNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscarPorNombre.ForeColor = System.Drawing.Color.DimGray;
             this.txtBuscarPorNombre.Location = new System.Drawing.Point(558, 40);
             this.txtBuscarPorNombre.MaxLength = 100;
             this.txtBuscarPorNombre.Name = "txtBuscarPorNombre";
-            this.txtBuscarPorNombre.Size = new System.Drawing.Size(329, 26);
+            this.txtBuscarPorNombre.Size = new System.Drawing.Size(329, 27);
             this.txtBuscarPorNombre.TabIndex = 63;
             this.txtBuscarPorNombre.Text = "Buscar por nombre de articulo...";
             this.ttpMensajesDeAyuda.SetToolTip(this.txtBuscarPorNombre, "Filtrar por nombre de articulo");
@@ -748,7 +748,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(156, 30);

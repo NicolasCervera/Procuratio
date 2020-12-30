@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.PnlContForm = new System.Windows.Forms.Panel();
+            this.txtBlockDeNotas = new System.Windows.Forms.TextBox();
             this.pnlBarraDeArrastre = new System.Windows.Forms.Panel();
             this.lblTituloFrm = new System.Windows.Forms.Label();
             this.picBTNCerrar = new System.Windows.Forms.PictureBox();
             this.picLogo = new System.Windows.Forms.PictureBox();
-            this.txtBlockDeNotas = new System.Windows.Forms.TextBox();
             this.PnlContForm.SuspendLayout();
             this.pnlBarraDeArrastre.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).BeginInit();
@@ -51,6 +51,21 @@
             this.PnlContForm.Size = new System.Drawing.Size(1184, 561);
             this.PnlContForm.TabIndex = 0;
             // 
+            // txtBlockDeNotas
+            // 
+            this.txtBlockDeNotas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
+            this.txtBlockDeNotas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtBlockDeNotas.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtBlockDeNotas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBlockDeNotas.ForeColor = System.Drawing.Color.DarkGray;
+            this.txtBlockDeNotas.Location = new System.Drawing.Point(0, 30);
+            this.txtBlockDeNotas.MaxLength = 7999;
+            this.txtBlockDeNotas.Multiline = true;
+            this.txtBlockDeNotas.Name = "txtBlockDeNotas";
+            this.txtBlockDeNotas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtBlockDeNotas.Size = new System.Drawing.Size(1182, 529);
+            this.txtBlockDeNotas.TabIndex = 37;
+            // 
             // pnlBarraDeArrastre
             // 
             this.pnlBarraDeArrastre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
@@ -66,7 +81,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(287, 30);
@@ -98,21 +113,6 @@
             this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLogo.TabIndex = 1;
             this.picLogo.TabStop = false;
-            // 
-            // txtBlockDeNotas
-            // 
-            this.txtBlockDeNotas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            this.txtBlockDeNotas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBlockDeNotas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtBlockDeNotas.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtBlockDeNotas.ForeColor = System.Drawing.Color.DarkGray;
-            this.txtBlockDeNotas.Location = new System.Drawing.Point(0, 30);
-            this.txtBlockDeNotas.MaxLength = 7999;
-            this.txtBlockDeNotas.Multiline = true;
-            this.txtBlockDeNotas.Name = "txtBlockDeNotas";
-            this.txtBlockDeNotas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtBlockDeNotas.Size = new System.Drawing.Size(1182, 529);
-            this.txtBlockDeNotas.TabIndex = 37;
             // 
             // FrmNotas
             // 

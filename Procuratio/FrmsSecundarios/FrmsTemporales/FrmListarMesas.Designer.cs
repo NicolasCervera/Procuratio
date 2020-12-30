@@ -83,11 +83,11 @@
             // 
             this.lblCapacidadTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblCapacidadTotal.AutoSize = true;
-            this.lblCapacidadTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCapacidadTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCapacidadTotal.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblCapacidadTotal.Location = new System.Drawing.Point(3, 12);
             this.lblCapacidadTotal.Name = "lblCapacidadTotal";
-            this.lblCapacidadTotal.Size = new System.Drawing.Size(130, 18);
+            this.lblCapacidadTotal.Size = new System.Drawing.Size(118, 20);
             this.lblCapacidadTotal.TabIndex = 54;
             this.lblCapacidadTotal.Text = "Capacidad total:";
             // 
@@ -97,11 +97,11 @@
             this.lblResultadoCapacidadTotal.AutoSize = true;
             this.lblResultadoCapacidadTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.lblResultadoCapacidadTotal.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblResultadoCapacidadTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultadoCapacidadTotal.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblResultadoCapacidadTotal.ForeColor = System.Drawing.Color.Gray;
-            this.lblResultadoCapacidadTotal.Location = new System.Drawing.Point(134, 10);
+            this.lblResultadoCapacidadTotal.Location = new System.Drawing.Point(122, 11);
             this.lblResultadoCapacidadTotal.Name = "lblResultadoCapacidadTotal";
-            this.lblResultadoCapacidadTotal.Size = new System.Drawing.Size(21, 22);
+            this.lblResultadoCapacidadTotal.Size = new System.Drawing.Size(19, 22);
             this.lblResultadoCapacidadTotal.TabIndex = 55;
             this.lblResultadoCapacidadTotal.Text = "0";
             // 
@@ -109,7 +109,7 @@
             // 
             this.grbPlantas.Controls.Add(this.rbnPlantaAlta);
             this.grbPlantas.Controls.Add(this.rbnPlantaBaja);
-            this.grbPlantas.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.grbPlantas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbPlantas.ForeColor = System.Drawing.Color.Gray;
             this.grbPlantas.Location = new System.Drawing.Point(286, 432);
             this.grbPlantas.Name = "grbPlantas";
@@ -122,11 +122,11 @@
             // 
             this.rbnPlantaAlta.AutoSize = true;
             this.rbnPlantaAlta.Enabled = false;
-            this.rbnPlantaAlta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaAlta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaAlta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaAlta.Location = new System.Drawing.Point(6, 54);
             this.rbnPlantaAlta.Name = "rbnPlantaAlta";
-            this.rbnPlantaAlta.Size = new System.Drawing.Size(105, 22);
+            this.rbnPlantaAlta.Size = new System.Drawing.Size(97, 24);
             this.rbnPlantaAlta.TabIndex = 33;
             this.rbnPlantaAlta.Text = "Planta alta";
             this.rbnPlantaAlta.UseVisualStyleBackColor = true;
@@ -136,11 +136,11 @@
             // 
             this.rbnPlantaBaja.AutoSize = true;
             this.rbnPlantaBaja.Checked = true;
-            this.rbnPlantaBaja.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnPlantaBaja.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnPlantaBaja.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.rbnPlantaBaja.Location = new System.Drawing.Point(6, 26);
             this.rbnPlantaBaja.Name = "rbnPlantaBaja";
-            this.rbnPlantaBaja.Size = new System.Drawing.Size(109, 22);
+            this.rbnPlantaBaja.Size = new System.Drawing.Size(101, 24);
             this.rbnPlantaBaja.TabIndex = 32;
             this.rbnPlantaBaja.TabStop = true;
             this.rbnPlantaBaja.Text = "Planta baja";
@@ -163,7 +163,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(371, 30);
@@ -211,7 +211,7 @@
             this.dgvListarMesas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -230,7 +230,7 @@
             this.dgvListarMesas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Brown;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -238,7 +238,7 @@
             this.dgvListarMesas.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvListarMesas.RowHeadersVisible = false;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Brown;
             this.dgvListarMesas.RowsDefaultCellStyle = dataGridViewCellStyle3;
@@ -266,7 +266,7 @@
             this.colCapacidad.HeaderText = "Capacidad";
             this.colCapacidad.Name = "colCapacidad";
             this.colCapacidad.ReadOnly = true;
-            this.colCapacidad.Width = 98;
+            this.colCapacidad.Width = 93;
             // 
             // FrmListarMesas
             // 
