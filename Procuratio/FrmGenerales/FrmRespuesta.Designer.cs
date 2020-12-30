@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.PnlContForm = new System.Windows.Forms.Panel();
+            this.flpRespuesta = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.BtnNo = new System.Windows.Forms.Button();
             this.btnSi = new System.Windows.Forms.Button();
@@ -37,12 +38,11 @@
             this.lblTituloFrm = new System.Windows.Forms.Label();
             this.picLogo = new System.Windows.Forms.PictureBox();
             this.picBTNCerrar = new System.Windows.Forms.PictureBox();
-            this.flpRespuesta = new System.Windows.Forms.FlowLayoutPanel();
             this.PnlContForm.SuspendLayout();
+            this.flpRespuesta.SuspendLayout();
             this.pnlBarraDeArrastre.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).BeginInit();
-            this.flpRespuesta.SuspendLayout();
             this.SuspendLayout();
             // 
             // PnlContForm
@@ -57,6 +57,18 @@
             this.PnlContForm.Size = new System.Drawing.Size(520, 250);
             this.PnlContForm.TabIndex = 0;
             // 
+            // flpRespuesta
+            // 
+            this.flpRespuesta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.flpRespuesta.Controls.Add(this.BtnCancelar);
+            this.flpRespuesta.Controls.Add(this.BtnNo);
+            this.flpRespuesta.Controls.Add(this.btnSi);
+            this.flpRespuesta.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
+            this.flpRespuesta.Location = new System.Drawing.Point(6, 203);
+            this.flpRespuesta.Name = "flpRespuesta";
+            this.flpRespuesta.Size = new System.Drawing.Size(501, 37);
+            this.flpRespuesta.TabIndex = 56;
+            // 
             // BtnCancelar
             // 
             this.BtnCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -64,7 +76,7 @@
             this.BtnCancelar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnCancelar.FlatAppearance.BorderSize = 2;
             this.BtnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnCancelar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCancelar.ForeColor = System.Drawing.Color.White;
             this.BtnCancelar.Location = new System.Drawing.Point(338, 3);
             this.BtnCancelar.Name = "BtnCancelar";
@@ -84,7 +96,7 @@
             this.BtnNo.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnNo.FlatAppearance.BorderSize = 2;
             this.BtnNo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnNo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnNo.ForeColor = System.Drawing.Color.White;
             this.BtnNo.Location = new System.Drawing.Point(172, 3);
             this.BtnNo.Name = "BtnNo";
@@ -104,7 +116,7 @@
             this.btnSi.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSi.FlatAppearance.BorderSize = 2;
             this.btnSi.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSi.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSi.ForeColor = System.Drawing.Color.White;
             this.btnSi.Location = new System.Drawing.Point(6, 3);
             this.btnSi.Name = "btnSi";
@@ -122,7 +134,7 @@
             this.lblMensaje.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblMensaje.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensaje.ForeColor = System.Drawing.Color.White;
             this.lblMensaje.Location = new System.Drawing.Point(11, 43);
             this.lblMensaje.Name = "lblMensaje";
@@ -148,7 +160,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(157, 28);
@@ -174,27 +186,15 @@
             this.picBTNCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picBTNCerrar.ErrorImage = global::Procuratio.Properties.Resources.Cerrar;
             this.picBTNCerrar.Image = global::Procuratio.Properties.Resources.Cerrar;
-            this.picBTNCerrar.Location = new System.Drawing.Point(481, 0);
+            this.picBTNCerrar.Location = new System.Drawing.Point(490, 2);
             this.picBTNCerrar.Name = "picBTNCerrar";
-            this.picBTNCerrar.Size = new System.Drawing.Size(35, 28);
+            this.picBTNCerrar.Size = new System.Drawing.Size(22, 24);
             this.picBTNCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBTNCerrar.TabIndex = 1;
             this.picBTNCerrar.TabStop = false;
             this.picBTNCerrar.Click += new System.EventHandler(this.PicBTNCerrar_Click);
             this.picBTNCerrar.MouseLeave += new System.EventHandler(this.ColorFondoBotones_MouseLeave);
             this.picBTNCerrar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.ColorFondoBotones_MouseMove);
-            // 
-            // flpRespuesta
-            // 
-            this.flpRespuesta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.flpRespuesta.Controls.Add(this.BtnCancelar);
-            this.flpRespuesta.Controls.Add(this.BtnNo);
-            this.flpRespuesta.Controls.Add(this.btnSi);
-            this.flpRespuesta.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.flpRespuesta.Location = new System.Drawing.Point(6, 203);
-            this.flpRespuesta.Name = "flpRespuesta";
-            this.flpRespuesta.Size = new System.Drawing.Size(501, 37);
-            this.flpRespuesta.TabIndex = 56;
             // 
             // FrmRespuesta
             // 
@@ -209,10 +209,10 @@
             this.Text = "FrmRespuesta";
             this.Load += new System.EventHandler(this.FrmRespuesta_Load);
             this.PnlContForm.ResumeLayout(false);
+            this.flpRespuesta.ResumeLayout(false);
             this.pnlBarraDeArrastre.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).EndInit();
-            this.flpRespuesta.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

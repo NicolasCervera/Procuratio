@@ -63,10 +63,10 @@
             // lblNombreAplicacion
             // 
             this.lblNombreAplicacion.AutoSize = true;
-            this.lblNombreAplicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreAplicacion.Location = new System.Drawing.Point(25, 148);
+            this.lblNombreAplicacion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreAplicacion.Location = new System.Drawing.Point(31, 148);
             this.lblNombreAplicacion.Name = "lblNombreAplicacion";
-            this.lblNombreAplicacion.Size = new System.Drawing.Size(125, 20);
+            this.lblNombreAplicacion.Size = new System.Drawing.Size(110, 21);
             this.lblNombreAplicacion.TabIndex = 1;
             this.lblNombreAplicacion.Text = "PROCURATIO";
             this.lblNombreAplicacion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
@@ -97,11 +97,11 @@
             // lblMensajeDeError
             // 
             this.lblMensajeDeError.AutoSize = true;
-            this.lblMensajeDeError.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensajeDeError.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensajeDeError.ForeColor = System.Drawing.Color.Red;
             this.lblMensajeDeError.Location = new System.Drawing.Point(205, 108);
             this.lblMensajeDeError.Name = "lblMensajeDeError";
-            this.lblMensajeDeError.Size = new System.Drawing.Size(274, 32);
+            this.lblMensajeDeError.Size = new System.Drawing.Size(257, 34);
             this.lblMensajeDeError.TabIndex = 20;
             this.lblMensajeDeError.Text = "Contraseña invalida o su usuario no tiene\r\nautorizacion";
             this.lblMensajeDeError.Visible = false;
@@ -110,9 +110,9 @@
             // picBTNCerrar
             // 
             this.picBTNCerrar.Image = global::Procuratio.Properties.Resources.Cerrar2;
-            this.picBTNCerrar.Location = new System.Drawing.Point(501, -1);
+            this.picBTNCerrar.Location = new System.Drawing.Point(506, 3);
             this.picBTNCerrar.Name = "picBTNCerrar";
-            this.picBTNCerrar.Size = new System.Drawing.Size(35, 28);
+            this.picBTNCerrar.Size = new System.Drawing.Size(26, 23);
             this.picBTNCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBTNCerrar.TabIndex = 18;
             this.picBTNCerrar.TabStop = false;
@@ -127,11 +127,11 @@
             this.btnIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(179)))), ((int)(((byte)(104)))));
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
             this.btnIngresar.Location = new System.Drawing.Point(209, 146);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(287, 23);
+            this.btnIngresar.Size = new System.Drawing.Size(287, 31);
             this.btnIngresar.TabIndex = 12;
             this.btnIngresar.Text = "INGRESAR";
             this.btnIngresar.UseVisualStyleBackColor = false;
@@ -140,11 +140,11 @@
             // lblInicioDeSesion
             // 
             this.lblInicioDeSesion.AutoSize = true;
-            this.lblInicioDeSesion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInicioDeSesion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInicioDeSesion.ForeColor = System.Drawing.Color.Gray;
             this.lblInicioDeSesion.Location = new System.Drawing.Point(182, 39);
             this.lblInicioDeSesion.Name = "lblInicioDeSesion";
-            this.lblInicioDeSesion.Size = new System.Drawing.Size(352, 18);
+            this.lblInicioDeSesion.Size = new System.Drawing.Size(347, 20);
             this.lblInicioDeSesion.TabIndex = 16;
             this.lblInicioDeSesion.Text = "ACCESO SOLO PARA USUARIO AUTORIZADO (*)";
             this.lblInicioDeSesion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
@@ -153,12 +153,12 @@
             // 
             this.txtContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.DimGray;
             this.txtContraseña.Location = new System.Drawing.Point(211, 80);
             this.txtContraseña.MaxLength = 18;
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(291, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(291, 22);
             this.txtContraseña.TabIndex = 17;
             this.txtContraseña.Text = "CONTRASEÑA";
             this.txtContraseña.TextChanged += new System.EventHandler(this.LimpiarlblMensajeDeError);
@@ -190,11 +190,11 @@
             // lblUsuariosAutorizados
             // 
             this.lblUsuariosAutorizados.AutoSize = true;
-            this.lblUsuariosAutorizados.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsuariosAutorizados.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuariosAutorizados.ForeColor = System.Drawing.Color.Gray;
             this.lblUsuariosAutorizados.Location = new System.Drawing.Point(207, 179);
             this.lblUsuariosAutorizados.Name = "lblUsuariosAutorizados";
-            this.lblUsuariosAutorizados.Size = new System.Drawing.Size(185, 16);
+            this.lblUsuariosAutorizados.Size = new System.Drawing.Size(176, 15);
             this.lblUsuariosAutorizados.TabIndex = 19;
             this.lblUsuariosAutorizados.Text = "Usuario que tiene autorizacion";
             this.lblUsuariosAutorizados.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);

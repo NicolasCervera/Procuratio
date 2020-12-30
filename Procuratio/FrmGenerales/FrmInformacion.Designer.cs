@@ -55,7 +55,7 @@
             // lblMensaje
             // 
             this.lblMensaje.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblMensaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblMensaje.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensaje.ForeColor = System.Drawing.Color.White;
             this.lblMensaje.Location = new System.Drawing.Point(0, 30);
             this.lblMensaje.Name = "lblMensaje";
@@ -82,7 +82,7 @@
             // lblTituloFrm
             // 
             this.lblTituloFrm.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lblTituloFrm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.lblTituloFrm.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTituloFrm.Location = new System.Drawing.Point(41, 0);
             this.lblTituloFrm.Name = "lblTituloFrm";
             this.lblTituloFrm.Size = new System.Drawing.Size(185, 28);
@@ -108,9 +108,9 @@
             this.picBTNCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.picBTNCerrar.ErrorImage = global::Procuratio.Properties.Resources.Cerrar;
             this.picBTNCerrar.Image = global::Procuratio.Properties.Resources.Cerrar;
-            this.picBTNCerrar.Location = new System.Drawing.Point(261, 0);
+            this.picBTNCerrar.Location = new System.Drawing.Point(272, 2);
             this.picBTNCerrar.Name = "picBTNCerrar";
-            this.picBTNCerrar.Size = new System.Drawing.Size(35, 28);
+            this.picBTNCerrar.Size = new System.Drawing.Size(21, 25);
             this.picBTNCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBTNCerrar.TabIndex = 1;
             this.picBTNCerrar.TabStop = false;

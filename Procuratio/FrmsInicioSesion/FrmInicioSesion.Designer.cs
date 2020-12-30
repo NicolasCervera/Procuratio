@@ -49,6 +49,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBTNMostrarContraseña)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNMinimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).BeginInit();
+            this.pnlContFrm.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlIzquierdo
@@ -67,10 +68,10 @@
             // lblNombreAplicacion
             // 
             this.lblNombreAplicacion.AutoSize = true;
-            this.lblNombreAplicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNombreAplicacion.Location = new System.Drawing.Point(24, 185);
+            this.lblNombreAplicacion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombreAplicacion.Location = new System.Drawing.Point(32, 185);
             this.lblNombreAplicacion.Name = "lblNombreAplicacion";
-            this.lblNombreAplicacion.Size = new System.Drawing.Size(125, 20);
+            this.lblNombreAplicacion.Size = new System.Drawing.Size(110, 21);
             this.lblNombreAplicacion.TabIndex = 1;
             this.lblNombreAplicacion.Text = "PROCURATIO";
             this.lblNombreAplicacion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
@@ -106,14 +107,14 @@
             // 
             this.txtUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtUsuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUsuario.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.ForeColor = System.Drawing.Color.DimGray;
             this.txtUsuario.Location = new System.Drawing.Point(210, 83);
             this.txtUsuario.MaxLength = 18;
             this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(285, 20);
+            this.txtUsuario.Size = new System.Drawing.Size(285, 22);
             this.txtUsuario.TabIndex = 1;
-            this.txtUsuario.Text = "NOMBRE";
+            this.txtUsuario.Text = "Nick";
             this.txtUsuario.TextChanged += new System.EventHandler(this.LimpiarlblMensajeDeError);
             this.txtUsuario.Enter += new System.EventHandler(this.BorraTextoTXT_Enter);
             this.txtUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PresionaEnter);
@@ -123,14 +124,14 @@
             // 
             this.txtContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtContraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtContraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtContraseña.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtContraseña.ForeColor = System.Drawing.Color.DimGray;
             this.txtContraseña.Location = new System.Drawing.Point(210, 142);
             this.txtContraseña.MaxLength = 18;
             this.txtContraseña.Name = "txtContraseña";
-            this.txtContraseña.Size = new System.Drawing.Size(285, 20);
+            this.txtContraseña.Size = new System.Drawing.Size(285, 22);
             this.txtContraseña.TabIndex = 6;
-            this.txtContraseña.Text = "CONTRASEÑA";
+            this.txtContraseña.Text = "Contraseña";
             this.txtContraseña.TextChanged += new System.EventHandler(this.LimpiarlblMensajeDeError);
             this.txtContraseña.Enter += new System.EventHandler(this.BorraTextoTXT_Enter);
             this.txtContraseña.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PresionaEnter);
@@ -139,11 +140,11 @@
             // lblInicioDeSesion
             // 
             this.lblInicioDeSesion.AutoSize = true;
-            this.lblInicioDeSesion.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInicioDeSesion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInicioDeSesion.ForeColor = System.Drawing.Color.Gray;
-            this.lblInicioDeSesion.Location = new System.Drawing.Point(265, 31);
+            this.lblInicioDeSesion.Location = new System.Drawing.Point(280, 31);
             this.lblInicioDeSesion.Name = "lblInicioDeSesion";
-            this.lblInicioDeSesion.Size = new System.Drawing.Size(168, 23);
+            this.lblInicioDeSesion.Size = new System.Drawing.Size(146, 21);
             this.lblInicioDeSesion.TabIndex = 5;
             this.lblInicioDeSesion.Text = "INICIO DE SESIÓN";
             this.lblInicioDeSesion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
@@ -155,11 +156,11 @@
             this.btnIngresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.btnIngresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(124)))), ((int)(((byte)(179)))), ((int)(((byte)(104)))));
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIngresar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.Color.White;
             this.btnIngresar.Location = new System.Drawing.Point(208, 208);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(287, 23);
+            this.btnIngresar.Size = new System.Drawing.Size(287, 34);
             this.btnIngresar.TabIndex = 0;
             this.btnIngresar.Text = "INGRESAR";
             this.btnIngresar.UseVisualStyleBackColor = false;
@@ -173,11 +174,11 @@
             // lblMensajeDeError
             // 
             this.lblMensajeDeError.AutoSize = true;
-            this.lblMensajeDeError.Font = new System.Drawing.Font("Century Gothic", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMensajeDeError.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMensajeDeError.ForeColor = System.Drawing.Color.Red;
             this.lblMensajeDeError.Location = new System.Drawing.Point(206, 179);
             this.lblMensajeDeError.Name = "lblMensajeDeError";
-            this.lblMensajeDeError.Size = new System.Drawing.Size(213, 16);
+            this.lblMensajeDeError.Size = new System.Drawing.Size(199, 17);
             this.lblMensajeDeError.TabIndex = 10;
             this.lblMensajeDeError.Text = "Usuario y/o contraseña invalida";
             this.lblMensajeDeError.Visible = false;
@@ -198,9 +199,9 @@
             // picBTNMinimizar
             // 
             this.picBTNMinimizar.Image = global::Procuratio.Properties.Resources.Minimizar2;
-            this.picBTNMinimizar.Location = new System.Drawing.Point(455, 1);
+            this.picBTNMinimizar.Location = new System.Drawing.Point(466, 3);
             this.picBTNMinimizar.Name = "picBTNMinimizar";
-            this.picBTNMinimizar.Size = new System.Drawing.Size(35, 28);
+            this.picBTNMinimizar.Size = new System.Drawing.Size(25, 21);
             this.picBTNMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBTNMinimizar.TabIndex = 8;
             this.picBTNMinimizar.TabStop = false;
@@ -211,9 +212,9 @@
             // picBTNCerrar
             // 
             this.picBTNCerrar.Image = global::Procuratio.Properties.Resources.Cerrar2;
-            this.picBTNCerrar.Location = new System.Drawing.Point(489, 1);
+            this.picBTNCerrar.Location = new System.Drawing.Point(495, 3);
             this.picBTNCerrar.Name = "picBTNCerrar";
-            this.picBTNCerrar.Size = new System.Drawing.Size(35, 28);
+            this.picBTNCerrar.Size = new System.Drawing.Size(25, 21);
             this.picBTNCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBTNCerrar.TabIndex = 7;
             this.picBTNCerrar.TabStop = false;
@@ -224,6 +225,8 @@
             // pnlContFrm
             // 
             this.pnlContFrm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlContFrm.Controls.Add(this.picBTNCerrar);
+            this.pnlContFrm.Controls.Add(this.picBTNMinimizar);
             this.pnlContFrm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContFrm.Location = new System.Drawing.Point(0, 0);
             this.pnlContFrm.Name = "pnlContFrm";
@@ -239,8 +242,6 @@
             this.ClientSize = new System.Drawing.Size(525, 275);
             this.Controls.Add(this.picBTNMostrarContraseña);
             this.Controls.Add(this.lblMensajeDeError);
-            this.Controls.Add(this.picBTNMinimizar);
-            this.Controls.Add(this.picBTNCerrar);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.lblInicioDeSesion);
             this.Controls.Add(this.txtContraseña);
@@ -261,6 +262,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picBTNMostrarContraseña)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNMinimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).EndInit();
+            this.pnlContFrm.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

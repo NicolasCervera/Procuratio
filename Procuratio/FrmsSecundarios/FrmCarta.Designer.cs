@@ -34,13 +34,6 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.lblRegistroDeDatos = new System.Windows.Forms.Label();
             this.dgvCarta = new System.Windows.Forms.DataGridView();
-            this.colID_Articulo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDescripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Col_PrecioDelivery = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colSeleccionDeFilas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.btnSeleccionarTodo = new System.Windows.Forms.Button();
             this.btnDesceleccionarTodo = new System.Windows.Forms.Button();
             this.txtBuscarPorNombre = new System.Windows.Forms.TextBox();
@@ -68,6 +61,13 @@
             this.picLupa = new System.Windows.Forms.PictureBox();
             this.ttpMensajesDeAyuda = new System.Windows.Forms.ToolTip(this.components);
             this.BtnVerEditarCategorias = new System.Windows.Forms.Button();
+            this.colID_Articulo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colNombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDescripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCategoria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_PrecioDelivery = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colSeleccionDeFilas = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCarta)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudPorcentaje)).BeginInit();
             this.grbAumentoDescuento.SuspendLayout();
@@ -80,13 +80,13 @@
             // 
             this.lblRegistroDeDatos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblRegistroDeDatos.AutoSize = true;
-            this.lblRegistroDeDatos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegistroDeDatos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistroDeDatos.ForeColor = System.Drawing.Color.Gray;
-            this.lblRegistroDeDatos.Location = new System.Drawing.Point(307, 8);
+            this.lblRegistroDeDatos.Location = new System.Drawing.Point(353, 4);
             this.lblRegistroDeDatos.Name = "lblRegistroDeDatos";
-            this.lblRegistroDeDatos.Size = new System.Drawing.Size(312, 19);
+            this.lblRegistroDeDatos.Size = new System.Drawing.Size(157, 21);
             this.lblRegistroDeDatos.TabIndex = 22;
-            this.lblRegistroDeDatos.Text = "GESTION DE LA CARTA DEL RESTAURANTE";
+            this.lblRegistroDeDatos.Text = "GESTIÓN DE CARTA";
             // 
             // dgvCarta
             // 
@@ -100,7 +100,7 @@
             this.dgvCarta.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -141,56 +141,6 @@
             this.dgvCarta.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DgvCarta_CellContentClick);
             this.dgvCarta.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.DgvCarta_CellMouseDoubleClick);
             // 
-            // colID_Articulo
-            // 
-            this.colID_Articulo.HeaderText = "ID_Articulo";
-            this.colID_Articulo.Name = "colID_Articulo";
-            this.colID_Articulo.ReadOnly = true;
-            this.colID_Articulo.Visible = false;
-            // 
-            // colNombre
-            // 
-            this.colNombre.FillWeight = 98.47717F;
-            this.colNombre.HeaderText = "Nombre";
-            this.colNombre.Name = "colNombre";
-            this.colNombre.ReadOnly = true;
-            this.colNombre.Width = 170;
-            // 
-            // colDescripcion
-            // 
-            this.colDescripcion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colDescripcion.HeaderText = "Descripcion";
-            this.colDescripcion.Name = "colDescripcion";
-            this.colDescripcion.ReadOnly = true;
-            // 
-            // colCategoria
-            // 
-            this.colCategoria.HeaderText = "Categoria";
-            this.colCategoria.Name = "colCategoria";
-            this.colCategoria.ReadOnly = true;
-            this.colCategoria.Width = 140;
-            // 
-            // colPrecio
-            // 
-            this.colPrecio.HeaderText = "Precio de la carta";
-            this.colPrecio.Name = "colPrecio";
-            this.colPrecio.ReadOnly = true;
-            this.colPrecio.Width = 80;
-            // 
-            // Col_PrecioDelivery
-            // 
-            this.Col_PrecioDelivery.FillWeight = 80F;
-            this.Col_PrecioDelivery.HeaderText = "Precio del delivery";
-            this.Col_PrecioDelivery.Name = "Col_PrecioDelivery";
-            this.Col_PrecioDelivery.ReadOnly = true;
-            this.Col_PrecioDelivery.Width = 80;
-            // 
-            // colSeleccionDeFilas
-            // 
-            this.colSeleccionDeFilas.FillWeight = 101.5228F;
-            this.colSeleccionDeFilas.HeaderText = "Seleccionar";
-            this.colSeleccionDeFilas.Name = "colSeleccionDeFilas";
-            // 
             // btnSeleccionarTodo
             // 
             this.btnSeleccionarTodo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -198,7 +148,7 @@
             this.btnSeleccionarTodo.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSeleccionarTodo.FlatAppearance.BorderSize = 2;
             this.btnSeleccionarTodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSeleccionarTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSeleccionarTodo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSeleccionarTodo.ForeColor = System.Drawing.Color.White;
             this.btnSeleccionarTodo.Location = new System.Drawing.Point(418, 6);
             this.btnSeleccionarTodo.Name = "btnSeleccionarTodo";
@@ -217,7 +167,7 @@
             this.btnDesceleccionarTodo.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnDesceleccionarTodo.FlatAppearance.BorderSize = 2;
             this.btnDesceleccionarTodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDesceleccionarTodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDesceleccionarTodo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDesceleccionarTodo.ForeColor = System.Drawing.Color.White;
             this.btnDesceleccionarTodo.Location = new System.Drawing.Point(418, 62);
             this.btnDesceleccionarTodo.Name = "btnDesceleccionarTodo";
@@ -235,12 +185,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBuscarPorNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtBuscarPorNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscarPorNombre.ForeColor = System.Drawing.Color.DimGray;
             this.txtBuscarPorNombre.Location = new System.Drawing.Point(35, 37);
             this.txtBuscarPorNombre.MaxLength = 100;
             this.txtBuscarPorNombre.Name = "txtBuscarPorNombre";
-            this.txtBuscarPorNombre.Size = new System.Drawing.Size(324, 26);
+            this.txtBuscarPorNombre.Size = new System.Drawing.Size(324, 27);
             this.txtBuscarPorNombre.TabIndex = 37;
             this.txtBuscarPorNombre.Text = "Buscar por nombre de articulo...";
             this.ttpMensajesDeAyuda.SetToolTip(this.txtBuscarPorNombre, "Filtrar por nombre de articulo");
@@ -253,14 +203,14 @@
             this.cmbCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbCategoria.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbCategoria.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbCategoria.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCategoria.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbCategoria.FormattingEnabled = true;
             this.cmbCategoria.Items.AddRange(new object[] {
             "Todas las categorias"});
             this.cmbCategoria.Location = new System.Drawing.Point(529, 38);
             this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(228, 26);
+            this.cmbCategoria.Size = new System.Drawing.Size(228, 28);
             this.cmbCategoria.TabIndex = 40;
             this.cmbCategoria.Text = "Categoria";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbCategoria, "Filtrar por categoria");
@@ -270,11 +220,11 @@
             // 
             this.lblCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblCategoria.AutoSize = true;
-            this.lblCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCategoria.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCategoria.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblCategoria.Location = new System.Drawing.Point(363, 41);
+            this.lblCategoria.Location = new System.Drawing.Point(385, 41);
             this.lblCategoria.Name = "lblCategoria";
-            this.lblCategoria.Size = new System.Drawing.Size(162, 18);
+            this.lblCategoria.Size = new System.Drawing.Size(144, 20);
             this.lblCategoria.TabIndex = 41;
             this.lblCategoria.Text = "Filtrar por categoria:";
             // 
@@ -291,11 +241,11 @@
             // 
             this.lblPorcentaje.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPorcentaje.AutoSize = true;
-            this.lblPorcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPorcentaje.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPorcentaje.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblPorcentaje.Location = new System.Drawing.Point(244, 11);
             this.lblPorcentaje.Name = "lblPorcentaje";
-            this.lblPorcentaje.Size = new System.Drawing.Size(94, 18);
+            this.lblPorcentaje.Size = new System.Drawing.Size(81, 20);
             this.lblPorcentaje.TabIndex = 40;
             this.lblPorcentaje.Text = "Porcentaje:";
             // 
@@ -304,7 +254,7 @@
             this.nudPorcentaje.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.nudPorcentaje.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(42)))), ((int)(((byte)(52)))));
             this.nudPorcentaje.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.nudPorcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudPorcentaje.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudPorcentaje.ForeColor = System.Drawing.Color.DarkGray;
             this.nudPorcentaje.Location = new System.Drawing.Point(343, 12);
             this.nudPorcentaje.Maximum = new decimal(new int[] {
@@ -319,7 +269,7 @@
             0});
             this.nudPorcentaje.Name = "nudPorcentaje";
             this.nudPorcentaje.ReadOnly = true;
-            this.nudPorcentaje.Size = new System.Drawing.Size(55, 20);
+            this.nudPorcentaje.Size = new System.Drawing.Size(55, 23);
             this.nudPorcentaje.TabIndex = 60;
             this.nudPorcentaje.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ttpMensajesDeAyuda.SetToolTip(this.nudPorcentaje, "Porcentaje/descuento que se le aplciara a los articulos");
@@ -336,11 +286,11 @@
             this.btnAplicarAumentoDescuento.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAplicarAumentoDescuento.FlatAppearance.BorderSize = 2;
             this.btnAplicarAumentoDescuento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAplicarAumentoDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAplicarAumentoDescuento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplicarAumentoDescuento.ForeColor = System.Drawing.Color.White;
-            this.btnAplicarAumentoDescuento.Location = new System.Drawing.Point(584, 62);
+            this.btnAplicarAumentoDescuento.Location = new System.Drawing.Point(584, 6);
             this.btnAplicarAumentoDescuento.Name = "btnAplicarAumentoDescuento";
-            this.btnAplicarAumentoDescuento.Size = new System.Drawing.Size(160, 50);
+            this.btnAplicarAumentoDescuento.Size = new System.Drawing.Size(160, 106);
             this.btnAplicarAumentoDescuento.TabIndex = 39;
             this.btnAplicarAumentoDescuento.Text = "Aplicar a los elementos seleccionados";
             this.btnAplicarAumentoDescuento.UseVisualStyleBackColor = false;
@@ -353,11 +303,11 @@
             this.rbnAumento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rbnAumento.AutoSize = true;
             this.rbnAumento.Checked = true;
-            this.rbnAumento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnAumento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnAumento.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.rbnAumento.Location = new System.Drawing.Point(6, 31);
+            this.rbnAumento.Location = new System.Drawing.Point(6, 29);
             this.rbnAumento.Name = "rbnAumento";
-            this.rbnAumento.Size = new System.Drawing.Size(92, 22);
+            this.rbnAumento.Size = new System.Drawing.Size(88, 24);
             this.rbnAumento.TabIndex = 32;
             this.rbnAumento.TabStop = true;
             this.rbnAumento.Text = "Aumento";
@@ -369,11 +319,11 @@
             // 
             this.rbnDescuento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.rbnDescuento.AutoSize = true;
-            this.rbnDescuento.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.rbnDescuento.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbnDescuento.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.rbnDescuento.Location = new System.Drawing.Point(6, 66);
+            this.rbnDescuento.Location = new System.Drawing.Point(6, 64);
             this.rbnDescuento.Name = "rbnDescuento";
-            this.rbnDescuento.Size = new System.Drawing.Size(107, 22);
+            this.rbnDescuento.Size = new System.Drawing.Size(97, 24);
             this.rbnDescuento.TabIndex = 33;
             this.rbnDescuento.Text = "Descuento";
             this.ttpMensajesDeAyuda.SetToolTip(this.rbnDescuento, "Descuento que se le aplicara a los articulos seleccionados basado en el porcentaj" +
@@ -385,7 +335,7 @@
             this.grbAumentoDescuento.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.grbAumentoDescuento.Controls.Add(this.rbnDescuento);
             this.grbAumentoDescuento.Controls.Add(this.rbnAumento);
-            this.grbAumentoDescuento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.grbAumentoDescuento.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbAumentoDescuento.ForeColor = System.Drawing.Color.Gray;
             this.grbAumentoDescuento.Location = new System.Drawing.Point(5, 6);
             this.grbAumentoDescuento.Name = "grbAumentoDescuento";
@@ -401,11 +351,11 @@
             this.btnEliminarArtCat.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminarArtCat.FlatAppearance.BorderSize = 2;
             this.btnEliminarArtCat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarArtCat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarArtCat.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarArtCat.ForeColor = System.Drawing.Color.White;
-            this.btnEliminarArtCat.Location = new System.Drawing.Point(766, 182);
+            this.btnEliminarArtCat.Location = new System.Drawing.Point(763, 234);
             this.btnEliminarArtCat.Name = "btnEliminarArtCat";
-            this.btnEliminarArtCat.Size = new System.Drawing.Size(160, 50);
+            this.btnEliminarArtCat.Size = new System.Drawing.Size(160, 76);
             this.btnEliminarArtCat.TabIndex = 63;
             this.btnEliminarArtCat.Text = "Eliminar o restaurar articulos y categorias";
             this.btnEliminarArtCat.UseVisualStyleBackColor = false;
@@ -420,11 +370,11 @@
             this.btnCrearArticulo.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCrearArticulo.FlatAppearance.BorderSize = 2;
             this.btnCrearArticulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearArticulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearArticulo.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearArticulo.ForeColor = System.Drawing.Color.White;
-            this.btnCrearArticulo.Location = new System.Drawing.Point(766, 70);
+            this.btnCrearArticulo.Location = new System.Drawing.Point(763, 70);
             this.btnCrearArticulo.Name = "btnCrearArticulo";
-            this.btnCrearArticulo.Size = new System.Drawing.Size(160, 50);
+            this.btnCrearArticulo.Size = new System.Drawing.Size(160, 76);
             this.btnCrearArticulo.TabIndex = 66;
             this.btnCrearArticulo.Text = "Crear articulo";
             this.btnCrearArticulo.UseVisualStyleBackColor = false;
@@ -462,7 +412,7 @@
             this.GrbUsar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.GrbUsar.Controls.Add(this.RbnCantidad);
             this.GrbUsar.Controls.Add(this.RbnPorcentaje);
-            this.GrbUsar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
+            this.GrbUsar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GrbUsar.ForeColor = System.Drawing.Color.Gray;
             this.GrbUsar.Location = new System.Drawing.Point(123, 6);
             this.GrbUsar.Name = "GrbUsar";
@@ -475,11 +425,11 @@
             // 
             this.RbnCantidad.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.RbnCantidad.AutoSize = true;
-            this.RbnCantidad.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.RbnCantidad.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbnCantidad.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.RbnCantidad.Location = new System.Drawing.Point(6, 66);
+            this.RbnCantidad.Location = new System.Drawing.Point(6, 64);
             this.RbnCantidad.Name = "RbnCantidad";
-            this.RbnCantidad.Size = new System.Drawing.Size(92, 22);
+            this.RbnCantidad.Size = new System.Drawing.Size(87, 24);
             this.RbnCantidad.TabIndex = 33;
             this.RbnCantidad.Text = "Cantidad";
             this.ttpMensajesDeAyuda.SetToolTip(this.RbnCantidad, "Aumento que se le aplicara a los articulos seleccionados basado en la cantidad in" +
@@ -492,11 +442,11 @@
             this.RbnPorcentaje.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.RbnPorcentaje.AutoSize = true;
             this.RbnPorcentaje.Checked = true;
-            this.RbnPorcentaje.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.RbnPorcentaje.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RbnPorcentaje.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.RbnPorcentaje.Location = new System.Drawing.Point(6, 31);
+            this.RbnPorcentaje.Location = new System.Drawing.Point(6, 29);
             this.RbnPorcentaje.Name = "RbnPorcentaje";
-            this.RbnPorcentaje.Size = new System.Drawing.Size(107, 22);
+            this.RbnPorcentaje.Size = new System.Drawing.Size(96, 24);
             this.RbnPorcentaje.TabIndex = 32;
             this.RbnPorcentaje.TabStop = true;
             this.RbnPorcentaje.Text = "Porcentaje";
@@ -511,11 +461,11 @@
             this.chkAplicarACarta.AutoSize = true;
             this.chkAplicarACarta.Checked = true;
             this.chkAplicarACarta.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkAplicarACarta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.chkAplicarACarta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkAplicarACarta.ForeColor = System.Drawing.Color.White;
-            this.chkAplicarACarta.Location = new System.Drawing.Point(247, 63);
+            this.chkAplicarACarta.Location = new System.Drawing.Point(247, 61);
             this.chkAplicarACarta.Name = "chkAplicarACarta";
-            this.chkAplicarACarta.Size = new System.Drawing.Size(153, 22);
+            this.chkAplicarACarta.Size = new System.Drawing.Size(140, 24);
             this.chkAplicarACarta.TabIndex = 64;
             this.chkAplicarACarta.Text = "Aplicar a la carta";
             this.ttpMensajesDeAyuda.SetToolTip(this.chkAplicarACarta, "Le aplica el descuento/aumento al precio del delivery");
@@ -527,11 +477,11 @@
             this.chkAplicarADelivery.AutoSize = true;
             this.chkAplicarADelivery.Checked = true;
             this.chkAplicarADelivery.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkAplicarADelivery.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.chkAplicarADelivery.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkAplicarADelivery.ForeColor = System.Drawing.Color.White;
-            this.chkAplicarADelivery.Location = new System.Drawing.Point(247, 90);
+            this.chkAplicarADelivery.Location = new System.Drawing.Point(247, 88);
             this.chkAplicarADelivery.Name = "chkAplicarADelivery";
-            this.chkAplicarADelivery.Size = new System.Drawing.Size(154, 22);
+            this.chkAplicarADelivery.Size = new System.Drawing.Size(143, 24);
             this.chkAplicarADelivery.TabIndex = 63;
             this.chkAplicarADelivery.Text = "Aplicar a delivery";
             this.ttpMensajesDeAyuda.SetToolTip(this.chkAplicarADelivery, "Le aplica el descuento/aumento al precio del delivery");
@@ -543,11 +493,11 @@
             this.chkRedondearPrecio.AutoSize = true;
             this.chkRedondearPrecio.Checked = true;
             this.chkRedondearPrecio.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkRedondearPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.chkRedondearPrecio.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkRedondearPrecio.ForeColor = System.Drawing.Color.White;
-            this.chkRedondearPrecio.Location = new System.Drawing.Point(247, 37);
+            this.chkRedondearPrecio.Location = new System.Drawing.Point(247, 35);
             this.chkRedondearPrecio.Name = "chkRedondearPrecio";
-            this.chkRedondearPrecio.Size = new System.Drawing.Size(161, 22);
+            this.chkRedondearPrecio.Size = new System.Drawing.Size(147, 24);
             this.chkRedondearPrecio.TabIndex = 62;
             this.chkRedondearPrecio.Text = "Redondear precio";
             this.ttpMensajesDeAyuda.SetToolTip(this.chkRedondearPrecio, "Redondear el precio evitando que los articulos tengan precios que incluyan centav" +
@@ -601,7 +551,7 @@
             this.picLupa.Image = global::Procuratio.Properties.Resources.Lupa;
             this.picLupa.Location = new System.Drawing.Point(7, 37);
             this.picLupa.Name = "picLupa";
-            this.picLupa.Size = new System.Drawing.Size(29, 26);
+            this.picLupa.Size = new System.Drawing.Size(29, 27);
             this.picLupa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picLupa.TabIndex = 38;
             this.picLupa.TabStop = false;
@@ -613,17 +563,67 @@
             this.BtnVerEditarCategorias.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.BtnVerEditarCategorias.FlatAppearance.BorderSize = 2;
             this.BtnVerEditarCategorias.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnVerEditarCategorias.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnVerEditarCategorias.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnVerEditarCategorias.ForeColor = System.Drawing.Color.White;
-            this.BtnVerEditarCategorias.Location = new System.Drawing.Point(766, 126);
+            this.BtnVerEditarCategorias.Location = new System.Drawing.Point(763, 152);
             this.BtnVerEditarCategorias.Name = "BtnVerEditarCategorias";
-            this.BtnVerEditarCategorias.Size = new System.Drawing.Size(160, 50);
+            this.BtnVerEditarCategorias.Size = new System.Drawing.Size(160, 76);
             this.BtnVerEditarCategorias.TabIndex = 69;
             this.BtnVerEditarCategorias.Text = "Ver, editar y crear categorias";
             this.BtnVerEditarCategorias.UseVisualStyleBackColor = false;
             this.BtnVerEditarCategorias.Click += new System.EventHandler(this.BtnVerEditarCategorias_Click);
             this.BtnVerEditarCategorias.MouseLeave += new System.EventHandler(this.btnEstiloBotones_Leave);
             this.BtnVerEditarCategorias.MouseMove += new System.Windows.Forms.MouseEventHandler(this.btnEstiloBotones_MouseMove);
+            // 
+            // colID_Articulo
+            // 
+            this.colID_Articulo.HeaderText = "ID_Articulo";
+            this.colID_Articulo.Name = "colID_Articulo";
+            this.colID_Articulo.ReadOnly = true;
+            this.colID_Articulo.Visible = false;
+            // 
+            // colNombre
+            // 
+            this.colNombre.FillWeight = 98.47717F;
+            this.colNombre.HeaderText = "Nombre";
+            this.colNombre.Name = "colNombre";
+            this.colNombre.ReadOnly = true;
+            this.colNombre.Width = 170;
+            // 
+            // colDescripcion
+            // 
+            this.colDescripcion.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colDescripcion.HeaderText = "Descripción";
+            this.colDescripcion.Name = "colDescripcion";
+            this.colDescripcion.ReadOnly = true;
+            // 
+            // colCategoria
+            // 
+            this.colCategoria.HeaderText = "Categoría";
+            this.colCategoria.Name = "colCategoria";
+            this.colCategoria.ReadOnly = true;
+            this.colCategoria.Width = 140;
+            // 
+            // colPrecio
+            // 
+            this.colPrecio.HeaderText = "Precio de la carta";
+            this.colPrecio.Name = "colPrecio";
+            this.colPrecio.ReadOnly = true;
+            this.colPrecio.Width = 80;
+            // 
+            // Col_PrecioDelivery
+            // 
+            this.Col_PrecioDelivery.FillWeight = 80F;
+            this.Col_PrecioDelivery.HeaderText = "Precio del delivery";
+            this.Col_PrecioDelivery.Name = "Col_PrecioDelivery";
+            this.Col_PrecioDelivery.ReadOnly = true;
+            this.Col_PrecioDelivery.Width = 80;
+            // 
+            // colSeleccionDeFilas
+            // 
+            this.colSeleccionDeFilas.FillWeight = 101.5228F;
+            this.colSeleccionDeFilas.HeaderText = "Seleccionar";
+            this.colSeleccionDeFilas.Name = "colSeleccionDeFilas";
             // 
             // FrmCarta
             // 
@@ -685,6 +685,12 @@
         private System.Windows.Forms.Button BtnVerEditarCategorias;
         private System.Windows.Forms.CheckBox chkAplicarADelivery;
         private System.Windows.Forms.CheckBox chkAplicarACarta;
+        private System.Windows.Forms.GroupBox GrbUsar;
+        private System.Windows.Forms.RadioButton RbnCantidad;
+        private System.Windows.Forms.RadioButton RbnPorcentaje;
+        private System.Windows.Forms.Label lblCantidad;
+        private System.Windows.Forms.TextBox txtCantidad;
+        private System.Windows.Forms.Panel pnlDecorativo1;
         private System.Windows.Forms.DataGridViewTextBoxColumn colID_Articulo;
         private System.Windows.Forms.DataGridViewTextBoxColumn colNombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn colDescripcion;
@@ -692,11 +698,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn colPrecio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Col_PrecioDelivery;
         private System.Windows.Forms.DataGridViewCheckBoxColumn colSeleccionDeFilas;
-        private System.Windows.Forms.GroupBox GrbUsar;
-        private System.Windows.Forms.RadioButton RbnCantidad;
-        private System.Windows.Forms.RadioButton RbnPorcentaje;
-        private System.Windows.Forms.Label lblCantidad;
-        private System.Windows.Forms.TextBox txtCantidad;
-        private System.Windows.Forms.Panel pnlDecorativo1;
     }
 }

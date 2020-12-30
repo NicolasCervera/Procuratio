@@ -805,6 +805,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Procuratio icono.ico" />
+    <None Include="Resources\menu_rounded_25px.png" />
+    <None Include="Resources\close_pane_25px.png" />
+    <None Include="Resources\settings_25px.png" />
+    <None Include="Resources\user_25px.png" />
+    <None Include="Resources\combo_chart_25px.png" />
+    <None Include="Resources\ticket_purchase_25px.png" />
+    <None Include="Resources\product_25px.png" />
+    <None Include="Resources\product_50px.png" />
+    <None Include="Resources\waiter_25px.png" />
+    <None Include="Resources\tableware_25px.png" />
+    <None Include="Resources\restaurant_table_25px.png" />
+    <None Include="Resources\reservation_25px.png" />
+    <None Include="Resources\motorcycle_delivery_multiple_boxes_25px.png" />
+    <None Include="Resources\motorcycle_delivery_multiple_boxes_20px.png" />
+    <None Include="Resources\reserve_50px.png" />
     <None Include="Resources\Calculadora 2.png" />
     <None Include="Resources\Block de notas.png" />
     <None Include="Resources\imagen Cliente.png" />

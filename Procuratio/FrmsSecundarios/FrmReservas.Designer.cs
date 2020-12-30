@@ -72,13 +72,13 @@
             // 
             this.lblRegistroDeDatos.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.lblRegistroDeDatos.AutoSize = true;
-            this.lblRegistroDeDatos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRegistroDeDatos.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRegistroDeDatos.ForeColor = System.Drawing.Color.Gray;
             this.lblRegistroDeDatos.Location = new System.Drawing.Point(371, 8);
             this.lblRegistroDeDatos.Name = "lblRegistroDeDatos";
-            this.lblRegistroDeDatos.Size = new System.Drawing.Size(205, 19);
+            this.lblRegistroDeDatos.Size = new System.Drawing.Size(184, 21);
             this.lblRegistroDeDatos.TabIndex = 20;
-            this.lblRegistroDeDatos.Text = "GESTION DE LAS RESERVAS";
+            this.lblRegistroDeDatos.Text = "GESTIÓN DE RESERVAS";
             // 
             // dgvDatosReservas
             // 
@@ -93,7 +93,7 @@
             this.dgvDatosReservas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(94)))), ((int)(((byte)(1)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -240,7 +240,7 @@
             this.btnEliminarElementos.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminarElementos.FlatAppearance.BorderSize = 2;
             this.btnEliminarElementos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEliminarElementos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliminarElementos.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarElementos.ForeColor = System.Drawing.Color.White;
             this.btnEliminarElementos.Location = new System.Drawing.Point(765, 527);
             this.btnEliminarElementos.Name = "btnEliminarElementos";
@@ -270,12 +270,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBuscarPorNombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.txtBuscarPorNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarPorNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBuscarPorNombre.ForeColor = System.Drawing.Color.DimGray;
             this.txtBuscarPorNombre.Location = new System.Drawing.Point(37, 36);
             this.txtBuscarPorNombre.MaxLength = 100;
             this.txtBuscarPorNombre.Name = "txtBuscarPorNombre";
-            this.txtBuscarPorNombre.Size = new System.Drawing.Size(339, 26);
+            this.txtBuscarPorNombre.Size = new System.Drawing.Size(339, 27);
             this.txtBuscarPorNombre.TabIndex = 39;
             this.txtBuscarPorNombre.Text = "Buscar por nombre de cliente...";
             this.ttpMensajesDeAyuda.SetToolTip(this.txtBuscarPorNombre, "Filtrar por nombre de cliente");
@@ -288,12 +288,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cmbEstadoReserva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
             this.cmbEstadoReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cmbEstadoReserva.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
+            this.cmbEstadoReserva.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbEstadoReserva.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmbEstadoReserva.FormattingEnabled = true;
-            this.cmbEstadoReserva.Location = new System.Drawing.Point(139, 68);
+            this.cmbEstadoReserva.Location = new System.Drawing.Point(116, 68);
             this.cmbEstadoReserva.Name = "cmbEstadoReserva";
-            this.cmbEstadoReserva.Size = new System.Drawing.Size(237, 26);
+            this.cmbEstadoReserva.Size = new System.Drawing.Size(260, 28);
             this.cmbEstadoReserva.TabIndex = 41;
             this.cmbEstadoReserva.Text = "Estado";
             this.ttpMensajesDeAyuda.SetToolTip(this.cmbEstadoReserva, "Filtrar por estado de la reserva");
@@ -301,7 +301,7 @@
             // dtpFechaDesde
             // 
             this.dtpFechaDesde.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpFechaDesde.Location = new System.Drawing.Point(453, 38);
+            this.dtpFechaDesde.Location = new System.Drawing.Point(442, 38);
             this.dtpFechaDesde.Name = "dtpFechaDesde";
             this.dtpFechaDesde.Size = new System.Drawing.Size(231, 20);
             this.dtpFechaDesde.TabIndex = 42;
@@ -312,7 +312,7 @@
             // dtpDechaHasta
             // 
             this.dtpDechaHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.dtpDechaHasta.Location = new System.Drawing.Point(453, 72);
+            this.dtpDechaHasta.Location = new System.Drawing.Point(442, 72);
             this.dtpDechaHasta.Name = "dtpDechaHasta";
             this.dtpDechaHasta.Size = new System.Drawing.Size(231, 20);
             this.dtpDechaHasta.TabIndex = 43;
@@ -323,11 +323,11 @@
             // lblEstadoReserva
             // 
             this.lblEstadoReserva.AutoSize = true;
-            this.lblEstadoReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEstadoReserva.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadoReserva.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblEstadoReserva.Location = new System.Drawing.Point(6, 72);
             this.lblEstadoReserva.Name = "lblEstadoReserva";
-            this.lblEstadoReserva.Size = new System.Drawing.Size(127, 18);
+            this.lblEstadoReserva.Size = new System.Drawing.Size(108, 20);
             this.lblEstadoReserva.TabIndex = 44;
             this.lblEstadoReserva.Text = "Estado reserva:";
             // 
@@ -335,11 +335,11 @@
             // 
             this.lblFechaDesde.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblFechaDesde.AutoSize = true;
-            this.lblFechaDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFechaDesde.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaDesde.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblFechaDesde.Location = new System.Drawing.Point(386, 38);
             this.lblFechaDesde.Name = "lblFechaDesde";
-            this.lblFechaDesde.Size = new System.Drawing.Size(61, 18);
+            this.lblFechaDesde.Size = new System.Drawing.Size(54, 20);
             this.lblFechaDesde.TabIndex = 45;
             this.lblFechaDesde.Text = "Desde:";
             // 
@@ -347,11 +347,11 @@
             // 
             this.lblReservasHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblReservasHasta.AutoSize = true;
-            this.lblReservasHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReservasHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReservasHasta.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.lblReservasHasta.Location = new System.Drawing.Point(390, 73);
             this.lblReservasHasta.Name = "lblReservasHasta";
-            this.lblReservasHasta.Size = new System.Drawing.Size(57, 18);
+            this.lblReservasHasta.Size = new System.Drawing.Size(50, 20);
             this.lblReservasHasta.TabIndex = 46;
             this.lblReservasHasta.Text = "Hasta:";
             // 
@@ -362,9 +362,9 @@
             this.btnCrearReserva.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnCrearReserva.FlatAppearance.BorderSize = 2;
             this.btnCrearReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCrearReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCrearReserva.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCrearReserva.ForeColor = System.Drawing.Color.White;
-            this.btnCrearReserva.Location = new System.Drawing.Point(765, 211);
+            this.btnCrearReserva.Location = new System.Drawing.Point(765, 235);
             this.btnCrearReserva.Name = "btnCrearReserva";
             this.btnCrearReserva.Size = new System.Drawing.Size(160, 50);
             this.btnCrearReserva.TabIndex = 48;
@@ -378,11 +378,11 @@
             // 
             this.ckbIncluirFechaHasta.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ckbIncluirFechaHasta.AutoSize = true;
-            this.ckbIncluirFechaHasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbIncluirFechaHasta.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbIncluirFechaHasta.ForeColor = System.Drawing.Color.White;
-            this.ckbIncluirFechaHasta.Location = new System.Drawing.Point(688, 71);
+            this.ckbIncluirFechaHasta.Location = new System.Drawing.Point(676, 71);
             this.ckbIncluirFechaHasta.Name = "ckbIncluirFechaHasta";
-            this.ckbIncluirFechaHasta.Size = new System.Drawing.Size(72, 22);
+            this.ckbIncluirFechaHasta.Size = new System.Drawing.Size(68, 24);
             this.ckbIncluirFechaHasta.TabIndex = 49;
             this.ckbIncluirFechaHasta.Text = "Incluir";
             this.ttpMensajesDeAyuda.SetToolTip(this.ckbIncluirFechaHasta, "Si marca esta opcion, se tomara la fecha seleccionada como fin para el filtro, en" +
@@ -398,9 +398,9 @@
             this.btnVerClientes.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerClientes.FlatAppearance.BorderSize = 2;
             this.btnVerClientes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerClientes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerClientes.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerClientes.ForeColor = System.Drawing.Color.White;
-            this.btnVerClientes.Location = new System.Drawing.Point(765, 267);
+            this.btnVerClientes.Location = new System.Drawing.Point(765, 291);
             this.btnVerClientes.Name = "btnVerClientes";
             this.btnVerClientes.Size = new System.Drawing.Size(160, 50);
             this.btnVerClientes.TabIndex = 50;
@@ -417,11 +417,11 @@
             this.ckbIncluirFechaDesde.AutoSize = true;
             this.ckbIncluirFechaDesde.Checked = true;
             this.ckbIncluirFechaDesde.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckbIncluirFechaDesde.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold);
+            this.ckbIncluirFechaDesde.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ckbIncluirFechaDesde.ForeColor = System.Drawing.Color.White;
-            this.ckbIncluirFechaDesde.Location = new System.Drawing.Point(688, 38);
+            this.ckbIncluirFechaDesde.Location = new System.Drawing.Point(676, 38);
             this.ckbIncluirFechaDesde.Name = "ckbIncluirFechaDesde";
-            this.ckbIncluirFechaDesde.Size = new System.Drawing.Size(72, 22);
+            this.ckbIncluirFechaDesde.Size = new System.Drawing.Size(68, 24);
             this.ckbIncluirFechaDesde.TabIndex = 51;
             this.ckbIncluirFechaDesde.Text = "Incluir";
             this.ttpMensajesDeAyuda.SetToolTip(this.ckbIncluirFechaDesde, "Si marca esta opcion, se tomara la fecha seleccionada como inicio para el filtro," +
@@ -437,7 +437,7 @@
             this.btnConfirmarReserva.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnConfirmarReserva.FlatAppearance.BorderSize = 2;
             this.btnConfirmarReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmarReserva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfirmarReserva.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConfirmarReserva.ForeColor = System.Drawing.Color.White;
             this.btnConfirmarReserva.Location = new System.Drawing.Point(765, 455);
             this.btnConfirmarReserva.Name = "btnConfirmarReserva";
@@ -456,7 +456,7 @@
             this.btnNoVino.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnNoVino.FlatAppearance.BorderSize = 2;
             this.btnNoVino.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNoVino.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNoVino.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNoVino.ForeColor = System.Drawing.Color.White;
             this.btnNoVino.Location = new System.Drawing.Point(765, 491);
             this.btnNoVino.Name = "btnNoVino";
@@ -475,11 +475,11 @@
             this.btnVerReservas.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnVerReservas.FlatAppearance.BorderSize = 2;
             this.btnVerReservas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVerReservas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVerReservas.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVerReservas.ForeColor = System.Drawing.Color.White;
             this.btnVerReservas.Location = new System.Drawing.Point(765, 155);
             this.btnVerReservas.Name = "btnVerReservas";
-            this.btnVerReservas.Size = new System.Drawing.Size(160, 51);
+            this.btnVerReservas.Size = new System.Drawing.Size(160, 75);
             this.btnVerReservas.TabIndex = 54;
             this.btnVerReservas.Text = "Ver pendientes y sin confirmar de ayer en adelante";
             this.btnVerReservas.UseVisualStyleBackColor = false;
@@ -494,7 +494,7 @@
             this.btnAplicarFiltro.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnAplicarFiltro.FlatAppearance.BorderSize = 2;
             this.btnAplicarFiltro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAplicarFiltro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAplicarFiltro.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAplicarFiltro.ForeColor = System.Drawing.Color.White;
             this.btnAplicarFiltro.Location = new System.Drawing.Point(765, 99);
             this.btnAplicarFiltro.Name = "btnAplicarFiltro";
@@ -513,9 +513,9 @@
             this.btnImprimir.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnImprimir.FlatAppearance.BorderSize = 2;
             this.btnImprimir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnImprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImprimir.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnImprimir.ForeColor = System.Drawing.Color.White;
-            this.btnImprimir.Location = new System.Drawing.Point(765, 323);
+            this.btnImprimir.Location = new System.Drawing.Point(765, 347);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(160, 50);
             this.btnImprimir.TabIndex = 56;

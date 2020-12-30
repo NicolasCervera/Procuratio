@@ -43,6 +43,7 @@
             this.pnlIzquierdo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).BeginInit();
+            this.pnlContFrm.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlIzquierdo
@@ -54,17 +55,17 @@
             this.pnlIzquierdo.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlIzquierdo.Location = new System.Drawing.Point(0, 0);
             this.pnlIzquierdo.Name = "pnlIzquierdo";
-            this.pnlIzquierdo.Size = new System.Drawing.Size(175, 275);
+            this.pnlIzquierdo.Size = new System.Drawing.Size(173, 281);
             this.pnlIzquierdo.TabIndex = 1;
             this.pnlIzquierdo.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(28, 185);
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(31, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 18);
+            this.label1.Size = new System.Drawing.Size(110, 21);
             this.label1.TabIndex = 2;
             this.label1.Text = "PROCURATIO";
             this.label1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
@@ -83,23 +84,23 @@
             // lblInicioDeSesion
             // 
             this.lblInicioDeSesion.AutoSize = true;
-            this.lblInicioDeSesion.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInicioDeSesion.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInicioDeSesion.ForeColor = System.Drawing.Color.Gray;
             this.lblInicioDeSesion.Location = new System.Drawing.Point(179, 80);
             this.lblInicioDeSesion.Name = "lblInicioDeSesion";
-            this.lblInicioDeSesion.Size = new System.Drawing.Size(170, 23);
+            this.lblInicioDeSesion.Size = new System.Drawing.Size(149, 20);
             this.lblInicioDeSesion.TabIndex = 6;
-            this.lblInicioDeSesion.Text = "DESARROLLADOR:";
+            this.lblInicioDeSesion.Text = "DESARROLLADORES:";
             this.lblInicioDeSesion.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
             this.label2.Location = new System.Drawing.Point(179, 120);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 23);
+            this.label2.Size = new System.Drawing.Size(56, 20);
             this.label2.TabIndex = 7;
             this.label2.Text = "GMAIL:";
             this.label2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
@@ -107,11 +108,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(179, 158);
+            this.label3.Location = new System.Drawing.Point(178, 171);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(213, 23);
+            this.label3.Size = new System.Drawing.Size(165, 20);
             this.label3.TabIndex = 8;
             this.label3.Text = "TELEFONO/WHATSAPP:";
             this.label3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
@@ -119,57 +120,57 @@
             // lblCargando
             // 
             this.lblCargando.AutoSize = true;
-            this.lblCargando.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCargando.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCargando.ForeColor = System.Drawing.Color.Gray;
-            this.lblCargando.Location = new System.Drawing.Point(266, 31);
+            this.lblCargando.Location = new System.Drawing.Point(299, 38);
             this.lblCargando.Name = "lblCargando";
-            this.lblCargando.Size = new System.Drawing.Size(123, 23);
+            this.lblCargando.Size = new System.Drawing.Size(106, 20);
             this.lblCargando.TabIndex = 9;
-            this.lblCargando.Text = "CARGANDO";
+            this.lblCargando.Text = "CARGANDO...";
             this.lblCargando.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblNombre.Location = new System.Drawing.Point(343, 80);
+            this.lblNombre.Location = new System.Drawing.Point(326, 79);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(167, 23);
+            this.lblNombre.Size = new System.Drawing.Size(228, 20);
             this.lblNombre.TabIndex = 10;
-            this.lblNombre.Text = "Tomas Gavagnin";
+            this.lblNombre.Text = "Tomas Gavagnin, Cervera Nicolás";
             this.lblNombre.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
             // 
             // lblGmail
             // 
             this.lblGmail.AutoSize = true;
-            this.lblGmail.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGmail.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGmail.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblGmail.Location = new System.Drawing.Point(249, 120);
+            this.lblGmail.Location = new System.Drawing.Point(234, 120);
             this.lblGmail.Name = "lblGmail";
-            this.lblGmail.Size = new System.Drawing.Size(275, 23);
+            this.lblGmail.Size = new System.Drawing.Size(195, 40);
             this.lblGmail.TabIndex = 11;
-            this.lblGmail.Text = "tomasgavagnin@Gmail.com";
+            this.lblGmail.Text = "tomasgavagnin@gmail.com\r\nnicodapa99899@gmail.com";
             this.lblGmail.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
             // 
             // lblTelefono
             // 
             this.lblTelefono.AutoSize = true;
-            this.lblTelefono.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTelefono.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTelefono.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.lblTelefono.Location = new System.Drawing.Point(387, 158);
+            this.lblTelefono.Location = new System.Drawing.Point(340, 171);
             this.lblTelefono.Name = "lblTelefono";
-            this.lblTelefono.Size = new System.Drawing.Size(120, 23);
+            this.lblTelefono.Size = new System.Drawing.Size(89, 40);
             this.lblTelefono.TabIndex = 12;
-            this.lblTelefono.Text = "3534274171";
+            this.lblTelefono.Text = "3534274171\r\n3534771969\r\n";
             this.lblTelefono.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
             // 
             // picBTNCerrar
             // 
             this.picBTNCerrar.Image = global::Procuratio.Properties.Resources.Cerrar2;
-            this.picBTNCerrar.Location = new System.Drawing.Point(489, 1);
+            this.picBTNCerrar.Location = new System.Drawing.Point(541, 5);
             this.picBTNCerrar.Name = "picBTNCerrar";
-            this.picBTNCerrar.Size = new System.Drawing.Size(35, 28);
+            this.picBTNCerrar.Size = new System.Drawing.Size(27, 22);
             this.picBTNCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.picBTNCerrar.TabIndex = 13;
             this.picBTNCerrar.TabStop = false;
@@ -181,10 +182,14 @@
             // pnlContFrm
             // 
             this.pnlContFrm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlContFrm.Controls.Add(this.lblNombre);
+            this.pnlContFrm.Controls.Add(this.lblTelefono);
+            this.pnlContFrm.Controls.Add(this.label3);
             this.pnlContFrm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlContFrm.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pnlContFrm.Location = new System.Drawing.Point(0, 0);
             this.pnlContFrm.Name = "pnlContFrm";
-            this.pnlContFrm.Size = new System.Drawing.Size(525, 275);
+            this.pnlContFrm.Size = new System.Drawing.Size(572, 281);
             this.pnlContFrm.TabIndex = 14;
             this.pnlContFrm.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Arrastre_MouseDown);
             // 
@@ -193,13 +198,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(28)))), ((int)(((byte)(36)))));
-            this.ClientSize = new System.Drawing.Size(525, 275);
+            this.ClientSize = new System.Drawing.Size(572, 281);
             this.Controls.Add(this.picBTNCerrar);
-            this.Controls.Add(this.lblTelefono);
             this.Controls.Add(this.lblGmail);
-            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCargando);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblInicioDeSesion);
             this.Controls.Add(this.pnlIzquierdo);
@@ -215,6 +217,8 @@
             this.pnlIzquierdo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBTNCerrar)).EndInit();
+            this.pnlContFrm.ResumeLayout(false);
+            this.pnlContFrm.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

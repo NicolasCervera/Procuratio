@@ -358,10 +358,10 @@ namespace Procuratio
 		{
 			if ( _CambiarEstilo != null )
 			{
-				_CambiarEstilo.ForeColor = Color.White;
-				_CambiarEstilo.Font = new Font("Microsoft Sans Serif", 11, FontStyle.Regular);
-				_CambiarEstilo.BackColor = ClsColores.Transparente;
-			}
+                _CambiarEstilo.ForeColor = Color.White;
+                _CambiarEstilo.Font = new Font("Segoe UI", 11, FontStyle.Bold);
+                _CambiarEstilo.BackColor = ClsColores.Transparente;
+            }
 		}
 
 		/// <summary>
@@ -384,7 +384,7 @@ namespace Procuratio
 				_BotonFormCritico.BackColor = ClsColores.Verde;
 			}
 
-			_BotonFormCritico.Font = new Font("Arial Unicode MS", 12, FontStyle.Bold);
+			_BotonFormCritico.Font = new Font("Segoe UI", 12, FontStyle.Regular);
 		}
 		#endregion
 
